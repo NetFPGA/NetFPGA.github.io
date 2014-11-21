@@ -1,0 +1,7 @@
+include: [_includes]
+destination: _site
+title: NetFPGA
+
+pygments: true
+markdown: rdiscount
+permalink: date 
