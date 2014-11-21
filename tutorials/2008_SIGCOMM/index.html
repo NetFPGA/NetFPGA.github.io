@@ -1,0 +1,246 @@
+---
+layout: tutorial
+title: SIGCOMM Tutoria - Feb 6, 2008
+---
+<h1 id="pagename" class="topOfDiv">
+	<a href="http://www.sigcomm.org/sigcomm2008/tutorials/netfpga/" onclick="link_popup(this, ''); return false;">
+		SIGCOMM 2008 Tutorial
+	</a>
+</h1>
+<h2>
+	Building Gigabit-rate Routers with the NetFPGA at the
+	<a href="http://www.sigcomm.org/sigcomm2008/" onclick="link_popup(this, ''); return false;">SIGCOMM 2008 Conference</a>
+</h2>
+
+<p>
+	<b>Presented by: </b><a href="http://www.stanford.edu/~jwlockwd/" onclick="link_popup(this, ''); return false;">John W. Lockwood</a>,
+	Glen Gibb, and Adam Covington of the
+	<a href="http://yuba.stanford.edu/" onclick="link_popup(this, ''); return false;">High Performance Network Group</a> at
+	<a href="http://stanford.edu/" onclick="link_popup(this, ''); return false;">Stanford University</a>
+</p>
+<p><b>Date:</b> Sunday, August 17, 2008</p>
+<p><b>Time:</b> 9am - 5pm</p>
+<table>
+	<tbody>
+		<tr><td><b>Location:</b></td><td>Laboratory/Classroom</td></tr>
+		<tr><td></td><td>Seattle, Washington</td></tr>
+		<tr><td></td><td>United States</td></tr>
+	</tbody>
+</table>
+
+{% include tutorialabstract.html %}
+
+<p>
+	This full-day hands-on tutorial will be held in a classroom or laboratory 
+	equipped with ten PCs with NetFPGA hardware on Sunday or Monday, August 17 or 18, 2008.
+</p>
+
+<h2>Background</h2>
+
+<p>
+	{% include tutorialbackgroundstart.html %}
+
+	This full-day tutorial extends the material presented at 
+	the Hot Interconnects tutorial and the SIGMETRICS tutorials in 2007.
+</p>
+
+<div class="centeredImage"><img src="https://lh5.googleusercontent.com/-t3ComXeIePA/T4dMg2wY0CI/AAAAAAAAAw0/nkYbwaDQLis/s967/DSC01151_NetFPGA_2008.JPG" width="80%" alt="NetFPGA Tutorial"/></div>
+<div class="centeredImage"><img src="https://lh4.googleusercontent.com/-J_rPyqFuqJ4/T4dMgz1twDI/AAAAAAAAAww/nxTAwQQ8JQo/s967/DSC01149-SIGCOMM_NetFPGA_2008.JPG" width="80%" alt="NetFPGA Tutorial"/></div>
+
+<h2>Outline</h2>
+<div class="ulWrapper">
+	<ul>
+		<li>
+			<p>Introduction to the operation of an Internet Router</p>
+				<ul>
+					<li>
+					<p>Control plane</p>
+    					<ul>
+						<li>Routing protocols</li>
+						<li>Routing table</li>
+						<li>Management interfaces</li>
+					</ul> 
+				</li>
+				<li>
+					<p>Datapath</p>
+					<ul>
+						<li>Longest Prefix Match (LPM)</li>
+						<li>Classless Interdomain Routing (CIDR)</li>
+						<li>Header processing</li>
+						<li>Packet buffering</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	
+		<li>
+			<p>The NetFPGA Router</p>
+			<ul>
+				<li>
+					<p>Hardware</p>
+					<ul>
+						<li>Gigabit Ethernet interfaces</li>
+						<li>Field Programmable Gate Array (FPGA) Logic </li>
+						<li>Random Access Memory (RAM)</li>
+					</ul>
+				</li>
+				<li>
+					<p>Software</p>
+					<ul>
+						<li>Kernel-space driver</li>
+						<li>User-space applications</li>
+						<li>PCI host interface</li>
+					</ul>
+				</li>
+				<li>System configuration</li>
+			</ul>
+		</li>
+	
+		<li>
+			<p>Demonstration Topology</p>
+			<ul>
+				<li>
+					<p>Hardware</p>
+					<ul>
+						<li>Network of ten routers</li>
+						<li>Ethernet switch</li>
+						<li>Video server</li>
+						<li>High Definition (HD) video client</li>
+					</ul>
+				</li>
+				<li>
+					<p>Software</p>
+					<ul>
+						<li>PW-OSPF</li>
+						<li>Routing tables</li>
+						<li>Dynamic re-routing</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	
+		<li>
+			<p>Integrated Circuit Design</p>
+			<ul>
+				<li>
+					<p>Technologies</p>
+					<ul>
+						<li>Look-Up Tables (LUTs)</li>
+						<li>Configurable Logic Blocks (CLBs)</li>
+						<li>Field Programmable Gate Arrays (FPGAs)</li>
+					</ul>
+				</li>
+				<li>
+					<p>Verilog Hardware Description Langauge (HDL)</p>
+					<ul>
+						<li>Registers, integers, arrays</li>
+						<li>Multiplexers</li>
+						<li>Synchronous storage elements</li>
+						<li>Finite State Machines (FSMs)</li>
+					</ul>
+				</li>
+				<li>
+					<p>Hardware Debug</p>
+					<ul>
+						<li>Waveform monitor</li>
+						<li>In-circuit logic emulation</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+
+
+		<li>
+			<p>NetFPGA System Components</p>
+			<ul>
+				<li>Synthesis of tutorial router</li>
+				<li>
+					<p>Java-based Graphical User Interface (GUI)</p>
+					<ul>
+						<li>Configuration</li>
+						<li>Statistics</li>
+					</ul>
+				</li>
+				<li>
+					<p>Router architecture</p>
+					<ul>
+						<li>Pipeline</li>
+						<li>Queues</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+
+		<li>
+			<p>Buffer Size Experiment</p>
+			<ul>
+				<li>
+					<p>Experiment with TCP/IP flows</p>
+					<ul>
+						<li>Rule-of-thumb for the buffer size</li>
+						<li>Round-trip propation delay</li>
+						<li>Capacity of bottlneck link</li>
+						<li>Number of active flows</li>
+					</ul>
+				</li>
+				<li>Lower delay with smaller queues</li>
+			</ul>
+		</li>
+
+		<li>
+			<p>Enhanced Router</p>
+			<ul>
+				<li>
+					<p>Additional hardware</p>
+					<ul>
+						<li>Event capture module</li>
+						<li>Rate limiter</li>
+						<li>Delay module</li>
+					</ul>
+				</li>
+				<li>
+					<p>Experiments</p>
+					<ul>
+						<li>Netperf</li>
+						<li>HD video transport</li>
+					</ul>
+				</li>
+				<li>
+					<p>Life of packet through the system</p>
+					<ul>
+						<li>Description of blocks</li>
+						<li>Waveforms from logic analyzer</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<h2>About the presentors</h2>
+<div class="ulWrapper">
+	<ul>
+		<li>{% include presentors/j_lockwood.html %}</li>
+		<li>{% include presentors/g_gibb.html %}</li>
+		<li>{% include presentors/a_covington.html %}</li>
+	</ul>
+</div>
+
+<table id="schedule">
+	<caption>Schedule</caption>
+	<tbody>
+		<tr><td class="time">9:00</td><td class="dash">-</td><td class="time">10:30</td><td class="agendaItem">tutorial session</td></tr>
+		<tr><td class="time">10:30</td><td class="dash">-</td><td class="time">11:00</td><td class="agendaItem">coffee break</td></tr>
+		<tr><td class="time">11:00</td><td class="dash">-</td><td class="time">12:30</td><td class="agendaItem">tutorial session</td></tr>
+		<tr><td class="time">12:30</td><td class="dash">-</td><td class="time">1:30</td><td class="agendaItem">lunch</td></tr>
+		<tr><td class="time">1:30</td><td class="dash">-</td><td class="time">3:00</td><td class="agendaItem">tutorial session</td></tr>
+		<tr><td class="time">3:00</td><td class="dash">-</td><td class="time">3:30</td><td class="agendaItem">coffee break</td></tr>
+		<tr><td class="time">3:30</td><td class="dash">-</td><td class="time">5:30</td><td class="agendaItem">tutorial session</td></tr>
+	</tbody>
+</table>
+
+<h2>To Register</h2>
+<p class="bottomOfDiv">
+	<a href="http://www.sigcomm.org/sigcomm2008/tutorials/netfpga/">Register directly with SIGCOMM</a>
+	to attend the confernece and/or the NetFPGA workshop
+</p>

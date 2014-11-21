@@ -1,0 +1,252 @@
+---
+layout: tutorial
+title: Summer Camp 2013
+---
+<h1 id="pagename" class="topOfDiv">NetFPGA Summer Camp 2013</h1>
+<p>
+	Build an Internet router and learn about clean-slate switches at a 5-day summer camp held at
+	<a href="http://stanford.edu/" onclick="link_popup(this, ''); return false;">Stanford University</a>
+</p>
+<p>
+	<b>Open to:</b> Academics teaching classes with the NetFPGA, and researchers (postdoc or graduate-student) interested in developing new hardware-accelerated network applications.
+</p>
+<p>
+	<b>Location:</b> Gates Building, Room 415, 353 Serra Mall, Stanford, CA 94305 
+</p>
+<p>
+	<b>Dates: </b>Monday, July 29 - Friday, August 2, 2013, Time: 9am - 5pm.
+</p>
+<p>
+<b>Presented by</b>: the Stanford NetFPGA Group.
+</p>
+<p>
+<!--<b>Survey:</b> <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDhISVFKVHNLSFltTmowUjE4NldDTUE6MA#gid=0">Survey Form</a> 
+-->
+</p>
+
+{% include tutorialabstract.html %}
+
+<h2>Background</h2>
+<p>
+	{% include tutorialbackgroundstart.html %}
+
+	This week-long summercamp extends the material presented at 
+	the shorter workshop <a href="http://netfpga.org/events.html">events</a>.
+</p>
+
+<div class="centeredImage"><img src="https://lh4.googleusercontent.com/-d6nnu-t0cDQ/T4X7m-OjkQI/AAAAAAAAAqI/PlC76aMAz20/w714-h157-k/DSC00581.JPG" width=80%></div><p>
+
+<div class="centeredImage"><img src="https://lh5.googleusercontent.com/-_Ds2YlzAFY8/T4X8fAwTLBI/AAAAAAAAAv4/4q03jAj01hI/w777-h171-k/DSC00677.JPG" width=80%></div><p>
+
+<h2>Slides</h2>
+<p>Day 1: <a href="https://docs.google.com/file/d/0B4EuVzA5UdPRN1dZY25OM253SVk/edit?usp=sharing">ppt</a></p>
+<!--<p>Day 2: <a href="https://docs.google.com/open?id=0B4EuVzA5UdPRc0lvTXJGYU8zdkk">ppt</a>
+          <a href="https://docs.google.com/open?id=0B4EuVzA5UdPRUFBfbHZKMmRpUm8">10G_ppt</a></p>
+-->
+<h2>Outline</h2>
+<div class="ulWrapper">
+<p class="ulHead">Day 1 (Monday, July 29)</p>
+<ul>
+	<li> Welcome and introductions</li>
+	<li> NetFPGA 
+		<ul><li> Infrastructure
+			<ul><li> Tree</li>
+					<li> Build System</li>
+					<li> Scripts</li>
+			</ul>
+		</li>
+		<li> Life of a packet through the NetFPGA
+      <ul><li> Data and control planes</li>
+        <li> Interface to software: Exceptions and Host I/O</li>
+      </ul>
+    </li>
+		<li> Implementation 
+			<ul><li> Module Template</li>
+					<li> User Data Path</li>
+					<li> Write crypto NIC using a static key</li>
+			</ul>
+		</li>
+		<li> Simulation and Debug
+			<ul><li> Simulation Functions</li>
+					<li> Write and Run Simulations for crypto NIC</li>
+			</ul>
+		</li>
+	</ul>
+</li></ul>
+<p>
+<br/><p class="ulHead">Day 2 (Tuesday, July 30)</p>
+<ul>
+	<li> NetFPGA (cont.) 
+		<ul>
+			<li>  Registers
+				<ul>
+					<li> Explain Register System</li>
+					<li> Add XML to define crypto NIC encryption key</li>
+					<li> Use Generic Register Module to implement register</li>
+					<li> Update Simulations</li>
+				</ul>
+			</li>
+			<li> Build and Test Hardware 
+				<ul>
+						<li> Build</li>
+						<li> Explanation of Hardware Tests</li>
+						<li> Write and run Hardware Tests
+							<ul>
+								<li> Verify value: 0xFFFFFFFF (would invert every bit of every byte of payload)</li>
+								<li> Verify value: 0xFF00FF00 (would invert every other byte of payload)</li>
+								<li> Verify value: 0x55555555 (would invert every other bit of payload)</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+			<li> Writing Software and Integration
+				<ul>
+					<li> Write setkey.c/getkey.c to write/read registers</li>
+					<li> Test between adjacent computers</li>
+				</ul>
+			</li>
+		</ul>
+		<li> Group discussion
+			<ul>
+				<li> Projects ideas</li>
+				<li> Scope of work that can be accomplished in 2-3 days</li>
+			</ul>
+		</li>
+		<li> Team up for Projects
+			<ul>
+				<li> Project leaders will describe projects</li>
+				<li> Group will provide feedback on the scope</li>
+				<li> Be sure to have one hardware designer per team</li>
+			</ul>
+		</li>
+		<li> Example Hardware Design
+			<ul>
+				<li> Background and review of block diagrams</li>
+				<li> Show design running on nf-test machines</li>
+				<li> Discuss relevent Verilog Code</li>
+			</ul>
+		</li>
+</ul>
+<p>
+<br/><p class="ulHead">Day 3 (Wednesday, July 31)</p>
+<ul>
+	<li> Work on Projects, examples from Summer Camp 2008 & 2010
+		<ul>
+			<li>802.1q VLANs</li>
+			<li>Hardware-Accelerated Mathematics Library for NetFPGA</li>
+			<li>MACinMAC</li>
+			<li>Heavy Hitter Identification using Multistage filters</li>
+			<li>Layer 2 Load Balancing</li>
+			<li>Pattern Matching/Mini-IDS</li>
+			<li>TCP Traffic Analysis for Passive End-to-End Bandwidth Measurement</li>
+			<li>Assessment of Prototyping an AFDX Policy Switch Leveraging NetFPGA, Ethane, and OpenFlow Switch</li>
+			<li>ntop on NetFPGA</li>
+			<li>Universal Hash Function</li>
+		</ul>
+	</li>
+	<li> NetFPGA group available for Questions and Answers</li>
+	<li> Dinner: TBD</li>
+</ul>
+<p>
+<br/><p class="ulHead">Day 4 (Thursday, Aug. 1)</p>
+	<ul>
+		<li> Complete Projects</li>
+	</ul>
+<p>
+<br/><p class="ulHead">Day 5 (Friday, Aug. 2)</p>
+	<ul>
+		<li> Complete Projects</li>
+		<li> 10-minute project presentations</li>
+    <li> Live demonstrations</li>
+    <li> Award prizes to winning projects</li>
+		<li> Dinner: TBD</li>
+	</ul>
+<p>
+</ul>
+</div>
+
+<a name="Background_Reading"></a><h1> <span class="mw-headline"> Background Reading </span></h1>
+<ul>
+<ul><li> <a href="http://NetFPGA.org">NetFPGA Website</a>
+</li><li> <a href="https://github.com/NetFPGA/NetFPGA-public/wiki/EDK-Tutorials">EDK Tutorials</a> 
+</li><li> <a href="https://github.com/NetFPGA/NetFPGA-public/wiki/Projects">NetFPGA Projects</a> 
+</li><li> <a href="http://www.fpga.com.cn/hdl/training/verilog%20reference%20guide.pdf">The Verilog Golden Reference Guide, by Doulos</a>
+</li></ul>
+</ul>
+		<h2>To Attend this Event </h2>
+		<div class="ulWrapper">
+			<ul>
+				<li>
+					<p>Mark your calendar with the dates of the event</p>
+					<ul>
+						<li>Please plan to arrive Sunday night, July 28</li>
+						<li>Please plan to stay through Saturday morning, August 3</li>
+					</ul>
+					<ul>
+						<li>
+						<p>Registration fee covers shared meals (all breakfasts, lunches, and most dinners)</p>
+							<ul>
+								<li>Registration Fee: 
+									<ul>
+										<li>Early (before June 15th): $250</li>
+										<li>Late (after June 15th): $350</li>
+									</ul>
+								</li>
+								<li>Register: <a href="http://www.certain.com/system/profile/form/index.cfm?PKformID=0x1449454eb4c">Registration Site</a></li> 
+								<li>Registration Deadline: July 6th</li>
+							</ul>
+						</li>
+						<li>
+							<p>
+								A limited number of scholarships are available for students or instructors
+								from schools unable to cover registration and hotel expenses.  Scholarship applicants do not need to register through the registration website.
+							</p>
+							<ul>
+								<li>Award of the scholarships will be based on both merit and need:</li>
+								<li>
+									Please provide one paragraph about that describes your relevant
+									technical background in networking and/or hardware design.
+								</li>
+								<li>
+									Please provide another paragraph that explains why you or your
+									host institution needs financial help.
+								</li>
+								<li> Scholarship Application: <a href="http://netfpga.org/summer_camp_scholarship.html">Web Application</a>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p>Travel Information</p>
+					<ul>
+						<li>Direct flights are available to most parts of the country through SFO or SJC</li>
+						<li>
+							<a href="http://www.caltrain.com/caltrain_map.html" onclick="link_popup(this, ''); return false;">CalTrain</a>
+							offers fast transportation between the airports and Palo Alto
+						</li>
+						<li>The <a href="http://transportation.stanford.edu/marguerite/MargueriteShuttle.shtml"
+							onclick="link_popup(this, ''); return false;">Marguerite Shuttle</a> offers rides between the train station,
+							hotel, and campus.  No car rental is needed.
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p>
+								Hotel information coming soon
+<!--						Book accomodations at the
+						<a href="http://www.stanford.edu/dept/rde/guesthouse/"
+							onclick="link_popup(this, ''); return false;">Stanford Guest House</a>.
+					</p>
+					<ul>
+						<li>There are a block of rooms reserved for the NetFPGA event</li>
+						<li>These rooms are only guaranteed to be available until 06/16/2013</li>
+						<li>To reserve rooms, call: (650) 926-2800 or <a href="http://guesthouse.stanford.edu/reservations">online</a> with the reservation code 'NetFPGA12'</li>
+						<li>Single rooms are $119/night </li>
+						<li>Shuttle service available to campus </li>
+					</ul>
+-->
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
