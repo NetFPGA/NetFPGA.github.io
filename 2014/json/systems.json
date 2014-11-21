@@ -1,0 +1,788 @@
+    {
+    "systems": {
+        "4netfpga-1g": {
+            "Title": "NetFPGA 1G",
+            "Image": "images/netfpga1glandscape.jpg",
+            "Details": "The NetFPGA is the low-cost reconfigurable hardware platform optimized for high-speed networking. The NetFPGA includes the all fo the logic resources, memory, and Gigabit Ethernet interfaces necessary to build a complete switch, router, and/or security device. Because the entire datapath is implemented in hardware, the system can support back-to-back packets at full Gigabit line rates and has a processing latency measured in only a few clock cycles.<br><ul><li>Field Programmable Gate Array (FPGA) Logic</li><ul><li><a target='_blank' href='http://www.xilinx.com/products/silicon_solutions/fpgas/virtex/virtex_ii_pro_fpgas/resources/index.htm'>Xilinx Virtex-II Pro 50</a></li><li>53,136 logic cells</li><li>4,176 Kbit block RAM</li><li>up to 738 Kbit distributed RAM</li><li>2 x PowerPC cores</li><li>Fully programmable by the user</li></ul><li>Gigabit Ethernet networking ports</li><ul><li>Connector block on left of PCB interfaces to 4 external RJ45 plugs</li><li>Interfaces with standard Cat5E or Cat6 copper network cables using <a target='_blank' href='http://www.broadcom.com/'>Broadcom</a> PHY.</li><li>Wire-speed processing on all ports at all time using FPGA logic.</li><ul><li>1 Gbits * 2 (bi-directional) * 4 (ports) = 8 Gbps throughput</li></ul></ul><li>Static Random Access Memory (SRAM)</li><ul><li>Suitable for storing forwarding table data</li><li>Zero-bus turnaround (ZBT), synchronous with the logic</li><li>Two parallel banks of 18 MBit (2.25 MByte) ZBT memories</li><li>Total capacity: 4.5 MBytes</li><li><a target='_blank' href='http://www.cypress.com/'>Cypress</a>: <a target='_blank' href='http://www.chipcatalog.com/Cypress/CY7C1370D-167AXC.htm'>CY7C1370D-167AXC</a></li></ul><li>Double-Date Rate Random Access Memory (DDR2 DRAM)</li><ul><li>400 MHz Asynchronous clock</li><li>Suitable for packet buffering</li><li>25.6 Gbps peak memory throughput</li><li>Total capacity: 64 MBytes</li><li><a target='_blank' href='http://www.micron.com/'>Micron</a>: MT47H16M16BG-5E</li></ul><li>Multi-gigabit I/O</li><ul><li>Two SATA-style connectors to Multi-Gigabit I/O (MGIO) on right-side of PCB</li><li>Allows multiple NetFPGAs within a PC to be chained together</li></ul><li>Standard PCI Form Factor</li><ul><li>Standard PCI card</li><li>Can be used in a PCI-X slot</li><li>Enables fast reconfiguration of the FPGA over PCI bus without using JTAG cable</li><li>Provides CPU access to memory-mapped registers and memory on the NetFPGA hardware</li></ul><li>Hardware Debugging ports</li><ul><li>JTAG cable connector can be used to run <a target='_blank' href='http://www.xilinx.com/ise/optional_prod/cspro.htm'>Xilinx ChipScope Pro</a></li></ul><li>Flexible, Open-source code</li><ul><li>BSD-style open-source reference router available from the NetFPGA.org website. Download it, use it, keep it, give back to the community if you choose.</li></ul><ul>",
+            "applicationDetails": " ",
+            "Applications": {
+                "Projects": [
+                    {
+                        "Title": "IPv4 Reference Router",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/ReferenceRouterWalkthrough"
+                        }
+                    },
+                    {
+                        "Title": "Quad-Port Gigabit NIC",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/ReferenceNICWalkthrough"
+                        }
+                    },
+                    {
+                        "Title": "Ethernet Switch",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "Buffer Monitoring System",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/BufferMonitoringSystem"
+                        }
+                    },
+                    {
+                        "Title": "Hardware-Accelerated Linux Router",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/RouterKitWalkthrough"
+                        }
+                    },
+                    {
+                        "Title": "DRAM-Router",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/DRAMRouter"
+                        }
+                    },
+                    {
+                        "Title": "DRAM-Queue Test",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/DRAMQueueTest"
+                        }
+                    },
+                    {
+                        "Title": "Packet Generator",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/PacketGenerator"
+                        }
+                    },
+                    {
+                        "Title": "OpenFlow Switch",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/OpenFlowNetFPGA100"
+                        }
+                    },
+                    {
+                        "Title": "NetFlow Probe",
+                        "Organization": "Brno University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/NetFlowProbe"
+                        }
+                    },
+                    {
+                        "Title": "AirFPGA",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "Fast Reroute & Multipath Router",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/FastRerouteAndMultipathRouter"
+                        }
+                    },
+                    {
+                        "Title": "NetThreads",
+                        "Organization": "University of Toronto",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/NetThreads"
+                        }
+                    },
+                    {
+                        "Title": "NetThreads-RE",
+                        "Organization": "University of Toronto",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/NetThreadsRE"
+                        }
+                    },
+                    {
+                        "Title": "NetTM",
+                        "Organization": "University of Toronto",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/NetTM"
+                        }
+                    },
+                    {
+                        "Title": "Precise Traffic Generator",
+                        "Organization": "University of Toronto",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/PreciseTrafGen"
+                        }
+                    },
+                    {
+                        "Title": "URL Extraction",
+                        "Organization": "Univ. of New South Wales",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/URL"
+                        }
+                    },
+                    {
+                        "Title": "zFilter Sprouter (Pub/Sub)",
+                        "Organization": "Ericsson",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/ZFilter"
+                        }
+                    },
+                    {
+                        "Title": "Windows Driver",
+                        "Organization": "Microsoft Research",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "http://research.microsoft.com/en-us/downloads/78fad92b-87aa-4f3a-963a-9df15770e919/"
+                        }
+                    },
+                    {
+                        "Title": "RED",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/RED"
+                        }
+                    },
+                    {
+                        "Title": "Open Network Lab",
+                        "Organization": "Washington University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "DFA",
+                        "Organization": "UMass Lowell",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/DFA"
+                        }
+                    },
+                    {
+                        "Title": "G/PaX",
+                        "Organization": "Xilinx",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/G"
+                        }
+                    },
+                    {
+                        "Title": "RCP Router",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "Deficit Round Robin (DRR)",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/DRRNetFPGA"
+                        }
+                    },
+                    {
+                        "Title": "OpenFlow-MPLS Switch",
+                        "Organization": "Ericsson",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/OpenFlowMPLSSwitch"
+                        }
+                    },
+                    {
+                        "Title": "PTP-enabled Router",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/PTPRouter"
+                        }
+                    },
+                    {
+                        "Title": "Vlan Tag Handler",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/VlanTagHandler"
+                        }
+                    },
+                    {
+                        "Title": "Port Aggregator",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/PortAggregator"
+                        }
+                    },
+                    {
+                        "Title": "IP Lookup w/Blooming Tree",
+                        "Organization": "University of Pisa",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/Blooming"
+                        }
+                    },
+                    {
+                        "Title": "KOREN Testbed",
+                        "Organization": "Chungnam-Korea",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "Virtual Data Plane",
+                        "Organization": "Georgia Tech",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/VirtualDataPlane"
+                        }
+                    },
+                    {
+                        "Title": "Deficit Round Robin (DRR) Input Arbiter",
+                        "Organization": "Universidade Federal do Rio Grande do Sul (Brazil)",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/DRRInputArbiter"
+                        }
+                    },
+                    {
+                        "Title": "Counter Braids",
+                        "Organization": "Stanford (Lu, Jianying)",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/CounterBraids"
+                        }
+                    },
+                    {
+                        "Title": "Ethernet Switch with Real-time support",
+                        "Organization": "University of Waterloo and Universidad de Concepcion",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/RealTimeSwitch"
+                        }
+                    },
+                    {
+                        "Title": "End-to-End Ethernet Authorization",
+                        "Organization": "Euskal Herriko Unibertsitateko",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "Ultra-high Speed Congestion-control",
+                        "Organization": "University of North Carolina",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "Promiscuous Reference Router",
+                        "Organization": "University of Catania",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "BORPH (Operating System)",
+                        "Organization": "University of Hong Kong / University of Cape Town",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/BORPH"
+                        }
+                    },
+                    {
+                        "Title": "Traffic Monitor",
+                        "Organization": "University of Catania",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/TrafficMonitor"
+                        }
+                    },
+                    {
+                        "Title": "Latency Measurement Module",
+                        "Organization": "Algo-Logic Systems",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/MeasurmentModule"
+                        }
+                    },
+                    {
+                        "Title": "NetFPGA Logic Analyzer",
+                        "Organization": "USC/ISI",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/LogicalAnalyzer"
+                        }
+                    },
+                    {
+                        "Title": "Bounded Jitter Policy",
+                        "Organization": "University of Toronto",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/BJP"
+                        }
+                    },
+                    {
+                        "Title": "Traffic Classifier",
+                        "Organization": "University of Toronto",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/TrafficClassification"
+                        }
+                    },
+                    {
+                        "Title": "Network IO Fairness",
+                        "Organization": "Georgia Tech",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "Tunneling OpenFlow Switch with ICMP",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/TunnelingOpenFlowNetFPGA100ICMP"
+                        }
+                    },
+                    {
+                        "Title": "zFormation PSrouter (Pub/Sub)",
+                        "Organization": "Ericsson",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/ZFormationPSrouter"
+                        }
+                    },
+                    {
+                        "Title": "High Performance Packet Classifier",
+                        "Organization": "University of Pisa",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/HighPerformancePacketClassifier"
+                        }
+                    },
+                    {
+                        "Title": "Flexible Router",
+                        "Organization": "University of Catania",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/Flexrouter"
+                        }
+                    },
+                    {
+                        "Title": "Monitoring System",
+                        "Organization": "University of Pisa/University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/MonitoringSystem"
+                        }
+                    },
+                    {
+                        "Title": "Deficit Round Robin Router Backplane",
+                        "Organization": "Cairo University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/DeficitRoundRobinRouterBackplane"
+                        }
+                    },
+                    {
+                        "Title": "NetCoding Project Transmit Node",
+                        "Organization": "?",
+                        "Documentation": {
+                            "Title": "Download",
+                            "Link": "https://docs.google.com/file/d/0B4EuVzA5UdPRVG5EcGpkaGp4dTQ/edit?usp=sharing"
+                        }
+                    },
+                    {
+                        "Title": "Router Buffer Adaptation",
+                        "Organization": "University of New South Wales",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/netfpga/wiki/RouterBufferAdaptation"
+                        }
+                    }
+                ]
+            },
+            "Wiki": [
+                {
+                    "Title": "If you are interested to learn about NetFPGA-1G Platform, please check the following links:",
+                    "Details": "<ul><li><a target='_blank' href='https://github.com/NetFPGA/netfpga/wiki/Guide'>The Guide</a> provides details about using NetFPGA 1G.</li><li><a href='https://github.com/NetFPGA/netfpga/wiki/DevelopersGuide'>The Developer's Guide</a> provides details about creating projects with the NetFPGA 1G.</li><li><a href='#NetFPGA-1g-License/'>NetFPGA-1G license</a></li></ul>",
+                    "Link" : "https://github.com/NetFPGA/netfpga/wiki"
+                }
+            ],
+            "Support": [
+                 {
+                    "Title": " ",
+                    "Details": "Where can I buy a NetFPGA 1G Platform?<br><ul><li>Check <a target='_blank' href='http://www.digilentinc.com/Products/Detail.cfm?NavTop=2&NavSub=521&Prod=NETFPGA&CFID=6415051&CFTOKEN=b9cd02fdf0c5c90e-97AD3ABC-5056-0201-020BD3EF8B8AD74C'>here</a>.</li></ul><br>It seems that my board is broken, what should I do?<br><ul><li>Contact your <a target='_blank' href='http://www.digilentinc.com/contact.cfm'>suppliers</a>.</li></ul><br>What if I have Hardware problems with my board?<br><ul><li>Contact your <a target='_blank' href='http://www.digilentinc.com/contact.cfm'>suppliers</a>.</li></ul><br>What if I have Software problems with my board?<br><ul><li>Register to the <a target='_blank' href='https://forums.netfpga.org/forums'>NetFPGA Forums</a>.</li></ul><br>You can exchange your ideas and questions with the NetFPGA community <a target='_blank' href='https://lists.cam.ac.uk/mailman/listinfo/cl-netfpga'>here</a>.<br><br>How can I get involved with the NetFPGA project?<br><ul><li>Register with the <a target='_blank' href='https://lists.cam.ac.uk/mailman/listinfo/cl-netfpga-announce'>netfpga-announce mailing list</a> to receive NetFPGA project announcements.</li><li>Become a <a target='_blank' href='http://www.facebook.com/home.php#/pages/NetFPGA/29922917839'>fan on Facebook</a>.</li></ul><br>How can I obtain the gateware and software package?<br/><ul><li><a target='_blank' href='https://github.com/NetFPGA/netfpga/wiki/Guide'>Guide</a></li><li><a target='_blank' href='https://github.com/NetFPGA/netfpga/wiki/Releases'>Releases</a></li><li><a href='#NetFPGA-1g-License'>NetFPGA 1G license</a></li></ul><br>Once you have used the NetFPGA, we hope that you will contribute to the project."
+                }
+            ]
+        },
+        "3netfpga-10g": {
+            "Title": "NetFPGA 10G",
+            "Image": "images/netfpga10glandscape.jpg",
+            "Details": "The NetFPGA-10G is an FPGA-based PCI Express board with 10-Gigabit SFP+ interface, a x8 gen1 PCIe adapter card incorporating Xilinx’s Virtex-5 TX240TFPGA. It is ideal for the high bandwidth applications.<br>Features list:<br><ul><li>Field Programmable Gate Array (FPGA) Logic</li><ul><li><a target='_blank' href='http://www.xilinx.com/support.html#Virtex-II Pro'>Xilinx Virtex-5 TX240T</a></li><li>240K logic cells</li><li>11,664 Kbit block RAM</li><li>up to 2,400 Kbit distributed RAM</li><li>Fully programmable by the user</li></ul><li>10-Gigabit Ethernet networking ports</li><ul><li>4 SFP+ connectors</li><li>Connected to the FPGA through four Broadcom’s AEL2005 PHY devices</li><li>Supports both 10-Gigabit and 1-Gigabit  modes</li></ul><li>Quad Data Rate Static Random Access Memory (QDRII SRAM)</li><ul><li>Suitable for storing and forwarding table data</li><li>300MHz Quad data rate (1.2 Giga transactions every second), synchronous with the logic</li><li>Three parallel banks of 72 MBit QDRII+ memories</li><li>Total capacity: 27 MBytes</li><li><a target='_blank' href='http://www.cypress.com/?mpn=CY7C1515KV18-300BZI'>Cypress: CY7C1515KV18</a></li></ul><li>Reduced Latency Random Access Memory (RLDRAM II)</li><ul><li>Suitable for packet buffering</li><li>Four x36 RLDRAMII on-board device</li><li>400MHz clock (800MT/s)</li><li>115.2 Gbps peak memory throughput</li><li>Total Capacity: 288MByte</li><li><a target='_blank' href='http://www.micron.com/parts/dram/rldram/mt49h16m36ht-25'>Micron:  MT49H16M36HT-25</a></li></ul><li>PCI Express Gen. 1</li><ul><li>First generation PCI Express interface, 2.5Gbps/lane</li><li>8 lanes (x8)</li><li>Hard IP</li><li>Provides CPU access to memory-mapped registers and memory on the NetFPGA hardware</li><li>x4 Gen.2 PCI Express can be used as a soft core</li></ul><li>Storage</li><ul><li>Two FLASH devices</li><li>Total Capacity: 256Mb</li></ul><li>Expansion Interfaces</li><ul><li>Two SAMTEC QTH connectors</li><li>Allowing to connect additional 20 RocketIO GTX transceivers</li></ul><li>Additional Features</li><ul><li>DB9 (RS232) Connector</li><li>User LEDs & Push Buttons</li></ul><li>Standard PCIe Form Factor</li><ul><li>Standard PCIe card</li><li>3/4 length, full height</li></ul><li>Flexible, Open-source code</li></ul>",
+            "applicationDetails": "To see the NetFPGA-10G repository and Wiki you will need to <a href='#10G_going_beta/'>register</a>.",
+            "Applications": {
+                " Reference Projects": [
+                    {
+                        "Title": "Production Test",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G-Production-Test"
+                        }
+                    },
+                    {
+                        "Title": "RLDRAM Test",
+                        "Organization": "Xilinx",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G%20RLDRAM%20Test"
+                        }
+                    },
+                    {
+                        "Title": "10G Ethernet Interface Loopback Test",
+                        "Organization": "Stanford University / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G-10G-Ethernet-Interface-Loopback-Test"
+                        }
+                    },
+                    {
+                        "Title": "1G Ethernet Interface Loopback Test",
+                        "Organization": "Stanford University / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G-1G-Ethernet-Interface-Loopback-Test"
+                        }
+                    },
+                    {
+                        "Title": "Reference NIC 10G",
+                        "Organization": "Stanford University / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G-Reference-NIC"
+                        }
+                    },
+                    {
+                        "Title": "Reference NIC 1G",
+                        "Organization": "Stanford University / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G-Reference-NIC-1G"
+                        }
+                    },
+                    {
+                        "Title": "Flash Configuration",
+                        "Organization": "University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G%20Flash%20Configuration"
+                        }
+                    },
+                    {
+                        "Title": "Learning CAM Switch",
+                        "Organization": "University of Pisa / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G-Learning-CAM-Switch"
+                        }
+                    }
+                ],
+                "Contributed Projects": [
+                    {
+                        "Title": "NetFPGA-1G Ported Switch 10G",
+                        "Organization": "University of Pisa / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-Ported-Switch-10G"
+                        }
+                    },
+                    {
+                        "Title": "NetFPGA-1G Ported NIC 1G",
+                        "Organization": "University of Pisa / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-Ported-NIC-1G"
+                        }
+                    },
+                    {
+                        "Title": "NIC",
+                        "Organization": "Stanford University / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/Contributed-NIC-by-Mario-Flajslik"
+                        }
+                    },
+                    {
+                        "Title": "OpenFlow Switch",
+                        "Organization": "Stanford University",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-10G-OpenFlow-Switch"
+                        }
+                    },
+                    {
+                        "Title": "NIC (SRAM)",
+                        "Organization": "Stanford University / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NIC-SRAM"
+                        }
+                    },
+                    {
+                        "Title": "Simple 10G Switch",
+                        "Organization": "Xilinx",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": false
+                        }
+                    },
+                    {
+                        "Title": "NetFlow simple 10G Bram",
+                        "Organization": "Universidad Autónoma de Madrid",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFlow-simple-10G-Bram"
+                        }
+                    },
+                    {
+                        "Title": "Flash",
+                        "Organization": "University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/Contributed-Flash-by-Muhammad-Shahbaz"
+                        }
+                    }
+                ]
+            },
+            "Wiki": [
+                {
+                    "Title": "If you are interested to learn about NetFPGA-10G Platform, please check the following links:",
+                    "Details": "<ul>To see the NetFPGA-10G repository and Wiki you will need to <a href='#10G_going_beta/'>register</a>.<li><a target='_blank' href='https://github.com/NetFPGA/NetFPGA-public/wiki'>Wiki Home Page</a></li><li><a href='#NetFPGA-10g-License/'>NetFPGA-10G license</a></li></ul>",
+                    "Link" : "https://github.com/NetFPGA/NetFPGA-public/wiki/Home_NetFPGA-10G"
+                }
+            ],
+            "Support": [
+                {
+                    "Title": " ",
+                    "Details": "Where can I buy a NetFPGA 10G Platform?<br><ul><li>Check <a target='_blank' href='http://www.hitechglobal.com/Boards/PCIExpress_SFP+.htm'>here</a>.</li></ul><br>It seems that my board is broken, what should I do?<br><ul><li>Contact your <a target='_blank' href='http://www.hitechglobal.com/contactus.htm'>suppliers</a>.</li></ul><br>What if I have Hardware problems with my board?<br><ul><li>Contact your supplier or <a target='_blank' href='http://www.hitechglobal.com/contactus.htm'>High Tech Global</a>.</li></ul><br>What if I have Software problems with my board?<br><ul><li>Ask the Beta community on the <a target='_blank' href='https://lists.cam.ac.uk/mailman/listinfo/cl-netfpga-nf10g-beta'>NetFPGA 10G Beta mailing list</a>.</li></ul><br>You can exchange your ideas and questions with the NetFPGA community <a target='_blank' href='https://lists.cam.ac.uk/mailman/listinfo/cl-netfpga-nf10g-beta'>here</a>.<br><br>HHow can I get involved with the NetFPGA project?<br><ul><li>Register with the <a target='_blank' href='https://lists.cam.ac.uk/mailman/listinfo/cl-netfpga-announce'>netfpga-announce mailing list</a> to receive NetFPGA project announcements.</li><li>Become a <a target='_blank' href='http://www.facebook.com/home.php#/pages/NetFPGA/29922917839'>fan on Facebook</a>.</li></ul><br>How can I obtain the gateware and software package?<br/><ul><li><a href='#10G_going_beta/'>Registration</a></li><li><a target='_blank' href='https://github.com/NetFPGA/NetFPGA-public/wiki/Release-Notes'>Releases</a></li><li><a href='#NetFPGA-10g-License'>NetFPGA 10G license</a></li></ul><br>Once you have used the NetFPGA, we hope that you will contribute to the project."
+                }
+            ]
+        },
+        "2netfpga-1g-cml": {
+            "Title": "NetFPGA CML",
+            "Image": "images/netfpgacmllandscape.jpg",
+            "Details": "The NetFPGA-1G-CML is an FPGA-based PCI Express board with Gigabit Ethernet I/O, an x4 gen2 PCIe adapter card incorporating Xilinx’s Kintex-7 325T FPGA. It is ideal for the development of highly complex, low bandwidth applications.<br>Features list:<ul><li>Field Programmable Gate Array (FPGA) Logic</li><ul><li><a target='_blank' href='http://www.xilinx.com/products/silicon-devices/fpga/kintex-7/'>Xilinx Kintex-7 325T</a></li><li>326,080 logic cells</li><li>16,020 Kbit block RAM</li><li>up to 4,000 Kbit distributed RAM</li><li>Fully programmable by the user</li></ul><li>Gigabit Ethernet networking ports</li><ul><li>Four 10/100/1000 Ethernet PHYs with RGMII</li><li>Wire-speed processing on all ports at all time using FPGA logic</li></ul><li>Quad Data Rate Static Random Access Memory (QDRII+ SRAM)</li><ul><li>Suitable for storing and forwarding table data</li><li>450MHz Quad data rate (1.8 Giga transactions every second), synchronous with the logic</li><li>36 MBit (4.5 MBytes) QDRII+ memory</li><li><a target='_blank' href='http://www.cypress.com/?mpn=CY7C2263KV18-450BZXI'>Cypress: CY7C2263KV18</a></li></ul><li>Double-Date Rate Random Access Memory (DDR3 DRAM)</li><ul><li>Suitable for packet buffering</li><li>x8 DDR3 on-board device</li><li>800MHz clock (1600MT/s)</li><li>12.8 Gbps peak memory throughput</li><li>Capacity: 512MByte</li><li><a target='_blank' href='http://www.micron.com/parts/dram/ddr3-sdram/mt41k512m8rh-125?pc=%7B338582DE-C8D6-4594-91B4-B3E86A5D5374%7D'>Micron:  MT41K512M8</a></li></ul><li>PCI Express Gen. 2</li><ul><li>Second generation PCI Express interface, 5Gbps/lane</li><li>4 lanes (x4)</li><li>Hard IP</li><li>Provides CPU access to memory-mapped registers and memory on the NetFPGA hardware</li></ul><li>Storage</li><ul><li>SD-card slot</li><li>1Gbit FLASH</li></ul><li>Expansion Interfaces</li><ul><li>Fully compliant VITA-57 FMC HPC connector, including 4 high-speed serial links (GTX)</li><li>Two Digilent PMOD expansion connectors</li></ul><li>Additional Features</li><ul><li>32-bit PIC microcontroller</li><li>USB microcontroller</li><li>Real Time clock</li><li>Crypto-authentication chip</li><li>User LEDs & Push Buttons</li></ul><li>Standard PCIe Form Factor</li><ul><li>Standard PCIe card</li><li>3/4 length, full height</li></ul><li>Flexible, Open-source code</li></ul>",
+            "applicationDetails": "To see the NetFPGA-1G-CML repository and Wiki you will need to <a href='#CML_reg_form'>register</a>.",
+            "Applications": {
+               "Reference Projects": [
+                    {
+                        "Title": "Ethernet Interface Loopback Test",
+                        "Organization": "CML / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-CML-Ethernet-Interface-Loopback-Test"
+                        }
+                    },
+                    {
+                        "Title": "Reference NIC",
+                        "Organization": "CML / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-CML-Reference-NIC"
+                        }
+                    },
+                    {
+                        "Title": "Reference Flash",
+                        "Organization": "CML / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-CML-Reference-Flash"
+                        }
+                    },
+                    {
+                        "Title": "Learning CAM Switch",
+                        "Organization": "CML / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-CML-Learning-CAM-Switch"
+                        }
+                    },
+                    {
+                        "Title": "Learning Switch (Lite)",
+                        "Organization": "CML / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-CML-Learning-Switch-Lite"
+                        }
+                    },
+                    {
+                        "Title": "Reference Router",
+                        "Organization": "CML / University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-1G-CML-Reference-Router"
+                        }
+                    }
+                ]
+            },
+            "Wiki": [
+                {
+                    "Title": "If you are interested to learn about NetFPGA-1G-CML Platform, please check the following links:",
+                    "Details": "<ul>To see the NetFPGA-1G-CML repository and Wiki you will need to <a href='https://github.com/cmlab/NetFPGA-1G-CML/wiki/Registration'>register</a>.<li><a href='https://github.com/NetFPGA/NetFPGA-public/wiki/Home_NetFPGA-1G-CML'>Wiki Home Page</a></li><li><a href='https://github.com/NetFPGA/NetFPGA-public/wiki/Licensing'>NetFPGA-1G-CML license</a></li></ul>",
+                    "Link" : "https://github.com/NetFPGA/NetFPGA-public/wiki/Home_NetFPGA-1G-CML"
+                }
+            ],
+            "Support": [
+                {
+                    "Title": " ",
+                    "Details": "Where can I buy a NetFPGA 1G CML Platform?<br><ul><li>Check <a target='_blank' href='http://www.digilentinc.com/Products/Detail.cfm?NavPath=2,400,1228&Prod=NETFPGA-1G-CML'>here</a>.</li></ul><br>It seems that my board is broken, what should I do?<br><ul><li>Contact your <a target='_blank' href='http://www.digilentinc.com/contact.cfm'>suppliers</a>.</li></ul><br>What if I have Hardware problems with my board?<br><ul><li>Contact your <a target='_blank' href='http://www.digilentinc.com/contact.cfm'>suppliers</a>.</li></ul><br>What if I have Software problems with my board?<br><ul><li>Contact your <a target='_blank' href='http://computermeasurementlab.com/index.php?page=contact'>suppliers</a>.</li></ul><br>You can exchange your ideas and questions with the NetFPGA CML community <a target='_blank' href='https://lists.cam.ac.uk/mailman/listinfo/cl-netfpga-cml-beta'>here</a>.<br><br>How can I get involved with the NetFPGA project?<br><ul><li>Register with the <a target='_blank' href='https://lists.cam.ac.uk/mailman/listinfo/cl-netfpga-cml-announce'>netfpga-cml-announce mailing list</a> to receive NetFPGA project announcements.</li><li>Become a <a target='_blank' href='http://www.facebook.com/home.php#/pages/NetFPGA/29922917839'>fan on Facebook</a>.</li></ul><br>How can I obtain the gateware and software package?<br/><ul><li><a href='#CML_reg_form'>Registration</a></li><li><a target='_blank' href='https://github.com/NetFPGA/NetFPGA-public/wiki/Licensing'>NetFPGA-1G-CML license</a></ul><br>Once you have used the NetFPGA, we hope that you will contribute to the project."
+                }
+            ]
+        },
+        "1netfpga-sume": {
+            "Title": "NetFPGA SUME",
+            "Image": "images/netfpgasumelandscape.jpg",
+            "Details": "The NetFPGA SUME is an FPGA-based PCI Express board with I/O capabilities for 10 and 100 Gbps operation, an x8 gen3 PCIe adapter card incorporating Xilinx’s Virtex-7 690T FPGA. It can be used as NIC, multiport switch,  firewall, test/measurement environment, and more.<br>Features list:<br><ul><li>Field Programmable Gate Array (FPGA) Logic</li><ul><li><a target='_blank' href='http://www.xilinx.com/products/silicon-devices/fpga/virtex-7/'>Xilinx Virtex-7 690T</a></li><li>693,120 logic cells</li><li>52,920 Kbit block RAM</li><li>up to 10,888 Kbit distributed RAM</li><li>30 GTH (up to 13.1Gbps) Transceivers</li><li>Fully programmable by the user</li></ul><li>10-Gigabit Ethernet networking ports</li><ul><li>Connector block on left of PCB interfaces to 4 external SFP+ ports</li><li>Directly connected to the FPGA.</li><li>Wire-speed processing on all ports at all time using FPGA logic.</li></ul><li>Quad Data Rate Static Random Access Memory (QDRII+ SRAM)</li><ul><li>Suitable for storing and forwarding table data</li><li>500MHz Quad data rate (2 Giga transactions every second), synchronous with the logic</li><li>Three parallel banks of 72 MBit QDRII+ memories</li><li>Total capacity: 27 MBytes</li><li><a target='_blank' href='http://www.cypress.com/?mpn=CY7C25652KV18-500BZC'>Cypress: CY7C25652KV18-500BZC</a></li></ul><li>Double-Date Rate Random Access Memory (DDR3 DRAM)</li><ul><li>Suitable for packet buffering</li><li>Two replaceable DDR3-SoDIMM modules</li><li>933MHz clock (1866MT/s)</li><li>238.8 Gbps peak memory throughput</li><li>Total capacity: 8 GBytes (Supports up to 32 GBytes)</li><li><a target='_blank' href='http://www.micron.com/parts/modules/ddr3-sdram/mt8ktf51264hz-1g9'>Micron: MT8KTF51264HZ-1G9E5</a></li></ul><li>PCI Express Gen. 3</li><ul><li>Third generation PCI Express interface, 8Gbps/lane</li><li>8 lanes (x8)</li><li>Hard IP</li><li>Provides CPU access to memory-mapped registers and memory on the NetFPGA hardware</li></ul><li>Expansion Interfaces</li><ul><li>Fully compliant VITA-57 FMC HPC connector, including 10 high-speed serial links</li><li>SAMTEC QTH-DP connector, connected to 8 high-speed serial links</li><li>Allowing to connect additional 18 GTH transceivers</li><li>Digilent PMOD expansion connector</li></ul><li>Storage</li><ul><li>2 SATA connectors</li><li>Micro-SD slot</li><li>2 FLASH devices, each 512Mbit (1Gbit total)</li></ul><li>Additional Features</li><ul><li>Clock recovery circuit</li><li>Voltage sensors</li><li>Current sensors</li><li>User LEDs & Push Buttons</li></ul><li>Standard PCIe Form Factor</li><ul><li>Standard PCIe card</li><li>Full length, full height</li></ul><li>Flexible, Open-source code</li><br><br>A full description of the board and its potential use cases is provided in the following paper:<br>Noa Zilberman, Yury Audzevich, G. Adam Covington, Andrew W. Moore, 'NetFPGA SUME: Toward 100 Gbps as Research Commodity,' IEEE Micro, vol.34, no.5, pp.32,41, September-October 2014 (<a target='_blank' href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6866035'>official version</a>) (<a target='_blank' href='http://www.cl.cam.ac.uk/~nz247/publications/zilberman2014sume.pdf'>pdf</a>)<br><br>Please use this citation as the canonical reference for NetFPGA-SUME.",
+            "applicationDetails": "To see the NetFPGA-SUME repository and Wiki you will need to register.<br>A registration form is coming soon.<br>Meanwhile, please register your interest in NetFPGA SUME through <a href='#SUME_reg_form'>this form</a>.",
+            "Applications": {
+                "Reference Projects": [
+                    {
+                        "Title": " ",
+                        "Organization": " ",
+                        "Documentation": {}
+                    },
+                    {
+                        "Title": " ",
+                        "Organization": " ",
+                        "Documentation": {}
+                    }
+                ]
+            },
+            "Wiki": [
+                {
+                    "Title": "Coming soon....",
+                    "Details": false,
+                    "Link" : "https://github.com/NetFPGA/NetFPGA-public/wiki/Home_NetFPGA-SUME/"
+                }
+            ],
+            "Support": [
+                {
+                    "Title": " ",
+                    "Details": "Contact Information<br><br>If you would like to purchase a NetFPGA-SUME platform, please visit: <a target='_blank' href='http://digilentinc.com/Products/Detail.cfm?NavPath=2,1301,1311&Prod=NETFPGA-10G-SUME'>here</a>.<br><br>If you have any kind of Hardware problems related to your NetFPGA-SUME Platform, please contact: <a target='_blank' href='http://www.digilentinc.com/Support/Support.cfm'>here</a><br><br>If you have any kind of Software problems related to your NetFPGA-SUME Platform, please register your interest to the NetFPGA SUME Beta program <a target='_blank' href='http://netfpga.org/2014/#SUME_reg_form'>here</a><br><br>If you would like to contribute to a new or existing project, please register on SUME Beta to join the NetFPGA SUME mailing list <a target='_blank' href='http://netfpga.org/2014/#SUME_reg_form'>here</a>"
+                }
+            ]
+        }
+    },
+    "videos": [
+            {
+                "Id": "gLWaP1ESL08",
+                "Title": "NET FPGA 1G CML",
+                "Views": "167",
+                "System": [
+                    "2netfpga-1g-cml"
+                ]
+            },
+            {
+                "Id": "4-Yw4sa8Re8",
+                "Title": "Section 1: Introduction",
+                "Views": "2951",
+                "System": [
+                    "1netfpga-sume",
+                    "2netfpga-1g-cml",
+                    "4netfpga-1g",
+                    "3netfpga-10g"
+                ]
+            },
+            {
+                "Id": "ls-82aO6MKw",
+                "Title": "Section 2: Hardware Overview",
+                "Views": "1486",
+                "System": [
+                    "4netfpga-1g",
+                    "3netfpga-10g"
+                ]
+            },
+            {
+                "Id": "HNjGgMRjR0g",
+                "Title": "Section 3: IP/Routing Review",
+                "Views": "1279",
+                "System": [
+                    "4netfpga-1g",
+                    "3netfpga-10g"
+                ]
+            },
+            {
+                "Id": "xU5DM5Hzqes",
+                "Title": "Section 4: Example 1 - Reference Router",
+                "Views": "1023",
+                "System": [
+                    "general"
+                ]
+            },
+            {
+                "Id": "vQMytm9LD1c",
+                "Title": "Section 5: Example 2 - Buffer Sizing",
+                "Views": "806",
+                "System": [
+                    "general"
+                ]
+            },
+            {
+                "Id": "fK5wOndeP1U",
+                "Title": "Section 6: Where to get started/ What to do next",
+                "Views": "709",
+                "System": [
+                    "general"
+                ]
+            },
+             {
+                "Id": "y3mkhUq-cO4",
+                "Title": "Buffer Sizing in Internet Routers",
+                "Views": "494",
+                "System": [
+                    "general"
+                ]
+            },
+            {
+                "Id": "XWsV3ONfNyo",
+                "Title": "Open Pipes: Hardware System Design with OpenFlow",
+                "Views": "7319",
+                "System": [
+                    "general"
+                ]
+            }
+
+        ]
+}
