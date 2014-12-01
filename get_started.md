@@ -6,7 +6,7 @@ title: Get Started - NetFPGA
 # How can I get involved with the NetFPGA project? #
 
 * Register with the [netfpga-announce mailing list](https://mailman.stanford.edu/mailman/listinfo/netfpga-announce) to receive NetFPGA project announcements. 
-* Visit the [NetFPGA forum](http://forums.netfpga.org/forums/) to ask and answer questions. 
+* Visit the [NetFPGA forum](http://netfpga.vbulletin.net/) to ask and answer questions. 
 	* You'll need to register on the forums to post questions and answers.
 * Become a [fan on Facebook](http://www.facebook.com/home.php#/pages/NetFPGA/29922917839). 
 
