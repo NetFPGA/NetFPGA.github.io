@@ -1,0 +1,28 @@
+---
+layout: default
+title: News - NetFPGA
+---
+---
+<div id="mainContent">
+	<div id="fpgaBlurb2">
+  <h1>News</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url | remove_first:'/' }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+	</div>
+</div>
+---
+<html>
+<head>
+<meta http-equiv="refresh" content="1;
+URL=http://netfpga.org/2014/#/news/">
+</head>
+<body>
+<script type="text/javascript">
+window.location = "2014/#/news/";
+</script>
+<noscript>Sorry, your browser does not support javascript</noscript>
+</body>
+</html>
