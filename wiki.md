@@ -2,7 +2,7 @@
 layout: content 
 title: Wiki - NetFPGA
 ---
-Redirect /wiki.md https://github.com/NetFPGA/NetFPGA-public/wiki
+Redirect http://netfpga.org/wiki.html https://github.com/NetFPGA/NetFPGA-public/wiki
 <!--
 <br />
 Each platform has its own wiki paired with its GitHub repository.  
