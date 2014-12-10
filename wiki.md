@@ -2,6 +2,7 @@
 layout: content 
 title: Wiki - NetFPGA
 ---
+---
 <br />
 Each platform has its own wiki paired with its GitHub repository.  
 <br />
@@ -15,3 +16,15 @@ To see the NetFPGA-10G repository and Wiki you will need to [register](10G_going
 
 * [Wiki Home Page](https://github.com/NetFPGA/NetFPGA-public/wiki)
 * [NetFPGA-10G license](10G_license.html)
+---
+<html>
+<head>
+<meta http-equiv="refresh" content="0;
+URL=https://github.com/NetFPGA/NetFPGA-public/wiki">
+</head>
+<body>
+<script type="text/javascript">
+window.location = "https://github.com/NetFPGA/NetFPGA-public/wiki";
+</script>
+</body>
+</html>
