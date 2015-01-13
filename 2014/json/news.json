@@ -1,5 +1,11 @@
 [
     {
+       "Title": "NetFPGA 10G Release 5.0.6",
+        "Date": "13 Jan 2015",
+        "Link": "201501131705",
+        "Description": "Greetings Everyone,<br><br>Wish you all a happy new year !!!<br><br>We are happy to announce the next NetFPGA-10G release (5.0.6).<br><a href='https://github.com/NetFPGA/NetFPGA-10G-live/archive/release_5.0.6.tar.gz'>https://github.com/NetFPGA/NetFPGA-10G-live/archive/release_5.0.6.tar.gz</a><br><br>This is a minor release and the release notes for 5.0.6 is below:<br><br>1. Patch for reference nic project to enable PCIe programming.<br><br>Thanks,<br><br>--NetFPGA-Team"
+    },
+    {
         "Title": "NetFPGA Newsletter December 2014",
         "Date": "22 Dec 2014",
         "Link": "201412222029",
