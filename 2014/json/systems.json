@@ -708,10 +708,18 @@
     "videos": [
             {
                 "Id": "gLWaP1ESL08",
-                "Title": "NET FPGA 1G CML",
+                "Title": "NetFPGA 1G CML",
                 "Views": "167",
                 "System": [
                     "2netfpga-1g-cml"
+                ]
+            },
+            {
+                "Id": "vHjExEzKNEw",
+                "Title": "NetFPGA SUME Introduction",
+                "Views": "339",
+                "System": [
+                    "1netfpga-sume"
                 ]
             },
             {
