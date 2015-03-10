@@ -1,5 +1,20 @@
 {
-    "Upcoming": [],
+    "Upcoming": [
+        {
+            "Title": "DATE 2015",
+            "Link": "http://www.date-conference.com/",
+            "Date": "March 12, 2015, 12:00 pm",
+            "Location": {
+                "Title": "University Booth, Booth 4, Exhibition Area ",
+                "Link": "http://www.date-conference.com/conference/session/UB10"
+            },
+            "Goal": "NetFPGA SUME: Making 100GBPS a commodity",
+            "Host": "Georgina Kalogeridou",
+            "Website": "http://www.date-conference.com/files/file/date15/ubooth/7734.pdf",
+            "Target_Platform" : "NetFPGA-SUME",
+            "Slides": false
+            }
+        ],
     "Seminars": [
         {
             "Title": "Indian Institute of Science",
