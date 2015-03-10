@@ -22,8 +22,8 @@
             "Link": "http://sites.ieee.org/netsoft/",
             "Date": "April 13, 2015, 9:00 am",
             "Location": {
-                "Title": "IEEE NetSoft ",
-                "Link": false
+                "Title": "University College London ",
+                "Link": "http://www.ucl.ac.uk/"
             },
             "Goal": "Introduction to NetFPGA-SUME & OSNT",
             "Host": false,
