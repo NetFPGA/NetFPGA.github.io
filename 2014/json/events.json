@@ -14,6 +14,8 @@
                 "Title": "NetFPGA SUME: Toward Commodity 100Gb/s",
                 "Link": "http://www.date-conference.com/files/file/date15/ubooth/7734.pdf"
             },
+            "Target_Platform" : false,
+            "Slides": false
             }
         ],
     "Seminars": [
