@@ -22,12 +22,15 @@
             "Link": "http://sites.ieee.org/netsoft/",
             "Date": "April 13, 2015, 14:00-18:00",
             "Location": {
-                "Title": false,
-                "Link": false
+                "Title": "University College London",
+                "Link": "http://www.ucl.ac.uk/"
             },
             "Goal": "Open Source Networking - Half-day tutorial",
             "Host": false,
-            "Website": "http://sites.ieee.org/netsoft/tutorials/",
+            "Website": {
+                "Title": "Open Source Networking",
+                "Link": "http://sites.ieee.org/netsoft/tutorials/"
+            },
             "Target_Platform" : false,
             "Slides": false
         },
@@ -36,32 +39,35 @@
             "Link": "http://sites.ieee.org/netsoft/",
             "Date": "April 14-16, 2015",
             "Location": {
-                "Title": false,
-                "Link": false
+                "Title": "University College London",
+                "Link": "http://www.ucl.ac.uk/"
             },
             "Goal": "An Integrated Environment for Open-Source Network Softwarization",
             "Host": false,
-            "Website": "http://sites.ieee.org/netsoft/demos/",
+            "Website": {
+                "Title": "An Integrated Environment for Open-Source Network Softwarization",
+                "Link": "http://sites.ieee.org/netsoft/demos/"
+            },
             "Target_Platform" : false,
             "Slides": false
         },
         {
             "Title": "SigComm",
-            "Link": false,
+            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
             "Date": "August 17, 2015, TBD time",
-            "Location": {
-                "Title": false,
-                "Link": false
-            },
+            "Location": false,
             "Goal": "Open Source Networking - Half-day tutorial",
             "Host": false,
-            "Website": "http://conferences.sigcomm.org/sigcomm/2015/",
+            "Website": {
+                "Title": "Open Source Networking",
+                "Link": "http://conferences.sigcomm.org/sigcomm/2015/"
+            },
             "Target_Platform" : false,
             "Slides": false
         },
         {
             "Title": "Technion",
-            "Link": false,
+            "Link": "http://www.technion.ac.il/en/",
             "Date": "August 2-6, 2015",
             "Location": {
                 "Title": "Technion - Israel Institute of Technology",
