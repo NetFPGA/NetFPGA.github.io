@@ -1,22 +1,5 @@
 {
     "Upcoming": [
-            {
-            "Title": "NetSoft",
-            "Link": "http://sites.ieee.org/netsoft/",
-            "Date": "April 13, 2015, 14:00-18:00",
-            "Location": {
-                "Title": "University College London",
-                "Link": "http://www.ucl.ac.uk/"
-            },
-            "Goal": "Open Source Networking - Half-day tutorial",
-            "Host": false,
-            "Website": {
-                "Title": "Open Source Networking",
-                "Link": "http://sites.ieee.org/netsoft/tutorials/"
-            },
-            "Target_Platform" : false,
-            "Slides": false
-        },
         {
             "Title": "NetSoft",
             "Link": "http://sites.ieee.org/netsoft/",
@@ -64,6 +47,34 @@
         }
         ],
     "Seminars": [
+        {
+            "Title": "NetSoft",
+            "Link": "http://sites.ieee.org/netsoft/",
+            "Date": "April 13, 2015, 14:00-18:00",
+            "Location": {
+                "Title": "University College London",
+                "Link": "http://www.ucl.ac.uk/"
+            },
+            "Goal": "Open Source Networking - Half-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "Open Source Networking",
+                "Link": "http://sites.ieee.org/netsoft/tutorials/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://www.dropbox.com/s/uq51h17j3l3d65d/2015_NetSoft_tutorial.pdf?dl=0"
+                    },
+                    {
+                        "Title": "PDF",
+                        "Link": "https://www.dropbox.com/s/yusehncsrjic5w3/2015_NetSoft_tutorial.pptx?dl=0"
+                    }
+                ]
+            }
+        },
         {
             "Title": "DATE 2015",
             "Link": "http://www.date-conference.com/",
