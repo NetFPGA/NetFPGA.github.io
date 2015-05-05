@@ -25,7 +25,7 @@ Now that you have learned a little about the NetFPGA, it is time for you to [get
 <html>
 <head>
 <meta http-equiv="refresh" content="0;
-URL=http://netfpga.org/2014/#/about/">
+URL=http://netfpga.org/site/#/about/">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -37,7 +37,7 @@ URL=http://netfpga.org/2014/#/about/">
 </head>
 <body>
 <script type="text/javascript">
-window.location = "2014/#/about/";
+window.location = "site/#/about/";
 </script>
 <noscript>Sorry, your browser does not support javascript</noscript>
 </body>

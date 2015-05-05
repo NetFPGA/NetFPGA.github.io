@@ -1,0 +1,294 @@
+<!-- Upcoming -->
+<div class="applicationsBlueHeader">
+	Upcoming
+</div>
+<article>
+	<ul ng-if="Upcoming.length===0">
+		<li >
+			More events being planned, please check back later.
+		</li>
+	</ul>
+	<ul ng-if="Upcoming.length!==0">
+		<li ng-repeat="event in Upcoming">
+			<a ng-if="event.Link" target="_blank" ng-href="{{event.Link}}">
+				{{event.Title}}
+			</a>
+			<span ng-if="!event.Link"> 
+				{{event.Title}}
+			</span>
+			<ul>
+				<li ng-if="event.Date">Date: {{event.Date}}</li>
+				<li ng-if="event.Location && event.Location.Link">
+						Location: <a ng-href="{{event.Location.Link}}" target="_blank">{{event.Location.Title}}</a>				
+				</li>
+				<li ng-if="event.Location && !event.Location.Link">
+						Location: {{event.Location.Title}}				
+				</li>
+				<li ng-if="event.Goal">
+					Goal: {{event.Goal}}
+				</li>
+				<li ng-if="event.Host">
+					Host: {{event.Host}}
+				</li>
+				<li ng-if="event.Website">
+					Website: <a ng-href="{{event.Website.Link}}" target="_blank">{{event.Website.Title}}</a>	
+				</li>
+			</ul>
+			<br/>
+		</li>
+	</ul>
+</article><br/>
+
+<!-- Seminars -->
+<div class="applicationsBlueHeader">
+	Seminars
+</div>
+<article>
+	<ul ng-if="Seminars.length===0">
+		<li >
+			More events being planned, please check back later.
+		</li>
+	</ul>
+	<ul ng-if="Seminars.length!==0">
+		<li ng-repeat="seminar in Seminars">
+			<a ng-if="seminar.Link" target="_blank" ng-href="{{seminar.Link}}">
+				{{seminar.Title}}
+			</a>
+			<span ng-if="!seminar.Link"> 
+				{{seminar.Title}}
+			</span>
+			<ul>
+				<li ng-if="seminar.Date">Date: {{seminar.Date}}</li>
+				<li ng-if="seminar.Location && seminar.Location.Link">
+						Location: <a ng-href="{{seminar.Location.Link}}" target="_blank">{{seminar.Location.Title}}</a>				
+				</li>
+				<li ng-if="seminar.Location && !seminar.Location.Link">
+						Location: {{seminar.Location.Title}}				
+				</li>
+				<li ng-if="seminar.Goal">
+					Goal: {{seminar.Goal}}
+				</li>
+				<li ng-if="seminar.Host">
+					Host: {{seminar.Host}}
+				</li>
+				<li ng-if="seminar.Website">
+					Website: <a ng-href="{{seminar.Website.Link}}" target="_blank">{{seminar.Website.Title}}</a>	
+				</li>
+				<li ng-if="seminar.Target_Platform">
+					Target Platform: {{seminar.Target_Platform}}
+				</li>
+				<li ng-if="seminar.Slides">
+					Slides: 
+					<ul ng-repeat="(key, value) in seminar.Slides">
+						<li>
+							{{key}}: 
+							<span ng-repeat="(key1, value1) in value">
+								<a ng-href="{{value1.Link}}" target="_blank">{{value1.Title}}</a>
+							</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<br/>
+		</li>
+	</ul>
+</article><br/>
+
+<!-- Tutorials -->
+<div class="applicationsBlueHeader">
+	Tutorials
+</div>
+<article>
+	<br/><br/>
+	<ul ng-if="Tutorials.length===0">
+		<li >
+			More tutorials being planned, please check back later.
+		</li>
+	</ul>
+	<ul ng-if="Tutorials.length!==0">
+		<li ng-repeat="tutorial in Tutorials">
+			<a ng-if="tutorial.Link" target="_blank" ng-href="{{tutorial.Link}}">
+				{{tutorial.Title}}
+			</a>
+			<span ng-if="!tutorial.Link"> 
+				{{tutorial.Title}}
+			</span>
+			<ul>
+				<li ng-if="tutorial.Date">Date: {{tutorial.Date}}</li>
+				<li ng-if="tutorial.Location && tutorial.Location.Link">
+						Location: <a ng-href="{{tutorial.Location.Link}}" target="_blank">{{tutorial.Location.Title}}</a>
+				</li>
+				<li ng-if="tutorial.Location && !tutorial.Location.Link">
+						Location: {{tutorial.Location.Title}}				
+				</li>
+				<li ng-if="tutorial.Goal">
+					Goal: {{tutorial.Goal}}
+				</li>
+				<li ng-if="tutorial.Host">
+					Host: {{tutorial.Host}}
+				</li>
+				<li ng-if="tutorial.Website">
+					Website: <a ng-href="{{tutorial.Website.Link}}" target="_blank">{{tutorial.Website.Title}}</a>	
+				</li>
+				<li ng-if="tutorial.Target_Platform">
+					Target Platform: {{tutorial.Target_Platform}}
+				</li>
+				<li ng-if="tutorial.Slides">
+					Slides: 
+					<ul ng-repeat="(key, value) in tutorial.Slides">
+						<li>
+							{{key}}: 
+							<span ng-repeat="(key1, value1) in value">
+								<a ng-href="{{value1.Link}}" target="_blank">{{value1.Title}}</a>
+							</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<br/>
+		</li>
+	</ul>
+	
+</article><br/>
+
+<!-- Camps -->
+<div class="applicationsBlueHeader">
+	Camps
+</div>
+<article>
+	<ul ng-if="Camps.length===0">
+		<li >
+			More camps being planned, please check back later.
+		</li>
+	</ul>
+	<ul ng-if="Camps.length!==0">
+		<li ng-repeat="Camp in Camps">
+			<a ng-if="Camp.Link" target="_blank" ng-href="{{Camp.Link}}">
+				{{Camp.Title}}
+			</a>
+			<span ng-if="!Camp.Link"> 
+				{{Camp.Title}}
+			</span>
+			<ul>
+				<li ng-if="Camp.Date">Date: {{Camp.Date}}</li>
+				<li ng-if="Camp.Location && Camp.Location.Link">
+						Location: <a ng-href="{{Camp.Location.Link}}" target="_blank">{{Camp.Location.Title}}</a>				
+				</li>
+				<li ng-if="Camp.Location && !Camp.Location.Link">
+						Location: {{Camp.Location.Title}}				
+				</li>
+				<li ng-if="Camp.Goal">
+					Goal: {{Camp.Goal}}
+				</li>
+				<li ng-if="Camp.Host">
+					Host: {{Camp.Host}}
+				</li>
+				<li ng-if="Camp.Website">
+					Website: <a ng-href="{{Camp.Website.Link}}" target="_blank">{{Camp.Website.Title}}</a>	
+				</li>
+				<li ng-if="Camp.Slides">
+					Slides: 
+					<ul ng-repeat="(key, value) in Camp.Slides">
+						<li>
+							{{key}}: 
+							<span ng-repeat="(key1, value1) in value">
+								<a ng-href="{{value1.Link}}" target="_blank">{{value1.Title}}</a>
+							</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<br/>
+		</li>
+	</ul>
+</article><br/>
+
+<!-- Developer's Workshops -->
+<div class="applicationsBlueHeader">
+	Developer's Workshops
+</div>
+<article>
+	<ul ng-if="Developers_Workshops.length===0">
+		<li >
+			More Developer's Workshops being planned, please check back later.
+		</li>
+	</ul>
+	<ul ng-if="Developers_Workshops.length!==0">
+		<li ng-repeat="Workshop in Developers_Workshops">
+			<a ng-if="Workshop.Link" target="_blank" ng-href="{{Workshop.Link}}">
+				{{Workshop.Title}}
+			</a>
+			<span ng-if="!Workshop.Link"> 
+				{{Workshop.Title}}
+			</span>
+			<ul>
+				<li ng-if="Workshop.Date">Date: {{Workshop.Date}}</li>
+				<li ng-if="Workshop.Location && Workshop.Location.Link">
+						Location: <a ng-href="{{Workshop.Location.Link}}" target="_blank">{{Workshop.Location.Title}}</a>				
+				</li>
+				<li ng-if="Workshop.Location && !Workshop.Location.Link">
+						Location: {{Workshop.Location.Title}}				
+				</li>
+				<li ng-if="Workshop.Goal">
+					Goal: {{Workshop.Goal}}
+				</li>
+				<li ng-if="Workshop.Host">
+					Host: {{Workshop.Host}}
+				</li>
+				<li ng-if="Workshop.Website">
+					Website: <a ng-href="{{Workshop.Website.Link}}" target="_blank">{{Workshop.Website.Title}}</a>	
+				</li>
+				<li ng-if="Workshop.Slides">
+					Slides: 
+					<ul ng-repeat="(key, value) in Workshop.Slides">
+						<li>
+							{{key}}: 
+							<span ng-repeat="(key1, value1) in value">
+								<a ng-href="{{value1.Link}}" target="_blank">{{value1.Title}}</a>
+							</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<br/>
+		</li>
+	</ul>
+</article><br/>
+
+<!-- Contests -->
+<div class="applicationsBlueHeader">
+	Contest(s)
+</div>
+<article>
+	<ul ng-if="Contests.length===0">
+		<li >
+			More contests being planned, please check back later.
+		</li>
+	</ul>
+	<ul ng-if="Contests.length!==0">
+		<li ng-repeat="Workshop in Contests">
+			<a ng-if="Workshop.Link" target="_blank" ng-href="{{Workshop.Link}}">
+				{{Workshop.Title}}
+			</a>
+			<span ng-if="!Workshop.Link"> 
+				{{Workshop.Title}}
+			</span>
+			<ul>
+				<li ng-if="Workshop.Date">Date: {{Workshop.Date}}</li>
+				<li ng-if="Workshop.Start">
+					Start: {{Workshop.Start}}
+				</li>
+				<li ng-if="Workshop.End">
+					End: {{Workshop.End}}
+				</li>
+				<li ng-if="Workshop.End">
+					End: {{Workshop.End}}
+				</li>
+				<li ng-if="Workshop.Details_and_Rules">
+					Details and Rules: <a ng-href="{{Workshop.Details_and_Rules.Link}}" target="_blank">{{Workshop.Details_and_Rules.Title}}</a>
+				</li>
+			</ul>
+			<br/>
+		</li>
+	</ul>
+</article><br/>
