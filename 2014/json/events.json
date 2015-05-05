@@ -1,6 +1,23 @@
 {
     "Upcoming": [
         {
+            "Title": "SBRC 2015",
+            "Link": "http://sbrc2015.ufes.br/eng/",
+            "Date": "May 20, 2015, 8:30am-10:00am & 16:00pm-17:30pm",
+            "Location": {
+                "Title": "Vitoria Brazil",
+                "Link": false
+            },
+            "Goal": "NetFPGA 4-Hours Tutorial ",
+            "Host": "Cesar Marcondes, Ricardo Menotti, Pablo Goulart, Ítalo Cunha, Marcos A. M. Vieira",
+            "Website": {
+                "Title": "NetFPGA Tutorial",
+                "Link": "http://sbrc2015.ufes.br/eng/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
             "Title": "SigComm",
             "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
             "Date": "August 17, 2015, TBD time",
