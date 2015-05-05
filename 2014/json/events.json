@@ -50,7 +50,7 @@
         {
             "Title": "NetSoft",
             "Link": "http://sites.ieee.org/netsoft/",
-            "Date": "April 13, 2015, 14:00-18:00",
+            "Date": "April 13, 2015, 14:00pm-18:00pm",
             "Location": {
                 "Title": "University College London",
                 "Link": "http://www.ucl.ac.uk/"
@@ -78,7 +78,7 @@
         {
             "Title": "DATE 2015",
             "Link": "http://www.date-conference.com/",
-            "Date": "March 12, 2015, 12:00 pm",
+            "Date": "March 12, 2015, 12:00pm",
             "Location": {
                 "Title": "University Booth, Booth 4, Exhibition Area ",
                 "Link": "http://www.date-conference.com/conference/session/UB10"
@@ -95,7 +95,7 @@
         {
             "Title": "Indian Institute of Science",
             "Link": "http://www.dese.iisc.ernet.in/ese/",
-            "Date": "July 25, 2014, 12:00 pm",
+            "Date": "July 25, 2014, 12:00pm",
             "Location": {
                 "Title": "Department of Electronic Systems Engineering, Indian ",
                 "Link": false
@@ -109,7 +109,7 @@
         {
             "Title": "University of Bristol",
             "Link": "http://www.bris.ac.uk/",
-            "Date": "April 29, 2014, 14:00",
+            "Date": "April 29, 2014, 14:00pm",
             "Location": {
                 "Title": "Merchant Venturers' Building, Woodland Road, Clifton, BS8 1UB, Bristol UK",
                 "Link": false
@@ -130,7 +130,7 @@
         {
             "Title": "Technion",
             "Link": "http://ceclub.technion.ac.il/past.html#noazilberman14",
-            "Date": "April 08, 2014, 14:30",
+            "Date": "April 08, 2014, 14:30pm",
             "Location": {
                 "Title": "CS, Taub 337, Technion",
                 "Link": false
@@ -158,7 +158,7 @@
         {
             "Title": "Tel-Aviv University",
             "Link": "http://www.eng.tau.ac.il/index.php?option=com_jevents&task=icalrepeat.detail&evid=1121&Itemid=292&year=2014&month=04&day=07&title=electrical-eng-seminar-netfpga-the-flexible-open-source-networking-platform",
-            "Date": "April 07, 2014, 15:00",
+            "Date": "April 07, 2014, 15:00pm",
             "Location": {
                 "Title": "Room 011, EE-Classes Bldg., Tel-Aviv Unviversity",
                 "Link": false
@@ -186,7 +186,7 @@
         {
             "Title": "Aston University",
             "Link": "http://www.aston.ac.uk/eas/research/groups/photonics/seminars/",
-            "Date": "February 7, 2014, 10:00 am",
+            "Date": "February 7, 2014, 10:00am",
             "Location": {
                 "Title": "MB530a, Seminar Room, School of Engineering and Applied Science, Aston University, Aston Triangle, Birmingham, B4 7ET, UK",
                 "Link": false
@@ -203,7 +203,7 @@
         {
             "Title": "University of Bochum",
             "Link": "http://www.ruhr-uni-bochum.de/index_en.htm",
-            "Date": "December 12, 2013, 11:00 am",
+            "Date": "December 12, 2013, 11:00am",
             "Location": {
                 "Title": "Universitätsstraße 150 | 44801 Bochum",
                 "Link": false
@@ -217,7 +217,7 @@
         {
             "Title": "Long Island University, NY",
             "Link": "http://www.liu.edu/",
-            "Date": "November 25, 2013, 12:00 am",
+            "Date": "November 25, 2013, 12:00am",
             "Location": {
                 "Title": "LIU Brooklyn, 1 University Plaza, Brooklyn New York, 11201-8423",
                 "Link": false
@@ -231,7 +231,7 @@
         {
                 "Title" : "Microsoft Research Cambridge",
                 "Link" : "http://talks.cam.ac.uk/talk/index/45652",
-                "Date" : "June 5, 2013 11:00am",
+                "Date" : "June 5, 2013, 11:00am",
                 "Location" : {
                     "Title" : "Auditorium, Microsoft Research Ltd, 21 Station Road, Cambridge, CB1 2FB",
                     "Link" : "http://research.microsoft.com/en-us/labs/cambridge/visit.aspx"
@@ -248,7 +248,7 @@
             {
                 "Title" : "Carnegie Mellon University",
                 "Link" : "http://www.pdl.cmu.edu/SDI/2013/041213.html",
-                "Date" : "April 12, 2013 Noon",
+                "Date" : "April 12, 2013, Noon",
                 "Location" : {
                     "Title" : "RRobert Mehrabian Collaborative Innovation Center, 4720 Forbes Avenue, Pittsburgh, PA 15213 ",
                     "Link" : false
@@ -276,7 +276,7 @@
             {
                 "Title" : "University of Pennsylvania",
                 "Link" : "http://www.upenn.edu/",
-                "Date" : "April 11, 2013 4:30pm",
+                "Date" : "April 11, 2013, 16:30pm",
                 "Location" : {
                     "Title" : "337 Towne Bldg, University of Pennsylvania",
                     "Link" : "http://goo.gl/maps/WVrsN"
@@ -290,7 +290,7 @@
             {
                 "Title" : "Case Western Reserve University",
                 "Link" : "http://engineering.case.edu/eecs/node/415",
-                "Date" : "April 11, 2013 11:30am-12:30pm",
+                "Date" : "April 11, 2013, 11:30am-12:30pm",
                 "Location" : {
                     "Title" : "Case Western Reserve University",
                     "Link" : false
@@ -318,7 +318,7 @@
             {
                 "Title" : "Princeton University",
                 "Link" : "http://www.cs.princeton.edu/events",
-                "Date" : "April 10, 2013 4:30pm-5:30pm",
+                "Date" : "April 10, 2013, 16:30pm-17:30pm",
                 "Location" : {
                     "Title" : "Princeton 402, Princeton University",
                     "Link" : "http://etcweb.princeton.edu/pumap/#0105"
@@ -335,7 +335,7 @@
             {
                 "Title" : "RENCI",
                 "Link" : "http://www.renci.org/calendar/netfpga-the-flexible-open-source-networking-platform",
-                "Date" : "April 9, 2013 3pm",
+                "Date" : "April 9, 2013, 15:00pm",
                 "Location" : {
                     "Title" : "Biltmore Conference Room, Suite 590, RENCI",
                     "Link" : "http://goo.gl/maps/z4vid"
@@ -363,7 +363,7 @@
             {
                 "Title" : "University of Massachusetts Amherst",
                 "Link" : "http://ece.umass.edu/",
-                "Date" : "April 8, 2013 3:35pm-4:25pm",
+                "Date" : "April 8, 2013, 15:35pm-16:25pm",
                 "Location" : {
                     "Title" : "Marston 132, University of Massachusetts Amherst",
                     "Link" : "http://goo.gl/maps/tYCO5"
