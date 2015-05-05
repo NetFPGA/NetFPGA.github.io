@@ -1,23 +1,6 @@
 {
     "Upcoming": [
         {
-            "Title": "NetSoft",
-            "Link": "http://sites.ieee.org/netsoft/",
-            "Date": "April 14-16, 2015",
-            "Location": {
-                "Title": "University College London",
-                "Link": "http://www.ucl.ac.uk/"
-            },
-            "Goal": "An Integrated Environment for Open-Source Network Softwarization",
-            "Host": false,
-            "Website": {
-                "Title": "An Integrated Environment for Open-Source Network Softwarization",
-                "Link": "http://sites.ieee.org/netsoft/demos/"
-            },
-            "Target_Platform" : false,
-            "Slides": false
-        },
-        {
             "Title": "SigComm",
             "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
             "Date": "August 17, 2015, TBD time",
@@ -390,6 +373,23 @@
             }
     ],
     "Tutorials": [
+        {
+            "Title": "NetSoft",
+            "Link": "http://sites.ieee.org/netsoft/",
+            "Date": "April 14-16, 2015",
+            "Location": {
+                "Title": "University College London",
+                "Link": "http://www.ucl.ac.uk/"
+            },
+            "Goal": "An Integrated Environment for Open-Source Network Softwarization",
+            "Host": false,
+            "Website": {
+                "Title": "An Integrated Environment for Open-Source Network Softwarization",
+                "Link": "http://sites.ieee.org/netsoft/demos/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
         {
             "Title": "LATINCOM 2012",
             "Link": "http://www.ieee-latincom.org/2012/index.php?option=com_content&view=article&id=64&Itemid=253",
