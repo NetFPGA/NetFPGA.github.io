@@ -14,7 +14,7 @@
                 "Title": "One-week hands-on course",
                 "Link": "http://tce.technion.ac.il/events/netfpga-summer-course-2015/"
             },
-            "Target_Platform" : false,
+            "Target_Platform" : "NetFPGA-SUME",
             "Slides": false
         },
         {
