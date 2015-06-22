@@ -10,11 +10,11 @@
             },
             "Goal": "Hands-on, extended week-long event for students, researchers and faulty",
             "Host": "TCE - Technion Computer Engineering Center",
+            "Target_Platform" : "NetFPGA-SUME",
             "Website": {
                 "Title": "One-week hands-on course",
                 "Link": "http://tce.technion.ac.il/events/netfpga-summer-course-2015/"
             },
-            "Target_Platform" : "NetFPGA-SUME",
             "Slides": false
         },
         {
@@ -27,11 +27,11 @@
             },
             "Goal": "Half-day tutorial on Open Source Hardware including NetFPGA and OSNT",
             "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
             "Website": {
                 "Title": "Open Source Networking",
                 "Link": "http://conferences.sigcomm.org/sigcomm/2015/tutorial-ohwn.php"
             },
-            "Target_Platform" : false,
             "Slides": false
         },
         {
@@ -44,8 +44,8 @@
             },
             "Goal": "Half-day NetFPGA tutorial",
             "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
             "Website": false,
-            "Target_Platform" : false,
             "Slides": false
         }
         ],
