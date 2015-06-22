@@ -1,37 +1,6 @@
 {
     "Upcoming": [
         {
-            "Title": "SBRC 2015",
-            "Link": "http://sbrc2015.ufes.br/eng/",
-            "Date": "May 20, 2015, 8:30am-10:00am & 16:00pm-17:30pm",
-            "Location": {
-                "Title": "Vitoria Brazil",
-                "Link": false
-            },
-            "Goal": "NetFPGA 4-Hours Tutorial ",
-            "Host": "Cesar Marcondes, Ricardo Menotti, Pablo Goulart, Ítalo Cunha, Marcos A. M. Vieira",
-            "Website": {
-                "Title": "NetFPGA Tutorial",
-                "Link": "http://sbrc2015.ufes.br/eng/"
-            },
-            "Target_Platform" : false,
-            "Slides": false
-        },
-        {
-            "Title": "SigComm",
-            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
-            "Date": "August 17, 2015, TBD time",
-            "Location": false,
-            "Goal": "Open Source Networking - Half-day tutorial",
-            "Host": false,
-            "Website": {
-                "Title": "Open Source Networking",
-                "Link": "http://conferences.sigcomm.org/sigcomm/2015/"
-            },
-            "Target_Platform" : false,
-            "Slides": false
-        },
-        {
             "Title": "Technion",
             "Link": "http://www.technion.ac.il/en/",
             "Date": "August 2-6, 2015",
@@ -41,6 +10,40 @@
             },
             "Goal": "Hands-on, extended week-long event for students, researchers and faulty",
             "Host": "TCE - Technion Computer Engineering Center",
+            "Website": {
+                "Title": "One-week hands-on course",
+                "Link": "http://tce.technion.ac.il/events/netfpga-summer-course-2015/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "SigComm",
+            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
+            "Date": "August 17, 2015, TBD time",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": false
+            },
+            "Goal": "Half-day tutorial on Open Source Hardware including NetFPGA and OSNT",
+            "Host": false,
+            "Website": {
+                "Title": "Open Source Networking",
+                "Link": "http://conferences.sigcomm.org/sigcomm/2015/tutorial-ohwn.php"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "FPL 2015",
+            "Link": "http://www.fpl2015.org/",
+            "Date": "August 31, Time TBA",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": false
+            },
+            "Goal": "Half-day NetFPGA tutorial",
+            "Host": false,
             "Website": false,
             "Target_Platform" : false,
             "Slides": false
@@ -390,6 +393,23 @@
             }
     ],
     "Tutorials": [
+        {
+            "Title": "SBRC 2015",
+            "Link": "http://sbrc2015.ufes.br/eng/",
+            "Date": "May 20, 2015, 8:30am-10:00am & 16:00pm-17:30pm",
+            "Location": {
+                "Title": "Vitoria Brazil",
+                "Link": false
+            },
+            "Goal": "NetFPGA 4-Hours Tutorial ",
+            "Host": "Cesar Marcondes, Ricardo Menotti, Pablo Goulart, Ítalo Cunha, Marcos A. M. Vieira",
+            "Website": {
+                "Title": "NetFPGA Tutorial",
+                "Link": "http://sbrc2015.ufes.br/eng/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
         {
             "Title": "NetSoft",
             "Link": "http://sites.ieee.org/netsoft/",
