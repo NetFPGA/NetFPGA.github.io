@@ -59,7 +59,7 @@
                 "Title": "London, Imperial College",
                 "Link": "http://www.imperial.ac.uk/visit/campuses/south-kensington/"
             },
-            "Goal": "Rapid Prototyping of High Bandwidth Devices in Open Source",
+            "Goal": "Half-day tutorial on Rapid Prototyping of High Bandwidth Devices in Open Source",
             "Host": false,
             "Target_Platform" : "NetFPGA-SUME",
             "Website": {
