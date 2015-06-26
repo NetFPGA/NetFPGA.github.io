@@ -18,7 +18,7 @@
             "Slides": false
         },
         {
-            "Title": "SigComm",
+            "Title": "SIGCOMM",
             "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
             "Date": "August 17, 2015, TBD time",
             "Location": {
@@ -35,17 +35,54 @@
             "Slides": false
         },
         {
-            "Title": "FPL 2015",
-            "Link": "http://www.fpl2015.org/",
-            "Date": "August 31, Time TBA",
+            "Title": "SIGCOMM",
+            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
+            "Date": "August 17-21, 2015, TBD time",
             "Location": {
                 "Title": "London, Imperial College",
                 "Link": false
             },
-            "Goal": "Half-day NetFPGA tutorial",
+            "Goal": "Demonstrate Open Source Hardware including NetFPGA and OSNT",
             "Host": false,
             "Target_Platform" : "NetFPGA-SUME",
-            "Website": false,
+            "Website": {
+                "Title": "Demo",
+                "Link": "http://conferences.sigcomm.org/sigcomm/2015/papers.php"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "FPL 2015",
+            "Link": "http://fpl2015.org/?page=tutorials#t1",
+            "Date": "August 31, 9:00am-12:30pm",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": "http://www.imperial.ac.uk/visit/campuses/south-kensington/"
+            },
+            "Goal": "Rapid Prototyping of High Bandwidth Devices in Open Source",
+            "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "Open Source",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/fpl-august-2015/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "FPL 2015",
+            "Link": "http://fpl2015.org/",
+            "Date": "September 2, TBD Time",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": false
+            },
+            "Goal": "Demonstrate Rapid Prototyping of High Bandwidth Devices in Open Source",
+            "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "Demo",
+                "Link": "http://fpl2015.org/?page=programme#wed"
+            },
             "Slides": false
         }
         ],
