@@ -1,70 +1,6 @@
 {
     "Upcoming": [
         {
-            "Title": "Technion",
-            "Link": "http://www.technion.ac.il/en/",
-            "Date": "August 2-6, 2015",
-            "Location": {
-                "Title": "Technion - Israel Institute of Technology",
-                "Link": false
-            },
-            "Goal": "Hands-on, extended week-long event for students, researchers and faulty",
-            "Host": "TCE - Technion Computer Engineering Center",
-            "Target_Platform" : "NetFPGA-SUME",
-            "Website": {
-                "Title": "One-week hands-on course",
-                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/technion-august-2015/"
-            },
-            "Slides": {
-                "Day 1": [
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKS0luNXBwQVlsSUE"
-                    },
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKd1lWcVpjclhaRXc"
-                    },
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKMFpIakNXSndVMFk"
-                    }
-                ],
-                "Day 2": [
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKbDVqNk9QNUJUYVU"
-                    }
-                ],
-                "Day 3": [
-                     {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKNE1IdGlYdUdyN1k"
-                    },
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKcUthSG5hQWZST1U"
-                    }
-                ],
-                "Day 4": [
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKS0luNXBwQVlsSUE"
-                    },
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKVUFoVF91N1F3dWc"
-                    }
-                ],
-                "Day 5": [
-                    {
-                        "Title": "PDF",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKWW1ySVdpVVA5ajQ"
-                    }
-                ]
-            }
-        },
-        {
             "Title": "SIGCOMM",
             "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
             "Date": "August 17, 2015, TBD time",
@@ -1189,6 +1125,70 @@
         }
     ],
     "Camps": [
+        {
+            "Title": "Technion",
+            "Link": "http://www.technion.ac.il/en/",
+            "Date": "August 2-6, 2015",
+            "Location": {
+                "Title": "Technion - Israel Institute of Technology",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for students, researchers and faulty",
+            "Host": "TCE - Technion Computer Engineering Center",
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "One-week hands-on course",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/technion-august-2015/"
+            },
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKS0luNXBwQVlsSUE"
+                    },
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKd1lWcVpjclhaRXc"
+                    },
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKMFpIakNXSndVMFk"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKbDVqNk9QNUJUYVU"
+                    }
+                ],
+                "Day 3": [
+                     {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKNE1IdGlYdUdyN1k"
+                    },
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKcUthSG5hQWZST1U"
+                    }
+                ],
+                "Day 4": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKS0luNXBwQVlsSUE"
+                    },
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKVUFoVF91N1F3dWc"
+                    }
+                ],
+                "Day 5": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKWW1ySVdpVVA5ajQ"
+                    }
+                ]
+            }
+        },
         {
             "Title": "Cambridge Summer Camp 2013",
             "Link": "http://bit.ly/11K1Vub",
