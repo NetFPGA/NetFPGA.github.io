@@ -3,23 +3,6 @@
         {
             "Title": "SIGCOMM",
             "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
-            "Date": "August 17, 2015, TBD time",
-            "Location": {
-                "Title": "London, Imperial College",
-                "Link": false
-            },
-            "Goal": "Half-day tutorial on Open Source Hardware including NetFPGA and OSNT",
-            "Host": false,
-            "Target_Platform" : "NetFPGA-SUME",
-            "Website": {
-                "Title": "Open Source Networking",
-                "Link": "http://conferences.sigcomm.org/sigcomm/2015/tutorial-ohwn.php"
-            },
-            "Slides": false
-        },
-        {
-            "Title": "SIGCOMM",
-            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
             "Date": "August 17-21, 2015, TBD time",
             "Location": {
                 "Title": "London, Imperial College",
@@ -413,6 +396,28 @@
             }
     ],
     "Tutorials": [
+        {
+            "Title": "SIGCOMM",
+            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
+            "Date": "August 17, 2015, TBD time",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": false
+            },
+            "Goal": "Half-day tutorial on Open Source Hardware including NetFPGA and OSNT",
+            "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "Open Source Networking",
+                "Link": "http://conferences.sigcomm.org/sigcomm/2015/tutorial-ohwn.php"
+            },
+            "Slides": {
+                    "Day 1" : [
+                        {
+                            "Title" : "PDF",
+                            "Link" : "https://www.dropbox.com/s/q094jabalf5kahj/2015_SIGCOMM_tutorial.pdf?dl=0"
+                        }
+        },
         {
             "Title": "SBRC 2015",
             "Link": "http://sbrc2015.ufes.br/eng/",
