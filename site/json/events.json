@@ -1149,14 +1149,10 @@
                 "Day 1": [
                     {
                         "Title": "PDF1",
-                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKcTdHMmRXQXJKYW8"
-                    },
-                    {
-                        "Title": "PDF2",
                         "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKd1lWcVpjclhaRXc"
                     },
                     {
-                        "Title": "PDF3",
+                        "Title": "PDF2",
                         "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKMFpIakNXSndVMFk"
                     }
                 ],
