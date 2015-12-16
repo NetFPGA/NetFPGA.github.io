@@ -1,5 +1,11 @@
 [
      {
+       "Title": "NetFPGA SUME Release 1.1.0",
+        "Date": "16 Dec 2015",
+        "Link": "201512162117",
+        "Description": "Greetings NetFPGA community,<br><br>We are pleased to announce today the next minor release (1.1.0) of the NetFPGA-SUME code base.<br><br>The release includes:<br>Projects:<br>- reference_switch_lite, <a href='https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-Learning-Switch-Lite'>wiki page</a><br>- reference_switch, <a href='https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-Learning-Switch'>wiki page</a><br>Cores:<br>- cam_v1_0_0, <a href='https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-TCAM-IPs'>wiki page</a><br>- tcam_v1_0_0, <a href= 'https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-TCAM-IPs'>wiki page</a><br>- switch_output_port_lookup_v1_0_0<br>Bug fixes:<br>- Fixing a typo error in multiple cores<br><br>If you have not registered to the NetFPGA-SUME beta program, you will need to do so to access the repository: <a href='http://netfpga.org/site/#/SUME_reg_form'>http://netfpga.org/site/#/SUME_reg_form/</a><br><br>You can find more information about NetFPGA-SUME code base in its wiki: <a href='https://github.com/NetFPGA/NetFPGA-SUME-public/wiki'>https://github.com/NetFPGA/NetFPGA-SUME-public/wiki</a><br><br>More information about the release: <a href='https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Release-Notes'>https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Release-Notes</a><br><br>We invite everyone from the community to use and improve our repository, and hope to see a lot of projects contributed to the repository.<br><br>Kind Regards,<br><br>The NetFPGA team<br><br>--Follow us on <a href='https://www.facebook.com/NetFPGA-29922917839/timeline/'>Facebook</a><br>--Follow us on <a href='https://twitter.com/netfpga'>Twitter</a>"
+    },
+     {
        "Title": "NetFPGA SUME Release 1.0.0",
         "Date": "12 Oct 2015",
         "Link": "201510121722",
