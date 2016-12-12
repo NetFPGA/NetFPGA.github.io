@@ -1,4 +1,10 @@
 [	{
+	"Title": "NetFPGA SUME Release 1.5.0",
+	"Date": "13 December 2016",
+	"Link": "201612131200",
+	"Description": "Greetings NetFPGA community,<br><br>We are pleased to announce today the next minor release (1.5.0) of the NetFPGA-SUME code base.<br><br>The release includes:<br>Updates: <br><ul><li>nf_10ge_attachment_v1_0_0&ensp;: Fix the state machine conditions in tx and rx queue modules to revolve the interface stall issues. Fix the reset signal connection in tx and rx queue modules</li></ul><br><br>Bug Fix:<br><ul><li>reference_switch_lite&ensp;: Fix the reset signal which caused negative slack in the reference_switch_lite bitfile</li><br><li>axitools.py&ensp;: Fix a typo, an undefined variable was crashing the script</li></ul><br><br>If you have not registered to the NetFPGA-SUME beta program, you will need to do so to access the repository: <a href='http://netfpga.org/site/#/SUME_reg_form'>Registration Form</a><br><br>You can find more information about NetFPGA-SUME code base in the <a href='https://github.com/NetFPGA/NetFPGA-SUME-public/wiki'>NetFPGA-SUME wiki</a><br><br>More information about the release: <a href='https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Release-Notes'>Release-Notes</a><br><br>We invite everyone from the community to use and improve our repository, and hope to see a lot of projects contributed to the repository.<br><br>Kind Regards,<br><br>The NetFPGA team<br><br><br><ul><li>Follow us on <a href='https://www.facebook.com/NetFPGA-29922917839/timeline/'>Facebook</a></li><br><li>Follow us on <a href='https://twitter.com/netfpga'>Twitter</a></li></ul>"
+	},
+	{
 	"Title": "NetFPGA Development Challenge, April-2017",
 	"Date": "16 November 2016",
 	"Link": "201611161200",
