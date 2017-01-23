@@ -1,5 +1,48 @@
 {
     "Upcoming": [
+        {
+            "Title": "NetFPGA Developers Summit 2017",
+            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017",
+            "Date": "April 20-21, 2017",
+            "Location": {
+                "Title": "University of Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "A two-days summit for all NetFPGA developers",
+            "Website": {
+                "Title": "2017_Summit",
+                "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "NetFPGA Design Challenge 2017",
+            "Link": "http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017/",
+            "Deadline": "April 13, 2017",
+            "Goal": "Design a low-latency switch",
+            "Website": {
+                "Title": "2017_Challenge",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "DATE 2017",
+            "Link": "http://www.date-conference.com/",
+            "Date": "March 27-31, 2017",
+            "Location": {
+                "Title": "University Booth, Exhibition Area ",
+                "Link": "https://www.date-conference.com/exhibition/u-booth"
+            },
+            "Goal": "NetFPGA SUME: Making 100Gbps a commodity",
+            "Host": "Georgina Kalogeridou",
+            "Website": {
+                "Title": "Rapid FPGA Prototyping of Network Services in C#",
+                "Link": ""
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        }
         ],
     "Seminars": [
         {
