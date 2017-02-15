@@ -41,7 +41,24 @@
             },
             "Target_Platform" : false,
             "Slides": false
-        }
+        },
+        {
+            "Title": "Aston University",
+            "Link": "http://www.aston.ac.uk/",
+            "Date": "February 23, 2017, 4 pm",
+            "Location": {
+                "Title": "N502, Seminar Room, School of Engineering and Applied Science, Aston University, Aston Triangle, Birmingham, B4 7ET, UK",
+                "Link": false
+            },
+            "Goal": "NetFPGA Design Challenge Intro + Research Talk",
+            "Host": "Neelakandan Manihatty Bojan",
+            "Website": {
+                "Title": "Aston University",
+                "Link": false
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        } 
         ],
     "Seminars": [
         {
