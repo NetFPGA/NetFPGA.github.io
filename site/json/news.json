@@ -1,4 +1,10 @@
-[	{
+[	 {
+        "Title": "NetFPGA Design Challenge April 2017",
+        "Date": "21 Mar 2017",
+        "Link": "201703211724",
+        "Description": "Greetings Everyone,<br><br>We keenly encourage your participation in the <a href='http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017'>NetFPGA Design Challenge April 2017</a><br><br><b>Prize updates:</b><br><br>With thanks to <a href='http://www.imc.nl/'>IMC</a>, we have a cash prize pool of &#163;1,000<br><br>The winning projects and runner ups will be invited to present their work at the NetFPGA Developers Summit 2017. All challenge participants are keenly encouraged to attend the NetFPGA Developers Summit and are entitled to a reduced registration rate.<br><br>The design challenge prize pool is generously supported by IMC<a href='http://www.imc.nl/'>http://www.imc.nl/</a><br><br>More details can be found at:<a href='http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017'>http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017</a>"
+    },
+    {
 	"Title": "NetFPGA SUME Release 1.5.0",
 	"Date": "13 December 2016",
 	"Link": "201612131200",
