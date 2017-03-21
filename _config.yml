@@ -3,5 +3,5 @@ destination: _site
 title: NetFPGA
 
 pygments: true
-markdown: rdiscount
+markdown: kramdown
 permalink: date 
