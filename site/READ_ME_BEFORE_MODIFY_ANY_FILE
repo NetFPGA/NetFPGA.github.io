@@ -7,3 +7,5 @@
 - to change the NEWS page: modify the /json/news.json file. More details inside /json/READ_ME_BEFORE_MODIFY_ANY_JSON_FILE.txt
 
 - to change the ABOUT page: modify the about.html file, write in usual HTML format
+
+EOF
