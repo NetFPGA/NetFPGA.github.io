@@ -2,6 +2,6 @@ include: [_includes]
 destination: _site
 title: NetFPGA
 
-pygments: true
-markdown: rdiscount
+highlighter: rouge
+markdown: kramdown
 permalink: date 
