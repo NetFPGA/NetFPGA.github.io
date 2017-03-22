@@ -1,4 +1,10 @@
 [	{
+		 "Title": "OSNT (Open-Source Network Tester) on SUME now available",
+        "Date": "22 Mar 2017",
+        "Link": "201703221408",
+        "Description": "Greetings Everyone,<br><br>We are pleased to announce the release of OSNT-SUME (available via <a href='http://www.osnt.org/'>www.osnt.org</a>).<br><br>The initial OSNT-SUME project is a port of the NetFPGA-10G based OSNTsystem. We are currently planning a native implementation of OSNT-SUME thatwill be able to exploit all the SUME platform capabilities.<br><br>The OSNT-SUME repository follows the same criteria as the NetFPGA-SUME repository registration: <a href='http://netfpga.org/site/#/SUME_reg_form'>http://netfpga.org/site/#/SUME_reg_form</a><br><br>Users that have access to the NetFPGA-SUME repo will have also the access to OSNT-SUME.<br><br>We invite everyone from the community to audit (and improve) our implementation as well as adapt it to their needs.<br><br>More information can be found at: <a href='https://github.com/NetFPGA/OSNT-Public'>https://github.com/NetFPGA/OSNT-Public</a><br><br>NetFPGA developers are encouraged to use/contribute to OSNT-SUME repository: <br><a href='https://github.com/NetFPGA/OSNT-SUME-live'>https://github.com/NetFPGA/OSNT-SUME-live</a><br><br>More information about the Traffic Generator can be found at: <br><a href='https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-SUME-Generator'>https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-SUME-Generator</a><br><br>More information about the Traffic Monitor can be found at: <br><a href='https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-SUME-Monitor'>https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-SUME-Monitor</a><br><br>More information about the software applications can be found at: <br><a href='https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-SUME-applications'>https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-SUME-applications</a><br><br>Thanks, OSNT team"
+	},
+	{	
 		 "Title": "Meet NetFPGA",
         "Date": "22 Mar 2017",
         "Link": "201703221147",
