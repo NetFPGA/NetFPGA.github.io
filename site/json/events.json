@@ -41,7 +41,9 @@
             },
             "Target_Platform" : false,
             "Slides": false
-        },
+        }
+        ],
+    "Seminars": [
         {
             "Title": "Aston University",
             "Link": "http://www.aston.ac.uk/",
@@ -58,9 +60,7 @@
             },
             "Target_Platform" : false,
             "Slides": false
-        } 
-        ],
-    "Seminars": [
+        },
         {
             "Title": "NetSoft",
             "Link": "http://sites.ieee.org/netsoft/",
