@@ -1,6 +1,23 @@
 {
     "Upcoming": [
         {
+            "Title": "NetFPGA Summer School 2017",
+            "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/",
+            "Date": "July 25-29, 2017",
+            "Location": {
+                "Title": "University of Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "A five day summit for all NetFPGA developers",
+            "Website": {
+                "Title": "2017 Summer School",
+                "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/"
+            },
+            "Slides": false
+        }
+        ],
+    "Seminars": [
+        {
             "Title": "NetFPGA Developers Summit 2017",
             "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017",
             "Date": "April 20-21, 2017",
@@ -41,9 +58,7 @@
             },
             "Target_Platform" : false,
             "Slides": false
-        }
-        ],
-    "Seminars": [
+        },
         {
             "Title": "Aston University",
             "Link": "http://www.aston.ac.uk/",
