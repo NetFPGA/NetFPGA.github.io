@@ -679,14 +679,36 @@
             "Applications": {
                 "Reference Projects": [
                     {
-                        "Title": " ",
-                        "Organization": " ",
-                        "Documentation": {}
+                        "Title": "Reference Switch",
+                        "Organization": "University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-Learning-Switch"
+                        }
                     },
                     {
-                        "Title": " ",
-                        "Organization": " ",
-                        "Documentation": {}
+                        "Title": "Reference Switch Lite",
+                        "Organization": "University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-Learning-Switch-Lite"
+                        }
+                    },
+                    {
+                        "Title": "Reference NIC",
+                        "Organization": "University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-NIC"
+                        }
+                    },
+                    {
+                        "Title": "Reference Router",
+                        "Organization": "University of Cambridge",
+                        "Documentation": {
+                            "Title": "wiki",
+                            "Link": "https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-Router"
+                        }
                     }
                 ]
             },
