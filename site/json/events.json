@@ -1,5 +1,8 @@
 {
     "Upcoming": [
+
+        ],
+    "Seminars": [
         {
             "Title": "NetFPGA Summer School 2017",
             "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/",
@@ -14,9 +17,7 @@
                 "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/"
             },
             "Slides": false
-        }
-        ],
-    "Seminars": [
+        },
         {
             "Title": "NetFPGA Developers Summit 2017",
             "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017",
