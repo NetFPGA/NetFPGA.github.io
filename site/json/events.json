@@ -4,21 +4,6 @@
         ],
     "Seminars": [
         {
-            "Title": "NetFPGA Developers Summit 2017",
-            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017",
-            "Date": "April 20-21, 2017",
-            "Location": {
-                "Title": "University of Cambridge, UK",
-                "Link": false
-            },
-            "Goal": "A two-days summit for all NetFPGA developers",
-            "Website": {
-                "Title": "2017_Summit",
-                "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017"
-            },
-            "Slides": false
-        },
-        {
             "Title": "DATE 2017",
             "Link": "http://www.date-conference.com/",
             "Date": "March 27-31, 2017",
@@ -1208,6 +1193,21 @@
             "Website": {
                 "Title": "NetFPGA Training School",
                 "Link": "https://newnet.telecom-paristech.fr/index.php/events/netfpga-training-school/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "NetFPGA Developers Summit 2017",
+            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017",
+            "Date": "April 20-21, 2017",
+            "Location": {
+                "Title": "University of Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "A two-days summit for all NetFPGA developers",
+            "Website": {
+                "Title": "2017_Summit",
+                "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017"
             },
             "Slides": false
         },
