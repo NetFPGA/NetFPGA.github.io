@@ -1451,7 +1451,7 @@
                 "Link": false
             },
             "Goal": "Hands-on, one day tutorial on P4-NetFPGA",
-            "Host": "Stephen Ibanez (Stanford University) and Andrew Moore (Cambridge University)",
+            "Host": "Stephen Ibanez (Stanford University) and Noa Zilberman (Cambridge University)",
             "Website": {
                 "Title": "Slides for P4→NetFPGA design flow workshop",
                 "Link": "https://github.com/NetFPGA/P4-NetFPGA-public/blob/master/slides/P4-NetFPGA-SIGCOMM-17/P4-NetFPGA_SIGCOMM_2017_v2.pdf"
