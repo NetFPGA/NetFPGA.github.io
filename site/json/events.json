@@ -4,21 +4,6 @@
         ],
     "Seminars": [
         {
-            "Title": "NetFPGA Summer School 2017",
-            "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/",
-            "Date": "July 25-29, 2017",
-            "Location": {
-                "Title": "University of Cambridge, UK",
-                "Link": false
-            },
-            "Goal": "A five day summit for all NetFPGA developers",
-            "Website": {
-                "Title": "2017 Summer School",
-                "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/"
-            },
-            "Slides": false
-        },
-        {
             "Title": "NetFPGA Developers Summit 2017",
             "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017",
             "Date": "April 20-21, 2017",
@@ -30,17 +15,6 @@
             "Website": {
                 "Title": "2017_Summit",
                 "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017"
-            },
-            "Slides": false
-        },
-        {
-            "Title": "NetFPGA Design Challenge 2017",
-            "Link": "http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017/",
-            "Deadline": "April 13, 2017",
-            "Goal": "Design a low-latency switch",
-            "Website": {
-                "Title": "2017_Challenge",
-                "Link": "http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017/"
             },
             "Slides": false
         },
@@ -1208,6 +1182,36 @@
     ],
     "Camps": [
         {
+            "Title": "NetFPGA Summer School 2017",
+            "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/",
+            "Date": "July 25-29, 2017",
+            "Location": {
+                "Title": "University of Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "A five day summit for all NetFPGA developers",
+            "Website": {
+                "Title": "2017 Summer School",
+                "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "NetFPGA Training School",
+            "Link": "https://newnet.telecom-paristech.fr/index.php/events/netfpga-training-school/",
+            "Date": "July 25-29, 2017",
+            "Location": {
+                "Title": "Telecom ParisTech",
+                "Link": false
+            },
+            "Goal": "Explain characteristics of NetFPGA and its applications",
+            "Website": {
+                "Title": "NetFPGA Training School",
+                "Link": "https://newnet.telecom-paristech.fr/index.php/events/netfpga-training-school/"
+            },
+            "Slides": false
+        },
+        {
             "Title": "Technion",
             "Link": "http://www.technion.ac.il/en/",
             "Date": "August 2-6, 2015",
@@ -1439,6 +1443,21 @@
     ],
     "Developers_Workshops": [
         {
+            "Title": "Hands-on, one day tutorial on P4-NetFPGA",
+            "Link": "http://conferences.sigcomm.org/sigcomm/2017/tutorial-P4-NetFPGA.html",
+            "Date": "August 25, 2017",
+            "Location": {
+                "Title": "SIGCOMM 2017, UCLA",
+                "Link": false
+            },
+            "Goal": "Hands-on, one day tutorial on P4-NetFPGA",
+            "Host": "Stephen Ibanez (Stanford University) and Andrew Moore (Cambridge University)",
+            "Website": {
+                "Title": "Slides for P4→NetFPGA design flow workshop",
+                "Link": "https://github.com/NetFPGA/P4-NetFPGA-public/blob/master/slides/P4-NetFPGA-SIGCOMM-17/P4-NetFPGA_SIGCOMM_2017_v2.pdf"
+            }
+        },
+        {
             "Title": "2nd North American NetFPGA Developer's Workshop",
             "Link": "#/events/2010_WorkshopNorthAmerican/",
             "Date": "August 12-13, 2010",
@@ -1504,6 +1523,11 @@
         }
     ],
     "Contests": [
+        {
+            "Title": "NetFPGA Design Challenge 2017",
+            "Link": "http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017/",
+            "Date": "April 18th, 2017"
+        },
         {
             "Title": "NetFPGA Design Contest 2010",
             "Link": false,
