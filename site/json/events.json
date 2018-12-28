@@ -1,6 +1,21 @@
 {
     "Upcoming": [
-
+		{
+			"Title": "FPGA 2019",
+			"Link": "http://isfpga.org",
+			"Date": "February 24, 2019",
+			"Location": {
+			"Title": "FPGA 2019, California, USA",
+			"Link": false
+		},
+		"Goal": "A tutorial on P4-NetFPGA",
+		"Host": "Stephen Ibanez (Stanford University)",
+		"Website": {
+				"Title": "FPGA 2019 Workshops",
+				"Link": "http://isfpga.org/workshops.html"
+		},
+	   "Target_Platform" : "NetFPGA-SUME"
+}
         ],
     "Seminars": [
         {
