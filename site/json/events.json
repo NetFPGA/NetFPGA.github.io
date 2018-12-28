@@ -32,7 +32,14 @@
 				"Link": "https://conferences.sigcomm.org/sigcomm/2018/tutorial-p4.html"
 			},
 			"Target_Platform" : "NetFPGA SUME",
-			"Slides": "https://conferences.sigcomm.org/sigcomm/2018/files/slides/p4/p4netfpa.pdf"
+			 "Slides": {
+				"P4->NetFPGA": [
+				{
+					"Title": "PDF",
+					"Link": "https://conferences.sigcomm.org/sigcomm/2018/files/slides/p4/p4netfpa.pdf"
+				}
+			]
+			}
 		},    
         {
             "Title": "DATE 2017",
