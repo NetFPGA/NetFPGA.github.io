@@ -19,6 +19,22 @@
         ],
     "Seminars": [
         {
+			"Title": "SIGCOMM 2018",
+			"Link": "https://conferences.sigcomm.org/sigcomm/2018/",
+			"Date": "August 20, 2018",
+			"Location": {
+				"Title": "Budapest, Hungary",
+				"Link": false
+			},
+			"Host": "Pietro Bressana",
+			"Website": {
+				"Title": "P4->NetFPGA",
+				"Link": "https://conferences.sigcomm.org/sigcomm/2018/tutorial-p4.html"
+			},
+			"Target_Platform" : "NetFPGA SUME",
+			"Slides": "https://conferences.sigcomm.org/sigcomm/2018/files/slides/p4/p4netfpa.pdf"
+		},    
+        {
             "Title": "DATE 2017",
             "Link": "http://www.date-conference.com/",
             "Date": "March 27-31, 2017",
