@@ -75,7 +75,12 @@
 	"Nakahara, H., Yonekawa, H., Iwamoto, H., & Motomura, M. (2017, February). A batch normalization free binarized convolutional deep neural network on an fpga. In Proceedings of the 2017 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (pp. 290-290). ACM.",
 	"Tokusashi, Y., & Matsutani, H. (2017). Multilevel NoSQL Cache Combining In-NIC and In-Kernel Approaches. IEEE Micro, 37(5), 44-51.",
 	"Vainstein, C., Katz, A., Birk, Y., & Nemirovsky, Y. (2017, November). Prototype of real-time single photon avalanche diode-based muzzle flash detector. In Microwaves, Antennas, Communications and Electronic Systems (COMCAS), 2017 IEEE International Conference on (pp. 1-4). IEEE.",
-	"Tan, T. H., Ooi, C. Y., & Marsono, M. N. (2017, August). hpFog: A FPGA-Based Fog Computing Platform. In Networking, Architecture, and Storage (NAS), 2017 International Conference on (pp. 1-2). IEEE.",
+	"Tan, T. H., Ooi, C. Y., & Marsono, M. N. (2017, August). hpFog: A FPGA-Based Fog Computing Platform. In Networking, Architecture, and Storage (NAS), 2017 International Conference on (pp. 1-2). IEEE."
+	]
+	},
+	{
+	"year": "20171",
+	"publications": [
 	"Nguyen-Hoang, B., Tran-Thanh, B., Pham-Quoc, C., Tuan, N. Q., & Thinh, T. N. (2017). A Novel High-Speed Architecture for Integrating Multiple DDoS Countermeasure Mechanisms Using Reconfigurable Hardware. Journal of Telecommunication, Electronic and Computer Engineering (JTEC), 9(2-4), 41-46.",
 	"Bonola, M., Bifulco, R., Petrucci, L., Pontarelli, S., Tulumello, A., & Bianchi, G. (2017, June). Implementing advanced network functions with stateful programmable data planes. In Local and Metropolitan Area Networks (LANMAN), 2017 IEEE International Symposium on (pp. 1-2). IEEE.",
 	"Pham-Quoc, C., Nguyen, B., & Thinh, T. N. (2017). FPGA-based multicore architecture for integrating multiple DDoS defense mechanisms. ACM SIGARCH Computer Architecture News, 44(4), 14-19.",
