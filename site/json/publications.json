@@ -85,12 +85,7 @@
 	"Bianchi, G., Bonola, M., Bruschi, V., Petrucci, L., & Pontarelli, S. (2017, September). Implementing a Per-Flow Token Bucket Using Open Packet Processor. In International Tyrrhenian Workshop on Digital Communication (pp. 251-262). Springer, Cham.",
 	"Sultana, N., Galea, S., Greaves, D., Wójcik, M., Shipton, J., Clegg, R., ... and Zilberman, N. (2017, July). Emu: Rapid prototyping of networking services. In 2017 USENIX Annual Technical Conference (USENIX ATC 17) (pp. 459-471).",
 	"Xu, C., Wang, C., Gong, L., Lu, Y., Sun, F., Zhang, Y., ... and Zhou, X. (2017, September). OmniGraph: A Scalable Hardware Accelerator for Graph Processing. In Cluster Computing (CLUSTER), 2017 IEEE International Conference on (pp. 623-624). IEEE.",
-	"Nobach, L., Rudolph, B., & Hausheer, D. (2017, March). Benefits of conditional FPGA provisioning for virtualized network functions. In Networked Systems (NetSys), 2017 International Conference on (pp. 1-6). IEEE."
-	]
-	},
-	{
-	"year": "20171",
-	"publications": [
+	"Nobach, L., Rudolph, B., & Hausheer, D. (2017, March). Benefits of conditional FPGA provisioning for virtualized network functions. In Networked Systems (NetSys), 2017 International Conference on (pp. 1-6). IEEE.",
 	"Wang, X., Liu, Q., & Yan, B. (2017, November). A Design of Programmable Parser Generation System Based on Dynamic Programming. In 2017 International Conference on Information, Communication and Engineering (ICICE) (pp. 325-328). IEEE.",
 	"Cornevaux-Juignet, F., Arzel, M., Horrein, P. H., Groleat, T., & Person, C. (2017, October). Open-source flexible packet parser for high data rate agile network probe. In CNS 2017: IEEE Conference on Communications and Network Security.",
 	"Reece, T., Sathyanarayana, S., Robinson, W. H., & Beyah, R. A. (2017). On The Outside Looking In: Towards Detecting Counterfeit Devices Using Network Traffic Analysis. IEEE Transactions on Multi-Scale Computing Systems, 3(1), 50-61.",
@@ -99,9 +94,8 @@
 	"Zilberman, N., Grosvenor, M., Popescu, D. A., Manihatty-Bojan, N., Antichi, G., Wójcik, M., & Moore, A. W. (2017, March). Where has my time gone?. In International Conference on Passive and Active Network Measurement (pp. 201-214). Springer, Cham.",
 	"Emmerich, P., Gallenmuller, S., Antichi, G., Moore, A. W., & Carle, G. (2017, May). Mind the Gap-A Comparison of Software Packet Generators. In Architectures for Networking and Communications Systems (ANCS), 2017 ACM/IEEE Symposium on (pp. 191-203). IEEE.",
 	"Qian, K., Zhang, T., & Ren, F. (2017, December). Awakening Power of Physical Layer: High Precision Time Synchronization for Industrial Ethernet. In Real-Time Systems Symposium (RTSS), 2017 IEEE (pp. 147-156). IEEE.",
-	"Qian, K., Zhang, T., & Ren, F. (2017, December). Awakening Power of Physical Layer: High Precision Time Synchronization for Industrial Ethernet. In Real-Time Systems Symposium (RTSS), 2017 IEEE (pp. 147-156). IEEE.",
 	"Yamamoto, M., & Takahiro, Y. (2017, March). Integration of existing ethernet devices into time-division-multiplexing ethernet. In Industrial Technology (ICIT), 2017 IEEE International Conference on (pp. 1171-1176). IEEE.",
-	"Wang, H., Soule, R., Dang, H. T., Lee, K. S., Shrivastav, V., Foster, N., & Weatherspoon, H. (2017, April). P4FPGA: A rapid prototyping framework for p4. In Proceedings of the Symposium on SDN Research (pp. 122-135). ACM.",
+	"Wang, H., Soule, R., Dang, H. T., Lee, K. S., Shrivastav, V., Foster, N., & Weatherspoon, H. (2017, April). P4FPGA: A rapid prototyping framework for P4. In Proceedings of the Symposium on SDN Research (pp. 122-135). ACM.",
 	"Fiessler, A., Lorenz, C., Hager, S., Scheuermann, B., & Moore, A. W. (2017). HyPaFilter+: Enhanced Hybrid Packet Filtering Using Hardware Assisted Classification and Header Space Analysis. IEEE/ACM Transactions on Networking, 25(6), 3655-3669.",
 	"Chen, Q., Mishra, V., Parsons, N., & Zervas, G. (2017, March). Hardware programmable network function service chain on optical rack-scale data centers. In Optical Fiber Communications Conference and Exhibition (OFC), 2017 (pp. 1-3). IEEE.",
 	"Chen, A., Haeberlen, A., Zhou, W., & Loo, B. T. (2017, April). One primitive to diagnose them all: Architectural support for Internet diagnostics. In Proceedings of the Twelfth European Conference on Computer Systems (pp. 374-388). ACM.",
