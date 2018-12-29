@@ -96,13 +96,13 @@
 	"Qian, K., Zhang, T., & Ren, F. (2017, December). Awakening Power of Physical Layer: High Precision Time Synchronization for Industrial Ethernet. In Real-Time Systems Symposium (RTSS), 2017 IEEE (pp. 147-156). IEEE.",
 	"Qian, K., Zhang, T., & Ren, F. (2017, December). Awakening Power of Physical Layer: High Precision Time Synchronization for Industrial Ethernet. In Real-Time Systems Symposium (RTSS), 2017 IEEE (pp. 147-156). IEEE.",
 	"Yamamoto, M., & Takahiro, Y. (2017, March). Integration of existing ethernet devices into time-division-multiplexing ethernet. In Industrial Technology (ICIT), 2017 IEEE International Conference on (pp. 1171-1176). IEEE.",
-	"Wang, H., Soulé, R., Dang, H. T., Lee, K. S., Shrivastav, V., Foster, N., & Weatherspoon, H. (2017, April). P4fpga: A rapid prototyping framework for p4. In Proceedings of the Symposium on SDN Research (pp. 122-135). ACM.",
+	"Wang, H., Soule, R., Dang, H. T., Lee, K. S., Shrivastav, V., Foster, N., & Weatherspoon, H. (2017, April). P4FPGA: A rapid prototyping framework for p4. In Proceedings of the Symposium on SDN Research (pp. 122-135). ACM.",
 	"Fiessler, A., Lorenz, C., Hager, S., Scheuermann, B., & Moore, A. W. (2017). HyPaFilter+: Enhanced Hybrid Packet Filtering Using Hardware Assisted Classification and Header Space Analysis. IEEE/ACM Transactions on Networking, 25(6), 3655-3669.",
 	"Chen, Q., Mishra, V., Parsons, N., & Zervas, G. (2017, March). Hardware programmable network function service chain on optical rack-scale data centers. In Optical Fiber Communications Conference and Exhibition (OFC), 2017 (pp. 1-3). IEEE.",
 	"Chen, A., Haeberlen, A., Zhou, W., & Loo, B. T. (2017, April). One primitive to diagnose them all: Architectural support for Internet diagnostics. In Proceedings of the Twelfth European Conference on Computer Systems (pp. 374-388). ACM.",
 	"Najem, M., Bollengier, T., Le Lann, J. C., & Lagadec, L. (2017). Extended overlay architectures for heterogeneous FPGA cluster management. Journal of Systems Architecture, 78, 1-14.",
 	"Shan, D., & Ren, F. (2017, May). Improving ECN marking scheme with micro-burst traffic in data center networks. In INFOCOM 2017-IEEE Conference on Computer Communications, IEEE (pp. 1-9). IEEE.",
-	"Handley, M., Raiciu, C., Agache, A., Voinescu, A., Moore, A. W., Antichi, G., & Wójcik, M. (2017, August). Re-architecting datacenter networks and stacks for low latency and high performance. In Proceedings of the Conference of the ACM Special Interest Group on Data Communication (pp. 29-42). ACM."
+	"Handley, M., Raiciu, C., Agache, A., Voinescu, A., Moore, A. W., Antichi, G., & Wojcik, M. (2017, August). Re-architecting datacenter networks and stacks for low latency and high performance. In Proceedings of the Conference of the ACM Special Interest Group on Data Communication (pp. 29-42). ACM."
 ]
 },
    {
