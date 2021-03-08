@@ -1,7 +1,0 @@
-include: [_includes]
-destination: _site
-title: NetFPGA
-
-highlighter: rouge
-markdown: kramdown
-permalink: date 
