@@ -1,14 +1,17 @@
 ---
 layout: page
 ---
-<div class="">
-  <ol>
-    {% for post in site.category.events %}
-      {% if "now" <= post.postdate %}
-        <li>
-          <a href="{{ post.url }}">{{ post.posttitle }}</a>
-        </li>
-      {% endif %}
+
+<div class="posts">
+  <ul>
+    {% for post in site.categories.news %}
+      <li>
+        <div class="">
+          <h1>{{ post.title }}</h1>
+          <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
+          <p>{{ post.content }}</p>
+        </div>
+      </li>
     {% endfor %}
-  </ol>
+  </ul>
 </div>
