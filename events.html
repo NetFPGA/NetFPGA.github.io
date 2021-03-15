@@ -7,9 +7,14 @@ layout: page
     {% for post in site.categories.events %}
       <li>
         <div class="">
-          <h1>{{ post.title }}</h1>
-          <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
-          <p>{{ post.content }}</p>
+          <h1><a href="{{ post.titlelink }}">{{ post.title }}</a></h1>
+          <h3>Presentor: {{ post.presentor }}</h3>
+          <h3><i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
+          <h4>Location: {{ post.location }}</h4>
+          <h4>Target Platform: {{ post.target }}</h4>
+          <h4><a href="{{ post.website }}">Website</a></h4>
+          <h4>{{ post.content }}</h4>
+          <hr>
         </div>
       </li>
     {% endfor %}
