@@ -8,11 +8,19 @@ layout: page
       <li>
         <div class="">
           <h1><a href="{{ post.titlelink }}">{{ post.title }}</a></h1>
+          {% if post.presentor %}
           <h3>Presentor: {{ post.presentor }}</h3>
+          {% endif %}
           <h3><i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
-          <h4>Location: {{ post.location }}</h4>
-          <h4>Target Platform: {{ post.target }}</h4>
-          <h4><a href="{{ post.website }}">Website</a></h4>
+          {% if post.location %}
+            <h4>Location: {{ post.location }}</h4>
+          {% endif %}
+          {% if post.target %}
+            <h4>Target Platform: {{ post.target }}</h4>
+          {% endif %}
+          {% if post.website %}
+            <h4><a href="{{ post.website }}">Website</a></h4>
+          {% endif %}
           <h4>{{ post.content }}</h4>
           <hr>
         </div>

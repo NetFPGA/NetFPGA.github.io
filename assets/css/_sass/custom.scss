@@ -26,3 +26,21 @@
     }
   }
 }
+
+.nobullets {
+  li{
+    list-style: none;
+    font-size: 11px;
+      text-align: center;
+  }
+}
+
+.accordian .card-title :after {
+  font-family: 'FontAwesome';
+  content: "\f068";
+  float: right;
+}
+
+.accordian .card-title.collapsed:after {
+  content:"\f067";
+}
