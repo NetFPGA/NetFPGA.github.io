@@ -13,6 +13,14 @@
 //     background-color: #1d4367 !important
 // }
 
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");}
+
 .deprecated {
   color: #FF0000
 }
@@ -36,11 +44,20 @@
 }
 
 .accordian .card-title :after {
-  font-family: 'FontAwesome';
-  content: "\f068";
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  content: "\f107";
   float: right;
 }
 
-.accordian .card-title.collapsed:after {
-  content:"\f067";
+.accordian .collapsed .card-title :after {
+  content:"\f104";
+}
+
+.downloads {
+  td{
+    padding-top: 5px;
+    padding-right: 20px;
+  }
 }
