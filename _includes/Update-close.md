@@ -1,4 +1,4 @@
-If you have not registered to the NetFPGA-SUME beta program, you will need to do so to access the repository: [Registration Form](https://netfpga.org/site/#/SUME_reg_form/)
+If you have not registered to the NetFPGA-SUME beta program, you will need to do so to access the repository: [Registration Form](SUME-reg-form.html)
 
 You can find more information about NetFPGA-SUME code base in the [NetFPGA-SUME wiki](https://github.com/NetFPGA/NetFPGA-SUME-public/wiki)
 

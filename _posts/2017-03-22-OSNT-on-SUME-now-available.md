@@ -10,7 +10,7 @@ We are pleased to announce the release of OSNT-SUME (available via [www.osnt.org
 
 The initial OSNT-SUME project is a port of the NetFPGA-10G based OSNTsystem. We are currently planning a native implementation of OSNT-SUME thatwill be able to exploit all the SUME platform capabilities.
 
-The OSNT-SUME repository follows the same criteria as the NetFPGA-SUME repository registration: [http://netfpga.org/site/#/SUME_reg_form](http://netfpga.org/site/#/SUME_reg_form)
+The OSNT-SUME repository follows the same criteria as the NetFPGA-SUME repository registration: [http://netfpga.org/SUME-reg-form.html](/SUME-reg-form.html)
 
 Users that have access to the NetFPGA-SUME repo will have also the access to OSNT-SUME.
 
