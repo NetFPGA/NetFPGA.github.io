@@ -7,9 +7,9 @@ layout: page
     {% for post in site.categories.events %}
       <li>
         <div class="">
-          <h1><a href="{{ post.titlelink }}">{{ post.title }}</a></h1>
-          {% if post.presentor %}
-          <h3>Presentor: {{ post.presentor }}</h3>
+          <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
+          {% if post.presenter %}
+          <h3>presenter: {{ post.presenter }}</h3>
           {% endif %}
           <h3><i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
           {% if post.location %}
