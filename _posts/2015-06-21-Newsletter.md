@@ -18,13 +18,13 @@ Hi and welcome to the latest slightly irregular NetFPGA Newsletter
 
 -=-=-
 
-1. Contributions
+### 1. Contributions
 
 We keenly encourage the NetFPGA community to contribute their projects for others - projects any boards (SUME, CML, 10G, 1G) are solicited.
 
 -=-=- Have a project to contribute? email me -=-=-
 
-2. SUME news
+### 2. SUME news
 
 We have had some questions about changes to the NetFPGA SUME pricing and how best to order boards.
 
@@ -50,7 +50,7 @@ For those that have had confusing messages from their local Digilent distributor
 
 -=-=-
 
-3. SUME release
+### 3. SUME release
 
 We are planning for SUME release 1.0 at the end of the week (26th of June).
 
@@ -85,7 +85,7 @@ Look for announcements on the SUME mailing list.
 
 -=-=- Want to be a contributor not just a consumer? email me -=-=-
 
-4. Tutorials and Workshops
+### 4. Tutorials and Workshops
 
 Here are upcoming tutorials and workshops currently in out calendar.
 
@@ -113,7 +113,7 @@ If you wish to consider offering a course do get in contact.
 
 -=-=- Want to advertise your NetFPGA course? Want to contribute teaching material? Want to run a NetFPGA course? email me -=-=-
 
-5. NetFPGA Plans
+### 5. NetFPGA Plans
 
 I would like to give you some insight into our plans for NetFPGA going forward.
 

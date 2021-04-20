@@ -14,7 +14,7 @@ Hi and welcome to latest NetFPGA Newsletter
 
 -=-=-
 
-1. NetFPGA news
+### 1. NetFPGA news
 
 It is with great sadness the departure of two of the NetFPGA team in Cambridge.
 
@@ -50,7 +50,7 @@ Bug Fix:
 <br>
 -=-=- Want to advertise your NetFPGA course? Want to contribute to teaching material? Want to run a NetFPGA course? email me -=-=-
 
-3. NetFPGA Community Event - a solicitation
+### 3. NetFPGA Community Event - a solicitation
 
 We are considering a NetFPGA to be held on the 16th/17th April 2016 co-located with this year's EuroSys conference in London.
 
