@@ -1,9 +1,0 @@
-
-name: Testing the GitHub pages Publication
-
-on:
-  push:
-    branch:
-      - main
-
-jobs:
