@@ -4,6 +4,6 @@ name: Testing the GitHub pages Publication
 on:
   push:
     branch:
-      - master
+      - main
 
 jobs:
