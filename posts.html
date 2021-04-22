@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href=".news-collapse" role="button" aria-controls="newsCollapse">News</a>
+  <a class="btn btn-primary" data-toggle="collapse" href=".events-collapse" role="button" aria-controls="eventsCollapse">Events</a>
+</p>
+<div class="posts">
+  <ul>
+    {% for post in site.posts %}
+      <li id="{post.category}-collapse">
+        <div class="">
+          <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
+          {% if post.presenter %}
+            <h3>presenter: {{ post.presenter }}</h3>
+          {% endif %}
+          {% if post.category = event %}
+            <h3><i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
+          {% endif %}
+          {% if post.category = news %}
+            <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
+          {% endif %}
+          {% if post.location %}
+            <h4>Location: {{ post.location }}</h4>
+          {% endif %}
+          {% if post.target %}
+            <h4>Target Platform: {{ post.target }}</h4>
+          {% endif %}
+          {% if post.website %}
+            <h4><a href="{{ post.website }}">Website</a></h4>
+          {% endif %}
+          <p>{{ post.content }}</p>
+          <hr>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
