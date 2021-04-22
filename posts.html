@@ -9,7 +9,7 @@ layout: page
 <div class="posts">
   <ul>
     {% for post in site.posts %}
-      <li id="{post.category}-collapse">
+      <li class="{{ post.category }}-collapse">
         <div class="">
           <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
           {% if post.presenter %}
