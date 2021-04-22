@@ -15,12 +15,7 @@ layout: page
           {% if post.presenter %}
             <h3>presenter: {{ post.presenter }}</h3>
           {% endif %}
-          {% if post.category = event %}
-            <h3><i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
-          {% endif %}
-          {% if post.category = news %}
-            <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
-          {% endif %}
+          <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
           {% if post.location %}
             <h4>Location: {{ post.location }}</h4>
           {% endif %}
