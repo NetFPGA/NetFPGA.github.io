@@ -1,0 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Megrim);
+
+@import 'reset.css';
+@import 'preloader.css';
+
+@import 'icons.css';
+@import 'main.css';
+
+/* responsive-design */
+@import 'devices.css';

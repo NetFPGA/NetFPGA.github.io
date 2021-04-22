@@ -1,0 +1,13 @@
+[netfpga]
+name=NetFPGA repository for CentOS5 - $basearch
+baseurl=http://netfpga.org/yum/el5
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-NETFPGA
+
+[netfpga-source]
+name=NetFPGA repository for CentOS5 - Source
+baseurl=http://netfpga.org/yum/el5
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-NETFPGA

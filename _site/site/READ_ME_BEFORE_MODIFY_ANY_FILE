@@ -1,0 +1,11 @@
+- to change the HOME page: modify the index.html file, write in usual HTML format
+
+- to change the SYSTEMS page: modify the /json/systems.json file. More details inside /json/READ_ME_BEFORE_MODIFY_ANY_JSON_FILE.txt
+
+- to change the EVENTS page: modify the /json/events.json file. More details inside /json/READ_ME_BEFORE_MODIFY_ANY_JSON_FILE.txt
+
+- to change the NEWS page: modify the /json/news.json file. More details inside /json/READ_ME_BEFORE_MODIFY_ANY_JSON_FILE.txt
+
+- to change the ABOUT page: modify the about.html file, write in usual HTML format
+
+EOF

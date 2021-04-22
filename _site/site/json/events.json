@@ -1,0 +1,1560 @@
+{
+    "Upcoming": [
+		{
+			"Title": "FPGA 2019",
+			"Link": "http://isfpga.org",
+			"Date": "February 24, 2019",
+			"Location": {
+			"Title": "FPGA 2019, California, USA",
+			"Link": false
+		},
+		"Goal": "A tutorial on P4-NetFPGA",
+		"Host": "Stephen Ibanez (Stanford University)",
+		"Website": {
+				"Title": "FPGA 2019 Workshops",
+				"Link": "http://isfpga.org/workshops.html"
+		},
+	   "Target_Platform" : "NetFPGA-SUME"
+}
+        ],
+    "Seminars": [
+        {
+			"Title": "SIGCOMM 2018",
+			"Link": "https://conferences.sigcomm.org/sigcomm/2018/",
+			"Date": "August 20, 2018",
+			"Location": {
+				"Title": "Budapest, Hungary",
+				"Link": false
+			},
+			"Host": "Pietro Bressana",
+			"Website": {
+				"Title": "P4->NetFPGA",
+				"Link": "https://conferences.sigcomm.org/sigcomm/2018/tutorial-p4.html"
+			},
+			"Target_Platform" : "NetFPGA SUME",
+			 "Slides": {
+				"P4->NetFPGA": [
+				{
+					"Title": "PDF",
+					"Link": "https://conferences.sigcomm.org/sigcomm/2018/files/slides/p4/p4netfpa.pdf"
+				}
+			]
+			}
+		},    
+        {
+            "Title": "DATE 2017",
+            "Link": "http://www.date-conference.com/",
+            "Date": "March 27-31, 2017",
+            "Location": {
+                "Title": "University Booth, Exhibition Area ",
+                "Link": "https://www.date-conference.com/exhibition/u-booth"
+            },
+            "Host": "Salvator Galea",
+            "Website": {
+                "Title": "Rapid FPGA Prototyping of Network Services in C#",
+                "Link": ""
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Aston University",
+            "Link": "http://www.aston.ac.uk/",
+            "Date": "February 23, 2017, 4 pm",
+            "Location": {
+                "Title": "N502, Seminar Room, School of Engineering and Applied Science, Aston University, Aston Triangle, Birmingham, B4 7ET, UK",
+                "Link": false
+            },
+            "Goal": "NetFPGA Design Challenge Intro + Research Talk",
+            "Host": "Neelakandan Manihatty Bojan",
+            "Website": {
+                "Title": "Aston University",
+                "Link": false
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "NetSoft",
+            "Link": "http://sites.ieee.org/netsoft/",
+            "Date": "April 13, 2015, 14:00pm-18:00pm",
+            "Location": {
+                "Title": "University College London",
+                "Link": "http://www.ucl.ac.uk/"
+            },
+            "Goal": "Open Source Networking - Half-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "Open Source Networking",
+                "Link": "http://sites.ieee.org/netsoft/tutorials/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://www.dropbox.com/s/uq51h17j3l3d65d/2015_NetSoft_tutorial.pdf?dl=0"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://www.dropbox.com/s/yusehncsrjic5w3/2015_NetSoft_tutorial.pptx?dl=0"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "DATE 2015",
+            "Link": "http://www.date-conference.com/",
+            "Date": "March 12, 2015, 12:00pm",
+            "Location": {
+                "Title": "University Booth, Booth 4, Exhibition Area ",
+                "Link": "http://www.date-conference.com/conference/session/UB10"
+            },
+            "Goal": "NetFPGA SUME: Making 100Gbps a commodity",
+            "Host": "Georgina Kalogeridou",
+            "Website": {
+                "Title": "NetFPGA SUME: Toward Commodity 100Gb/s",
+                "Link": "http://www.date-conference.com/files/file/date15/ubooth/7734.pdf"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Indian Institute of Science",
+            "Link": "http://www.dese.iisc.ernet.in/ese/",
+            "Date": "July 25, 2014, 12:00pm",
+            "Location": {
+                "Title": "Department of Electronic Systems Engineering, Indian ",
+                "Link": false
+            },
+            "Goal": "Introduction to NetFPGA",
+            "Host": "Neelakandan Manihatty Bojan",
+            "Website": false,
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "University of Bristol",
+            "Link": "http://www.bris.ac.uk/",
+            "Date": "April 29, 2014, 14:00pm",
+            "Location": {
+                "Title": "Merchant Venturers' Building, Woodland Road, Clifton, BS8 1UB, Bristol UK",
+                "Link": false
+            },
+            "Goal": "One hour NetFPGA Introductory",
+            "Host": "Georgina Kalogeridou",
+            "Website": false,
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/file/d/0B2ymRoiETCHKWVNFaEdUNlQ0R2c/edit?usp=drive_web"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Technion",
+            "Link": "http://ceclub.technion.ac.il/past.html#noazilberman14",
+            "Date": "April 08, 2014, 14:30pm",
+            "Location": {
+                "Title": "CS, Taub 337, Technion",
+                "Link": false
+            },
+            "Goal": "One hour NetFPGA Introductory",
+            "Host": "Noa Zilberman",
+            "Website": {
+                "Title": "Technion",
+                "Link": "http://ceclub.technion.ac.il/past.html#noazilberman14"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_Technion.pdf"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_Technion.pptx"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Tel-Aviv University",
+            "Link": "http://www.eng.tau.ac.il/index.php?option=com_jevents&task=icalrepeat.detail&evid=1121&Itemid=292&year=2014&month=04&day=07&title=electrical-eng-seminar-netfpga-the-flexible-open-source-networking-platform",
+            "Date": "April 07, 2014, 15:00pm",
+            "Location": {
+                "Title": "Room 011, EE-Classes Bldg., Tel-Aviv Unviversity",
+                "Link": false
+            },
+            "Goal": "One hour NetFPGA Introductory",
+            "Host": "Noa Zilberman",
+            "Website": {
+                "Title": "Tel-Aviv University",
+                "Link": "http://www.eng.tau.ac.il/index.php?option=com_jevents&task=icalrepeat.detail&evid=1121&Itemid=292&year=2014&month=04&day=07&title=electrical-eng-seminar-netfpga-the-flexible-open-source-networking-platform"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_tau.pdf"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_TAU.pptx"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Aston University",
+            "Link": "http://www.aston.ac.uk/eas/research/groups/photonics/seminars/",
+            "Date": "February 7, 2014, 10:00am",
+            "Location": {
+                "Title": "MB530a, Seminar Room, School of Engineering and Applied Science, Aston University, Aston Triangle, Birmingham, B4 7ET, UK",
+                "Link": false
+            },
+            "Goal": "Introduction to NetFPGA",
+            "Host": "Neelakandan Manihatty Bojan",
+            "Website": {
+                "Title": "Aston University",
+                "Link": "http://www.aston.ac.uk/eas/research/groups/photonics/seminars/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "University of Bochum",
+            "Link": "http://www.ruhr-uni-bochum.de/index_en.htm",
+            "Date": "December 12, 2013, 11:00am",
+            "Location": {
+                "Title": "Universitätsstraße 150 | 44801 Bochum",
+                "Link": false
+            },
+            "Goal": "One hour NetFPGA Introductory",
+            "Host": "Georgina Kalogeridou",
+            "Website": false,
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Long Island University, NY",
+            "Link": "http://www.liu.edu/",
+            "Date": "November 25, 2013, 12:00am",
+            "Location": {
+                "Title": "LIU Brooklyn, 1 University Plaza, Brooklyn New York, 11201-8423",
+                "Link": false
+            },
+            "Goal": "One hour NetFPGA Introductory",
+            "Host": "Georgina Kalogeridou",
+            "Website": false,
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+                "Title" : "Microsoft Research Cambridge",
+                "Link" : "http://talks.cam.ac.uk/talk/index/45652",
+                "Date" : "June 5, 2013, 11:00am",
+                "Location" : {
+                    "Title" : "Auditorium, Microsoft Research Ltd, 21 Station Road, Cambridge, CB1 2FB",
+                    "Link" : "http://research.microsoft.com/en-us/labs/cambridge/visit.aspx"
+                },
+                "Goal": "One hour 10G Introductory",
+                "Host": "Andrew Moore",
+                "Website": {
+                    "Title" : "Microsoft Research Cambridge",
+                    "Link" : "http://talks.cam.ac.uk/talk/index/45652"
+                },
+                "Target_Platform" : false,
+                "Slides": false
+            },
+            {
+                "Title" : "Carnegie Mellon University",
+                "Link" : "http://www.pdl.cmu.edu/SDI/2013/041213.html",
+                "Date" : "April 12, 2013, Noon",
+                "Location" : {
+                    "Title" : "RRobert Mehrabian Collaborative Innovation Center, 4720 Forbes Avenue, Pittsburgh, PA 15213 ",
+                    "Link" : false
+                },
+                "Goal": "One hour 10G Introductoryy",
+                "Host": "Adam Covington",
+                "Website": {
+                    "Title" : "Carnegie Mellon University",
+                    "Link" : "http://www.pdl.cmu.edu/SDI/2013/041213.html"
+                },
+                "Target_Platform" : false,
+                "Slides": {
+                    "Day 1" : [
+                        {
+                            "Title" : "PDF",
+                            "Link" : "https://docs.google.com/file/d/0B4EuVzA5UdPRblBZcGhuOXlFNE0/edit?usp=sharing"
+                        },
+                        {
+                            "Title" : "PowerPoint",
+                            "Link" : "https://docs.google.com/file/d/0B4EuVzA5UdPRRDVVc3BSVjQ3aEk/edit?usp=sharing"
+                        }
+                    ]
+                }
+            },
+            {
+                "Title" : "University of Pennsylvania",
+                "Link" : "http://www.upenn.edu/",
+                "Date" : "April 11, 2013, 16:30pm",
+                "Location" : {
+                    "Title" : "337 Towne Bldg, University of Pennsylvania",
+                    "Link" : "http://goo.gl/maps/WVrsN"
+                },
+                "Goal": "One hour 10G Introductory",
+                "Host": "Andrew Moore",
+                "Website": false,
+                "Target_Platform" : false,
+                "Slides": false
+            },
+            {
+                "Title" : "Case Western Reserve University",
+                "Link" : "http://engineering.case.edu/eecs/node/415",
+                "Date" : "April 11, 2013, 11:30am-12:30pm",
+                "Location" : {
+                    "Title" : "Case Western Reserve University",
+                    "Link" : false
+                },
+                "Goal": "One hour 10G Introductory",
+                "Host": "Adam Covington",
+                "Website": {
+                    "Title" : "Case Western Reserve University",
+                    "Link" : "http://engineering.case.edu/eecs/node/415"
+                },
+                "Target_Platform" : false,
+                "Slides": {
+                    "Day 1" : [
+                        {
+                            "Title" : "PDF",
+                            "Link" : "https://docs.google.com/file/d/0B4EuVzA5UdPRblBZcGhuOXlFNE0/edit?usp=sharing"
+                        },
+                        {
+                            "Title" : "PowerPoint",
+                            "Link" : "https://docs.google.com/file/d/0B4EuVzA5UdPRRDVVc3BSVjQ3aEk/edit?usp=sharing"
+                        }
+                    ]
+                }
+            },
+            {
+                "Title" : "Princeton University",
+                "Link" : "http://www.cs.princeton.edu/events",
+                "Date" : "April 10, 2013, 16:30pm-17:30pm",
+                "Location" : {
+                    "Title" : "Princeton 402, Princeton University",
+                    "Link" : "http://etcweb.princeton.edu/pumap/#0105"
+                },
+                "Goal": "One hour 10G Introductory",
+                "Host": "Andrew Moore",
+                "Website": {
+                    "Title" : "Princeton University",
+                    "Link" : "http://www.cs.princeton.edu/events"
+                },
+                "Target_Platform" : false,
+                "Slides": false
+            },
+            {
+                "Title" : "RENCI",
+                "Link" : "http://www.renci.org/calendar/netfpga-the-flexible-open-source-networking-platform",
+                "Date" : "April 9, 2013, 15:00pm",
+                "Location" : {
+                    "Title" : "Biltmore Conference Room, Suite 590, RENCI",
+                    "Link" : "http://goo.gl/maps/z4vid"
+                },
+                "Goal": "One hour 10G Introductory",
+                "Host": "Adam Covington",
+                "Website": {
+                    "Title" : "RENCI",
+                    "Link" : "http://www.renci.org/calendar/netfpga-the-flexible-open-source-networking-platform"
+                },
+                "Target_Platform" : false,
+                "Slides": {
+                    "Day 1" : [
+                        {
+                            "Title" : "PDF",
+                            "Link" : "https://docs.google.com/file/d/0B4EuVzA5UdPRblBZcGhuOXlFNE0/edit?usp=sharing"
+                        },
+                        {
+                            "Title" : "PowerPoint",
+                            "Link" : "https://docs.google.com/file/d/0B4EuVzA5UdPRRDVVc3BSVjQ3aEk/edit?usp=sharing"
+                        }
+                    ]
+                }
+            },
+            {
+                "Title" : "University of Massachusetts Amherst",
+                "Link" : "http://ece.umass.edu/",
+                "Date" : "April 8, 2013, 15:35pm-16:25pm",
+                "Location" : {
+                    "Title" : "Marston 132, University of Massachusetts Amherst",
+                    "Link" : "http://goo.gl/maps/tYCO5"
+                },
+                "Goal": "One hour 10G Introductory",
+                "Host": "Andrew Moore",
+                "Website": false,
+                "Target_Platform" : false,
+                "Slides": false
+            },
+            {
+                "Title" : "University of Wisconsin, Madison",
+                "Link" : "https://www.cs.wisc.edu/",
+                "Date" : "April 2, 2013",
+                "Location" : {
+                    "Title" : "Room 4310, 1210 W. Dayton St, Madison, WI 53706-1685",
+                    "Link" : "https://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=113757422678391670466.00043759530c2b42317d9&z=17&om=1"
+                },
+                "Goal": "One hour NetFPGA 10G introduction",
+                "Host": "Andrew Moore",
+                "Website": false,
+                "Target_Platform" : false,
+                "Slides": false
+            }
+    ],
+    "Tutorials": [
+        {
+            "Title": "SIGCOMM 2017",
+            "Link": "http://conferences.sigcomm.org/sigcomm/2017/tutorial-P4-NetFPGA.html",
+            "Date": "August 25, 2017",
+            "Location": {
+                "Title": "SIGCOMM 2017, UCLA",
+                "Link": false
+            },
+            "Goal": "Hands-on, one day tutorial on P4-NetFPGA",
+            "Host": "Stephen Ibanez (Stanford University) and Noa Zilberman (Cambridge University)",
+            "Website": {
+                "Title": "Slides for P4→NetFPGA design flow workshop",
+                "Link": "https://github.com/NetFPGA/P4-NetFPGA-public/blob/master/slides/P4-NetFPGA-SIGCOMM-17/P4-NetFPGA_SIGCOMM_2017_v2.pdf"
+            }
+        },
+        {
+            "Title": "FPL 2015",
+            "Link": "http://fpl2015.org/?page=tutorials#t1",
+            "Date": "August 31, 9:00am-12:30pm",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": "http://www.imperial.ac.uk/visit/campuses/south-kensington/"
+            },
+            "Goal": "Half-day tutorial on Rapid Prototyping of High Bandwidth Devices in Open Source",
+            "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "Open Source",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/fpl-august-2015/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "SIGCOMM",
+            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
+            "Date": "August 17-21, 2015, TBD time",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": false
+            },
+            "Goal": "Demonstrate Open Source Hardware including NetFPGA and OSNT",
+            "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "Demo",
+                "Link": "http://conferences.sigcomm.org/sigcomm/2015/papers.php"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "SIGCOMM",
+            "Link": "http://conferences.sigcomm.org/sigcomm/2015/",
+            "Date": "August 17, 2015, TBD time",
+            "Location": {
+                "Title": "London, Imperial College",
+                "Link": false
+            },
+            "Goal": "Half-day tutorial on Open Source Hardware including NetFPGA and OSNT",
+            "Host": false,
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "Open Source Networking",
+                "Link": "http://conferences.sigcomm.org/sigcomm/2015/tutorial-ohwn.php"
+            },
+            "Slides": {
+                    "Day 1" : [
+                        {
+                            "Title" : "PDF",
+                            "Link" : "https://www.dropbox.com/s/q094jabalf5kahj/2015_SIGCOMM_tutorial.pdf?dl=0"
+                        }
+                    ]
+            }
+        },
+        {
+            "Title": "SBRC 2015",
+            "Link": "http://sbrc2015.ufes.br/eng/",
+            "Date": "May 20, 2015, 8:30am-10:00am & 16:00pm-17:30pm",
+            "Location": {
+                "Title": "Vitoria Brazil",
+                "Link": false
+            },
+            "Goal": "NetFPGA 4-Hours Tutorial ",
+            "Host": "Cesar Marcondes, Ricardo Menotti, Pablo Goulart, Ítalo Cunha, Marcos A. M. Vieira",
+            "Website": {
+                "Title": "NetFPGA Tutorial",
+                "Link": "http://sbrc2015.ufes.br/eng/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "NetSoft",
+            "Link": "http://sites.ieee.org/netsoft/",
+            "Date": "April 14-16, 2015",
+            "Location": {
+                "Title": "University College London",
+                "Link": "http://www.ucl.ac.uk/"
+            },
+            "Goal": "An Integrated Environment for Open-Source Network Softwarization",
+            "Host": false,
+            "Website": {
+                "Title": "An Integrated Environment for Open-Source Network Softwarization",
+                "Link": "http://sites.ieee.org/netsoft/demos/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "LATINCOM 2012",
+            "Link": "http://www.ieee-latincom.org/2012/index.php?option=com_content&view=article&id=64&Itemid=253",
+            "Date": "October 10, 2012",
+            "Location": {
+                "Title": "Cuenca, Ecuador",
+                "Link": false
+            },
+            "Goal": "Introductory Tutorial",
+            "Host": "Cesar D. Guerrero",
+            "Website": {
+                "Title": "LATINCOM 2012",
+                "Link": "http://www.ieee-latincom.org/2012/index.php?option=com_content&view=article&id=64&Itemid=253"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRX0pBRm5Ub1lVQms"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPReENMT2VMSWk1Tm8"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Indiana Hands-on Tutorial 2012",
+            "Link": "http://www.iub.edu/",
+            "Date": "June 18-19, 2012",
+            "Location": {
+                "Title": "Indiana University, Bloomington",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": "Adam Covington",
+            "Website": false,
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRNlhSZHdPcHU1aFk"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRRUcyUHFpcTN2MTQ"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRVld2d1VsWDVjaGM"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRRUcyUHFpcTN2MTQ"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Sigmetrics/Performance 2012",
+            "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/sigmetrics2012/index.html",
+            "Date": "June 15, 2012",
+            "Location": {
+                "Title": "London, United Kingdom",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "Andrew Moore and the Cambridge NetFPGA Group",
+            "Website": {
+                "Title": "Sigmetrics/Performance 2012",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/sigmetrics2012/index.html"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Tokyo, Japan (near CoNext)",
+            "Link": "#/events/2011_CoNext/",
+            "Date": "December 5, 2011",
+            "Location": {
+                "Title": "Tokyo, Japan",
+                "Link": false
+            },
+            "Goal": "Half-day Introductory Tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "2011_CoNext",
+                "Link": "#/events/2011_CoNext/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRb2dJV3loVi1XcE0"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRa2x3c3lPQ3hleHM"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "EU/OFELIA",
+            "Link": "http://changeofelia.info.ucl.ac.be/",
+            "Date": "November 10, 2011",
+            "Location": {
+                "Title": "Berlin, Germany",
+                "Link": false
+            },
+            "Goal": "Half-day Introductory Tutorial",
+            "Host": "Andrew Moore",
+            "Website": {
+                "Title": "EU/OFELIA",
+                "Link": "http://changeofelia.info.ucl.ac.be/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "EU/PURSUIT",
+            "Link": "http://www.fp7-pursuit.eu/PursuitWeb/?page_id=463",
+            "Date": "September 1, 2011",
+            "Location": {
+                "Title": "Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "Full-day Tutorial",
+            "Host": "Andrew Moore",
+            "Website": {
+                "Title": "EU/PURSUIT",
+                "Link": "http://www.fp7-pursuit.eu/PursuitWeb/?page_id=463"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2011/2011_NetFPGA_Day_tutorial_Cambridge.pdf"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2011/2011_NetFPGA_Day_tutorial_Cambridge.ppt"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Toronto 2011",
+            "Link": "#/events/2011_SIGCOMM/",
+            "Date": "August 19, 2011",
+            "Location": {
+                "Title": "Toronto, Canada (near SIGCOMM)",
+                "Link": false
+            },
+            "Goal": "Informational Tutorial",
+            "Host": "Yashar Ganjali, Andrew Moore and Adam Covington",
+            "Website": {
+                "Title": "2011_SIGCOMM",
+                "Link": "#/events/2011_SIGCOMM/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRMjVOMG5xbEJKZjA"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRM3M1d05sbk9sMVU"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Beijing, China",
+            "Link": "http://netarchlab.tsinghua.edu.cn/",
+            "Date": "November 6-7, 2010",
+            "Location": {
+                "Title": "Tsinghua University, Beijing, China",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "Beijing, China",
+                "Link": "http://netarchlab.tsinghua.edu.cn/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Melbourne, Australia",
+            "Link": "http://www.ee.unimelb.edu.au/index.html",
+            "Date": "November 4-5, 2010",
+            "Location": {
+                "Title": "Melbourne, Australia",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "Melbourne, Australia",
+                "Link": "http://www.ee.unimelb.edu.au/index.html"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRUDNRUTNyZnRtTzg"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRdlF2RXUtWkRSY1E"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRelZRVTNUeXZIRVU"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRNmVkLU1lRkJDWkU"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Crete, Greece",
+            "Link": "http://www.ics.forth.gr/netfpga",
+            "Date": "September 16-17, 2010",
+            "Location": {
+                "Title": "Crete, Greece",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": "Manolis Katevenis and FORTH (Foundation for Research & Technology)",
+            "Website": {
+                "Title": "Crete, Greece",
+                "Link": "http://www.ics.forth.gr/netfpga"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRdUphR1BJNGNNU1E"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRUzM4TXpreVB4bVU"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRMDVVdGJWSnRyUzg"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRQWxDWU9qcGp3ZDQ"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Delaware, USA",
+            "Link": "http://www.cis.udel.edu/",
+            "Date": "June 2-3, 2010",
+            "Location": {
+                "Title": "University of Delaware",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "Delaware, USA",
+                "Link": "http://www.cis.udel.edu/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRcHkxbUkwdThlWGM"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRdmJCNEFYYUpNYlk"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRZWVIejRoek1QeHM"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRU0tfNXBkaFBJcVk"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Beijing, China",
+            "Link": "http://netarchlab.tsinghua.edu.cn/",
+            "Date": "May 15-16, 2010",
+            "Location": {
+                "Title": "Tsinghua University",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "Beijing, China",
+                "Link": "http://netarchlab.tsinghua.edu.cn/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRS1g0bkhWYnNBblk"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRa3lScEdDNjh0X00"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRQjdNcHFKeFF0RGs"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRNTJWSEpiaU5Fak0"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Kentucky, USA",
+            "Link": "http://www.netlab.uky.edu/",
+            "Date": "April 14-15, 2010",
+            "Location": {
+                "Title": "University of Kentucky",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "Kentucky, USA",
+                "Link": "http://www.netlab.uky.edu/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "IETF 77",
+            "Link": "#/events/2010_IETF/",
+            "Date": "March 21, 2010",
+            "Location": {
+                "Title": "Anaheim, CA, USA",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "2010_IETF",
+                "Link": "#/events/2010_IETF/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRRG9FTkZDenZXdk0"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRbnVTd01LYWp3RXc"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "FPL 19",
+            "Link": "http://www.liberouter.org/",
+            "Date": "September 3-4, 2009",
+            "Location": {
+                "Title": "Brno Univeristy of Technology, Lab Room L314",
+                "Link": false
+            },
+            "Goal": "Hands-on, Two-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "FPL 19",
+                "Link": "http://www.liberouter.org/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Seoul, South Korea",
+            "Link": "http://www.useoul.edu/",
+            "Date": "February 25-26, 2009",
+            "Location": {
+                "Title": "Seoul National University",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "Sue B. Moon (KAIST) & Dae Young KIM",
+            "Website": {
+                "Title": "Seoul, South Korea",
+                "Link": "http://www.useoul.edu/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Cambridge, UK",
+            "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/index.html",
+            "Date": "September 16, 2008",
+            "Location": {
+                "Title": "University of Cambridge",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "Andew Moore and the Cambridge NetFPGA Group",
+            "Website": {
+                "Title": "Cambridge, UK",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/index.html"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/NetFPGA-Day1-Cambridge-v2.pdf"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/NetFPGA-Day1-Cambridge-v2.ppt"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/NetFPGA-Day2-Cambridge-v2.pdf"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/NetFPGA-Day2-Cambridge-v2.ppt"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Bruno, Czech Republic",
+            "Link": "http://www.liberouter.org/",
+            "Date": "September 5, 2008",
+            "Location": {
+                "Title": "Brno University",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "Jan Korenek, Martin Zadnik, Jiri Novotny",
+            "Website": {
+                "Title": "Bruno, Czech Republic",
+                "Link": "http://www.liberouter.org/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRN3RETUp4ODRHSGM"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRNkNCcnhXcmM4Z28"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "SIGCOMM 2008",
+            "Link": "#/events/2008_SIGCOMM/",
+            "Date": "August 17, 2008",
+            "Location": {
+                "Title": "Seattle, WA, USA",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": false,
+            "Website": {
+                "Title": "2008_SIGCOMM",
+                "Link": "#/events/2008_SIGCOMM/"
+            },
+            "Target_Platform" : false,
+            "Slides": false
+        },
+        {
+            "Title": "Bangalore, India",
+            "Link": "#/events/2008_India/",
+            "Date": "May 15-16, 2008",
+            "Location": {
+                "Title": "Indian Institute of Science (IISc)",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "Veena Kumar of the Xilinx University Program of India",
+            "Website": {
+                "Title": "2008_India",
+                "Link": "#/events/2008_India/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRRmVwN1FaTFRoalk"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRS1lLNzdWdy0zY28"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Beijing, China",
+            "Link": "#/events/2008_China/",
+            "Date": "April 23, 2008",
+            "Location": {
+                "Title": "Beijing Jiaotong University",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "Kevin Xie and Walkie Que of the Xilinx University Program in China and Lian Shu (Vero) Zheng of Huawei",
+            "Website": {
+                "Title": "2008_China",
+                "Link": "#/events/2008_China/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPReGRmbWQwQUhqWlE"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRWkk2SUNVQ1Y4NVE"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "EuroSys 2008",
+            "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/eurosys-march-2008/index.html",
+            "Date": "March 31, 2008",
+            "Location": {
+                "Title": "Glasgow, Scotland",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "Andrew Moore of the University of Cambridge",
+            "Website": {
+                "Title": "EuroSys 2008",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/eurosys-march-2008/index.html"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRZllFMzVjWTJJNDA"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRWkk2SUNVQ1Y4NVE"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Sydney, Australia",
+            "Link": "#/events/2008_NICTA/",
+            "Date": "February 6, 2008",
+            "Location": {
+                "Title": "University of New South Wales",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "National Information and Communications Technology (NICTA)",
+            "Website": {
+                "Title": "2008_NICTA",
+                "Link": "#/events/2008_NICTA/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPROTJkNmZmcGp2VWs"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPROTJkNmZmcGp2VWs"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Hot Interconnects",
+            "Link": "#/events/2007_HotI/",
+            "Date": "August 24, 2007",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "IEEE Hot Interconnects (HotI)",
+            "Website": {
+                "Title": "2007_HotI",
+                "Link": "#/events/2007_HotI/"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRM1lCT1lMR2N4Z3M"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRVHVhcWNNenhMcWs"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "ACM SigMetrics 2007",
+            "Link": "http://www.cs.cmu.edu/~sigm07/workshops.html",
+            "Date": "June 12, 2007",
+            "Location": {
+                "Title": "San Diego, CA",
+                "Link": false
+            },
+            "Goal": "Hands-on, One-day tutorial",
+            "Host": "ACM SigMetrics 2007: International Conference on Measurement and Modeling of Computer Systems",
+            "Website": {
+                "Title": "ACM SigMetrics 2007",
+                "Link": "http://www.cs.cmu.edu/~sigm07/workshops.html"
+            },
+            "Target_Platform" : false,
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPROHp0UHF1QVdJWnc"
+                    }
+                ]
+            }
+        }
+    ],
+    "Camps": [
+        {
+            "Title": "NetFPGA Summer School 2017",
+            "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/",
+            "Date": "July 25-29, 2017",
+            "Location": {
+                "Title": "University of Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "A five day summit for all NetFPGA developers",
+            "Website": {
+                "Title": "2017 Summer School",
+                "Link": "https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "NetFPGA Training School",
+            "Link": "https://newnet.telecom-paristech.fr/index.php/events/netfpga-training-school/",
+            "Date": "July 25-29, 2017",
+            "Location": {
+                "Title": "Telecom ParisTech",
+                "Link": false
+            },
+            "Goal": "Explain characteristics of NetFPGA and its applications",
+            "Website": {
+                "Title": "NetFPGA Training School",
+                "Link": "https://newnet.telecom-paristech.fr/index.php/events/netfpga-training-school/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "NetFPGA Developers Summit 2017",
+            "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017",
+            "Date": "April 20-21, 2017",
+            "Location": {
+                "Title": "University of Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "A two-days summit for all NetFPGA developers",
+            "Website": {
+                "Title": "2017_Summit",
+                "Link": "https://github.com/NetFPGA/NetFPGA-public/wiki/NetFPGA-Developers-Summit-2017"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "Technion",
+            "Link": "http://www.technion.ac.il/en/",
+            "Date": "August 2-6, 2015",
+            "Location": {
+                "Title": "Technion - Israel Institute of Technology",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for students, researchers and faulty",
+            "Host": "TCE - Technion Computer Engineering Center",
+            "Target_Platform" : "NetFPGA-SUME",
+            "Website": {
+                "Title": "One-week hands-on course",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/technion-august-2015/"
+            },
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF1",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKd1lWcVpjclhaRXc"
+                    },
+                    {
+                        "Title": "PDF2",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKMFpIakNXSndVMFk"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKbDVqNk9QNUJUYVU"
+                    }
+                ],
+                "Day 3": [
+                     {
+                        "Title": "PDF1",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKNE1IdGlYdUdyN1k"
+                    },
+                    {
+                        "Title": "PDF2",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKcUthSG5hQWZST1U"
+                    }
+                ],
+                "Day 4": [
+                    {
+                        "Title": "PDF1",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKS0luNXBwQVlsSUE"
+                    },
+                    {
+                        "Title": "PDF2",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKVUFoVF91N1F3dWc"
+                    }
+                ],
+                "Day 5": [
+                    {
+                        "Title": "PDF",
+                        "Link": "https://drive.google.com/open?id=0B2ymRoiETCHKWW1ySVdpVVA5ajQ"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Cambridge Summer Camp 2013",
+            "Link": "http://bit.ly/11K1Vub",
+            "Date": "September 2-6, 2013",
+            "Location": {
+                "Title": "Cambridge University, UK",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for faculty, researchers and students",
+            "Host": "Cambridge NetFPGA Group",
+            "Website": {
+                "Title": "Cambridge Summer Camp 2013",
+                "Link": "http://bit.ly/11K1Vub"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "Stanford Summer Camp 2013",
+            "Link": "#/events/2013_SummerCamp/",
+            "Date": "July 29-August 2, 2013",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for professors and students",
+            "Host": "Stanford NetFPGA Group",
+            "Website": {
+                "Title": "2013_SummerCamp",
+                "Link": "#/events/2013_SummerCamp/"
+            },
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/file/d/0B4EuVzA5UdPRN1dZY25OM253SVk"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "European Spring Camp 2013",
+            "Link": "http://netfpga.pl/",
+            "Date": "May 20-24, 2013",
+            "Location": {
+                "Title": "Poznan University of Technology, Poznań, Poland",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for professors/faculty, researchers and students",
+            "Host": "Marek Michalski, PUT and Cambridge NetFPGA Group",
+            "Website": {
+                "Title": "European Spring Camp 2013",
+                "Link": "http://netfpga.pl/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "Summer Camp 2012",
+            "Link": "#/events/2012_SummerCamp/",
+            "Date": "July 30-August 3, 2012",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for professors and students",
+            "Host": "Stanford NetFPGA Group",
+            "Website": {
+                "Title": "2012_SummerCamp",
+                "Link": "#/events/2012_SummerCamp/"
+            },
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRUVdSLXlhNXVRT0E"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "https://docs.google.com/open?id=0B4EuVzA5UdPRc0lvTXJGYU8zdkk"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Summer Camp 2011",
+            "Link": "#/events/2011_SummerCamp/",
+            "Date": "August 1-5, 2011",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for professors and students",
+            "Host": "Stanford NetFPGA Group",
+            "Website": {
+                "Title": "2011_SummerCamp",
+                "Link": "#/events/2011_SummerCamp/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "Summer Camp 2010",
+            "Link": "#/events/2010_SummerCamp/",
+            "Date": "August 9-13, 2010",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for professors and students",
+            "Host": "Stanford NetFPGA Group",
+            "Website": {
+                "Title": "2010_SummerCamp",
+                "Link": "#/events/2010_SummerCamp/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "Spring Camp 2010",
+            "Link": "http://bit.ly/6zvcw6",
+            "Date": "March 15-19, 2010",
+            "Location": {
+                "Title": "Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "Hands-on, extended week-long event for professors and students",
+            "Host": "Andrew Moore, and the Cambridge NetFPGA Group",
+            "Website": {
+                "Title": "Spring Camp 2010",
+                "Link": "http://bit.ly/6zvcw6"
+            },
+            "Slides": {
+                "Day 1": [
+                    {
+                        "Title": "PDF",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-march-2010/NetFPGA-spring10-Day1.pdf"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-march-2010/NetFPGA-spring10-Day1.ppt"
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "Title": "PDF",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-march-2010/NetFPGA-spring10-Day2.pdf"
+                    },
+                    {
+                        "Title": "PowerPoint",
+                        "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-march-2010/NetFPGA-spring10-Day2.ppt"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Summer Camp 2008",
+            "Link": "#/events/2008_SummerCamp/",
+            "Date": "August 4-8, 2008",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Hands-on, week-log event for professors and students",
+            "Host": "Stanford NetFPGA Group",
+            "Website": {
+                "Title": "2008_SummerCamp",
+                "Link": "#/events/2008_SummerCamp/"
+            },
+            "Slides": false
+        }
+    ],
+    "Developers_Workshops": [
+        {
+            "Title": "2nd North American NetFPGA Developer's Workshop",
+            "Link": "#/events/2010_WorkshopNorthAmerican/",
+            "Date": "August 12-13, 2010",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Present and demonstrate new contributed projects",
+            "Host": "Yashar Ganjali (University of Toronto) and Andrew Moore (Cambridge University)",
+            "Website": {
+                "Title": "2010_WorkshopNorthAmerican",
+                "Link": "#/events/2010_WorkshopNorthAmerican/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "1st European NetFPGA Developer's Workshop",
+            "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/eurodev2010/",
+            "Date": "July 2, 2010",
+            "Location": {
+                "Title": "Cambridge, UK",
+                "Link": false
+            },
+            "Goal": "Present and demonstrate new contributed projects",
+            "Host": "Andrew Moore (Cambridge University) and Satnam Singh (Microsoft Research)",
+            "Website": {
+                "Title": "1st European NetFPGA Developer's Workshop",
+                "Link": "http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/eurodev2010/"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "1st Asia NetFPGA Developer's Workshop",
+            "Link": "http://fif.kr/AsiaNetFPGAws",
+            "Date": "June 14, 2010",
+            "Location": {
+                "Title": "KAIST, Daejeon, Korea",
+                "Link": false
+            },
+            "Goal": "Present and demonstrate new contributed projects",
+            "Host": "John Lockwood (Algo-Logic Systems) and Seung-Joon Seok (Kyungnam University)",
+            "Website": {
+                "Title": "1st Asia NetFPGA Developer's Workshop",
+                "Link": "http://fif.kr/AsiaNetFPGAws"
+            },
+            "Slides": false
+        },
+        {
+            "Title": "1st North American NetFPGA Developer's Workshop",
+            "Link": "#/events/2009_WorkshopNorthAmerican/",
+            "Date": "August 13-14, 2009",
+            "Location": {
+                "Title": "Stanford University, CA",
+                "Link": false
+            },
+            "Goal": "Present and demonstrate new contributed projects",
+            "Host": "John Lockwood (Stanford) and Andrew Moore (University of Toronto)",
+            "Website": {
+                "Title": "2009_WorkshopNorthAmerican",
+                "Link": "#/events/2009_WorkshopNorthAmerican/"
+            },
+            "Slides": false
+        }
+    ],
+    "Contests": [
+        {
+            "Title": "NetFPGA Design Challenge 2017",
+            "Link": "http://www.cl.cam.ac.uk/research/srg/netfpga/challenge2017/",
+            "Date": "April 18th, 2017"
+        },
+        {
+            "Title": "NetFPGA Design Contest 2010",
+            "Link": false,
+            "Start": "February 9, 2010",
+            "End": "June 1, 2010",
+            "Details_and_Rules": false
+        }
+    ]
+}

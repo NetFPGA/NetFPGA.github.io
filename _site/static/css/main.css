@@ -1,0 +1,130 @@
+* { outline: 0 }
+
+html,
+body {
+	width: 100%;	
+	font: 400 1em sans-serif;
+	overflow: auto;
+	overflow:hidden;
+}
+
+body { background: #000 }
+.clear { clear: both }
+
+input,
+textarea { -webkit-appearance: none }
+
+/* --- MID-HEADER --- */
+#mid-header {
+	position: absolute;
+	top: 50%;
+	margin-top: -200px;
+	width: 100%;
+	text-align: center;
+	z-index: 15;
+}
+
+#mid-header > .logo {
+	color: #FFF;
+	font: 3.5em 'Megrim', sans-serif;
+}
+
+#mid-header > .descr {
+	margin: 20px auto;
+	width: 100%;
+	color: #FFF;
+	font-weight: 300;
+}
+/* --- // MID-HEADER --- */
+
+/* --- COUNTDOW --- */
+#countdown > .body > div { display: inline-block }
+
+#countdown > .body .info { 
+	position: relative;
+	top: -160px;
+	color: #FFF;
+}
+
+#countdown > .body .info > .num { font: 3.5em 'Megrim', sans-serif }
+
+#countdown > .body .info > .label {
+	margin-top: 5px;
+	font-weight: 300;
+}
+/* --- // COUNTDOW --- */
+
+/* --- SLIDER --- */
+#slider {
+	width: 100%;
+	height: 100%;
+}
+
+#slider > .pattern {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+	background: #000;
+	background: rgba(0, 0, 0, .5) url(../img/pattern.png);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+	
+	z-index: 10;
+	behavior: url(static/css/ie-fix/PIE.htc);
+}
+
+#slider > .photos {
+	width: 100%;
+	height: 100%;
+	
+	-webkit-transition: all 0.6s ease; 
+	   -moz-transition: all 0.6s ease; 
+		 -o-transition: all 0.6s ease; 
+		    transition: all 0.6s ease;
+}
+
+body.page > #slider > .photos {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	behavior: url(static/css/ie-fix/PIE.htc);
+}
+
+#slider > .photos div {
+	height: 100%;
+	background-position: 0 50%;
+	
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+			background-size: cover;
+}
+
+#slider > .photos div.w {
+	-webkit-background-size: 100% auto;
+	   -moz-background-size: 100% auto;
+	     -o-background-size: 100% auto;
+			background-size: 100% auto;
+}
+
+#slider > .photos div.h {
+	-webkit-background-size: auto 100%;
+	   -moz-background-size: auto 100%;
+	     -o-background-size: auto 100%;
+			background-size: auto 100%;
+}
+
+#slider > .photos > .b > div {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		opacity: 0;
+	behavior: url(static/css/ie-fix/PIE.htc);
+}
+/* --- // SLIDER --- */

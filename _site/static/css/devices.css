@@ -1,0 +1,101 @@
+@media all and (max-width: 1023px),
+	   all and (max-device-width: 1023px),
+	   all and (min-width: 1024px) and (max-height: 660px) {
+
+	#countdown > .body .info { top: -135px }	   
+	   
+}
+
+@media all and (min-width: 1024px) and (max-height: 660px) {
+	#countdown > .body .info {
+		top: -160px;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : landscape)  { 
+	
+	#countdown > .body .info { top: -160px }	
+	
+}
+
+
+@media all and (max-width: 700px),
+	   all and (max-device-width: 700px) {
+
+	#countdown { display: none }
+	#mid-header { margin-top: -100px }
+	   
+}
+
+@media all and (max-width: 450px),
+	   all and (max-device-width: 450px) {
+	
+	.page > h2 { padding: 25px 15px }
+	.page > .body { width: auto }
+	
+	.page form span {
+		color: #2C3E50;
+		font: 300 1em sans-serif;
+		background: #FFF;
+		border: 0;
+		
+		cursor: text;
+		display: block;
+	}
+	
+	.page form span.hover,
+	.page form span:hover { border: 0 }
+	
+	.page form input,
+	.page form input:hover,
+	.page form input.hover {
+		border: 1px solid #BDC3C7;
+		
+		-webkit-border-radius: 3px;
+		   -moz-border-radius: 3px;
+			    border-radius: 3px;
+	}
+	
+	#newsletter > .body > form {
+		padding: 25px;
+		width: auto;
+	}
+	
+	#about .descr { padding: 0 30px }
+	
+	#newsletter form button {
+		margin: 5px auto;
+		display: block;
+	}
+	
+	#feedback form {
+		width: auto;
+		text-align: center;
+	}
+	
+	.page form textarea {
+		max-width: 275px;
+		min-width: 275px;
+			width: 275px;
+	}
+	
+	#feedback .code {
+		margin: 10px auto 0;
+		width: 300px;
+		text-align: center;
+	}
+	
+	#feedback .code > div { display: inline-block }
+	#feedback .code > div > input { width: 60px }
+	#feedback form button { margin-top: 15px }
+	#feedback form > div > span { display: none }
+	
+	#feedback .code > .last {
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}	   
+}

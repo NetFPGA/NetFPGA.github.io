@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				
+		<title>NetFPGA</title>
+		
+		<link rel="stylesheet" type="text/css" href="static/css/style.css">
+		
+		<script src="static/js/plugins/css3-mediaqueries.js"></script>
+		
+		<!--[if lt IE 9]>
+			<script>
+				document.createElement('header');
+				document.createElement('nav');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('footer');
+				
+				window.IE8 = true;
+			</script>
+			
+			<link rel="stylesheet" type="text/css" href="static/css/ie-fix/ie8.css">
+		<![endif]-->
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
+		<script src="config.js"></script>
+		
+		<script src="static/js/plugins/queryLoader.custom.js"></script>
+		<script src="static/js/plugins/jq.countdown.min.js"></script>
+		<script src="static/js/plugins/easing.js"></script>
+		
+		<script src="static/js/preloader.js"></script>
+		<script src="static/js/countdown.js"></script>
+		<script src="static/js/slider.js"></script>
+		<script src="static/js/menu.js"></script>
+		
+		<script src="static/js/main.js"></script>
+	</head>
+	
+	<body>
+		
+		<!-- PRE-LOADER -->
+		<section id="pre-loader" class="not-ready">
+			<div class="text">
+				<h1>Loading</h1>
+				<div class="progress-bar">
+					<div class="perc">0%</div>
+					<div class="line"></div>
+				</div>
+			</div>
+			<div class="squares"></div>
+		</section>
+		<!-- // PRE-LOADER -->
+		
+		<!-- SLIDER -->
+		<section id="slider">
+			<div class="pattern"></div>
+			<div class="photos">
+				<div class="n"></div>
+				<div class="b"></div>
+			</div>
+		</section>
+		<!-- // SLIDER -->
+		
+		
+		<!-- COUNTDOWN -->
+		<section id="mid-header">
+			
+			<div class="logo"><a
+href="http://www.netfpga.org/main.html"><img src="static/bg/logo.png"
+alt="Logo"></a></div>
+			<div class="descr">WEBSITE REFRESH COMING SOON</br></br>
+		    <span><a href="http://www.netfpga.org/main.html"
+style="color:#00cced;">continue to current website</a></span></div>
+
+			<div id="countdown">
+				<div class="body">
+					<div id="days">
+						<canvas></canvas>
+						<div class="info">
+							<div class="num">--</div>
+							<div class="label">days</div>
+						</div>
+					</div>
+					
+					<div id="hrs">
+						<canvas></canvas>
+						<div class="info">
+							<div class="num">--</div>
+							<div class="label">hours</div>
+						</div>
+					</div>
+					
+					<div id="min">
+						<canvas></canvas>
+						<div class="info">
+							<div class="num">--</div>
+							<div class="label">minutes</div>
+						</div>
+					</div>
+					
+					<div id="sec">
+						<canvas></canvas>
+						<div class="info">
+							<div class="num">--</div>
+							<div class="label">seconds</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // COUNTDOWN -->
+		
+       
+		<div id="ct" style="display: none;"></div>
+	</body>
+</html>

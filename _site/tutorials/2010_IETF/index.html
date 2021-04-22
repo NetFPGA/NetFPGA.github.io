@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	 
+	 <title>IETF Tutorial - Mar 21, 2010 - NetFPGA</title>
+	 
+
+   <link rel="stylesheet" href="../../css/mainstyles.css" type="text/css" />
+	 <link rel="stylesheet" href="../../css/tutorials.css" type="text/css" />
+	 <base href="http://netfpga.org/" /> 
+</head>
+<body>
+
+<div id="mastheadContainer">
+	
+<table width="815" height="76" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-bottom: 20px;">
+  <tr>
+    <td height="64" colspan="2" valign="top" background="images/header_netfpga_logo.png">
+      <div id="header" align="right">
+        <table width="815" height="77" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="230" height="64" align="right" valign="top">&nbsp;</td>
+            <td width="565" height="64"><div align="left"><a href="index.html">Home</a> &nbsp;&nbsp; <a href="project_table.html">Applications</a>&nbsp;&nbsp; <a href="events.html">Events</a>&nbsp;&nbsp; <a href="news.html">News</a>&nbsp;&nbsp; <a href="videos.html">Videos</a>&nbsp;&nbsp; <a href="wiki.html">Wiki</a>&nbsp;&nbsp; <a href="http://forums.netfpga.org/">Forums</a>&nbsp;&nbsp; <a href="learn_more.html">About</a></div></td>
+          </tr>
+        </table>
+    </div></td>
+  </tr>
+</table>
+
+</div>
+
+<div id="navbt"></div>
+
+<div id="mainContentWrapper">
+	<div id="mainTutorial">
+	  <h1 id="pagename" class="topOfDiv">
+	<a href="http://www.ietf.org" onclick="link_popup(this, ''); return false;">
+		IETF Tutorial 2010 (Anaheim)
+	</a>
+</h1>
+<h2>
+	Hands-on with the NetFPGA to build a Gigabit-rate Router
+</h2>
+
+<p>
+	<b>Presented by: </b><a href="http://www.altusfidelitas.org" onclick="link_popup(this, ''); return false;">G. Adam Covington</a>, <a href="http://www.stanford.edu/~hyzeng/" onclick="link_popup(this, ''); return false;">James Zeng</a> of the
+                        <a href="http://yuba.stanford.edu/" onclick="link_popup(this, ''); return 
+false;">High Performance Network Group</a> at
+                        <a href="http://stanford.edu/" onclick="link_popup(this, ''); return false
+;">Stanford University</a>
+</p>
+<p><b>Date:</b> Sunday, March 21, 2010</p>
+<p><b>Time:</b> 9am - 5pm</p>
+<table>
+	<tbody>
+		<tr><td><b>Location:</b></td><td>Manhattan Room, Anahiem Hilton</td></tr>
+		<tr><td></td><td>Anaheim, California</td></tr>
+		<tr><td></td><td>United States</td></tr>
+	</tbody>
+</table>
+
+<h2>Abstract</h2>
+<p>
+	An open platform called the <a href="http://www.NetFPGA.org/">NetFPGA</a>
+	has been developed at Stanford University.
+	The NetFPGA platform enables researchers and instructors to 
+	build high-speed, hardware-accelerated networking systems. 
+	The platform can be used in the classroom to teach students how to build 
+	Ethernet switches and Internet Prototcol (IP) routers using hardware 
+	rather than software. The platform can be used by researchers to prototype 
+	advanced services for next-generation networks.
+</p>
+<p>
+	By using Field Programmable Gate Arrays (FPGAs), 
+	the NetFPGA enables new types of packet routing circuits to be 
+	implemented and detailed measurements of network traffic to be obtained. 
+	During the tutorial, we will use the NetFPGA to determine
+	the amount of memory needed to buffer TCP/IP data streaming through 
+	the Gigabit/second router.
+	Hardware circuits within the NetFPGA will be implemented
+	to measure and plot the occupancy of buffers.  
+	Circuits will be downloaded into reconfigurable hardware and tested with live, 
+	streaming Internet video traffic.
+</p>
+
+
+<p>
+	This full-day hands-on tutorial will be held in a classroom or laboratory 
+	equipped with ten PCs with NetFPGA hardware on Sunday, March 21, 2010.
+</p>
+
+<h2>Background</h2>
+
+<p>
+	Attendees will utilize a Linux-based PC equipped with NetFPGA hardware.
+A basic understanding of Ethernet switching and network routing is expected.
+Past experience with Verilog is useful but not required.  
+
+
+	This full-day tutorial extends the material presented at 
+	previous NetFPGA Turorials from 2007-2009 (FPL 2009, SIGCOMM 2008, Hot Interconnects 2007, SIGMETRICS 2007).
+	Information about previous events as well as a <a href="../../documents/handout_NetFPGA-2007_12_13.pdf">description</a>
+	of the NetFPGA Platform are available on-line from the <a href="/">NetFPGA</a> homepage.
+</p>
+
+<div class="centeredImage"><img src="https://lh5.googleusercontent.com/-l0553y81rr0/T4dRfmbxzHI/AAAAAAAAA08/5rh_NI4gU8Y/s967/IMG_0727.jpg" width="80%" alt="NetFPGA Tutorial"/></div>
+<div class="centeredImage"><img src="https://lh3.googleusercontent.com/-GPmZn7plOJg/T4dRa5uAxaI/AAAAAAAAAz8/c3ZaiUM1f6s/w500-h375-k/IMG_0734.jpg" width="80%" alt="NetFPGA Tutorial"/></div>
+<div class="centeredImage"><img src="https://lh4.googleusercontent.com/-xAm_dCjMofo/T4dRid_XAvI/AAAAAAAAA1Q/OfcrcHHfeiw/w342-h257-k/IMG_0736.jpg" width="80%" alt="NetFPGA Tutorial"/></div>
+
+<h2>Outline</h2>
+<div class="ulWrapper">
+	<ul>
+		<li>
+			<p>Introduction to the operation of an Internet Router</p>
+				<ul>
+					<li>
+					<p>Control plane</p>
+    					<ul>
+						<li>Routing protocols</li>
+						<li>Routing table</li>
+						<li>Management interfaces</li>
+					</ul> 
+				</li>
+				<li>
+					<p>Datapath</p>
+					<ul>
+						<li>Longest Prefix Match (LPM)</li>
+						<li>Classless Interdomain Routing (CIDR)</li>
+						<li>Header processing</li>
+						<li>Packet buffering</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	
+		<li>
+			<p>The NetFPGA Router</p>
+			<ul>
+				<li>
+					<p>Hardware</p>
+					<ul>
+						<li>Gigabit Ethernet interfaces</li>
+						<li>Field Programmable Gate Array (FPGA) Logic </li>
+						<li>Random Access Memory (RAM)</li>
+					</ul>
+				</li>
+				<li>
+					<p>Software</p>
+					<ul>
+						<li>Kernel-space driver</li>
+						<li>User-space applications</li>
+						<li>PCI host interface</li>
+					</ul>
+				</li>
+				<li>System configuration</li>
+			</ul>
+		</li>
+	
+		<li>
+			<p>Demonstration Topology</p>
+			<ul>
+				<li>
+					<p>Hardware</p>
+					<ul>
+						<li>Network of ten routers</li>
+						<li>Ethernet switch</li>
+						<li>Video server</li>
+						<li>High Definition (HD) video client</li>
+					</ul>
+				</li>
+				<li>
+					<p>Software</p>
+					<ul>
+						<li>PW-OSPF</li>
+						<li>Routing tables</li>
+						<li>Dynamic re-routing</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	
+		<li>
+			<p>Integrated Circuit Design</p>
+			<ul>
+				<li>
+					<p>Technologies</p>
+					<ul>
+						<li>Look-Up Tables (LUTs)</li>
+						<li>Configurable Logic Blocks (CLBs)</li>
+						<li>Field Programmable Gate Arrays (FPGAs)</li>
+					</ul>
+				</li>
+				<li>
+					<p>Verilog Hardware Description Langauge (HDL)</p>
+					<ul>
+						<li>Registers, integers, arrays</li>
+						<li>Multiplexers</li>
+						<li>Synchronous storage elements</li>
+						<li>Finite State Machines (FSMs)</li>
+					</ul>
+				</li>
+				<li>
+					<p>Hardware Debug</p>
+					<ul>
+						<li>Waveform monitor</li>
+						<li>In-circuit logic emulation</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+
+
+		<li>
+			<p>NetFPGA System Components</p>
+			<ul>
+				<li>Synthesis of tutorial router</li>
+				<li>
+					<p>Java-based Graphical User Interface (GUI)</p>
+					<ul>
+						<li>Configuration</li>
+						<li>Statistics</li>
+					</ul>
+				</li>
+				<li>
+					<p>Router architecture</p>
+					<ul>
+						<li>Pipeline</li>
+						<li>Queues</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+
+		<li>
+			<p>Buffer Size Experiment</p>
+			<ul>
+				<li>
+					<p>Experiment with TCP/IP flows</p>
+					<ul>
+						<li>Rule-of-thumb for the buffer size</li>
+						<li>Round-trip propation delay</li>
+						<li>Capacity of bottlneck link</li>
+						<li>Number of active flows</li>
+					</ul>
+				</li>
+				<li>Lower delay with smaller queues</li>
+			</ul>
+		</li>
+
+		<li>
+			<p>Enhanced Router</p>
+			<ul>
+				<li>
+					<p>Additional hardware</p>
+					<ul>
+						<li>Event capture module</li>
+						<li>Rate limiter</li>
+						<li>Delay module</li>
+					</ul>
+				</li>
+				<li>
+					<p>Experiments</p>
+					<ul>
+						<li>Netperf</li>
+						<li>HD video transport</li>
+					</ul>
+				</li>
+				<li>
+					<p>Life of packet through the system</p>
+					<ul>
+						<li>Description of blocks</li>
+						<li>Waveforms from logic analyzer</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<h2>About the presentors</h2>
+<div class="ulWrapper">
+	<ul>
+		<li><p class="presentorHead"><a href="http://www.altusfidelitas.org" onclick="link_popup(this, ''); return false;">Adam Covington</a></p>
+<p class="presentorDescription">
+Adam is a Research Associate of the High-Performance Network Group (HPN) at Stanford University.  He is currently working on the NetFPGA project, which enables researchers and instructors to build hardware-accelerated networking systems. Previously, he was a Research Associate with the Reconfigurable Network Group (RNG) at Washington University in St. Louis. While at Washington University he designed, and implemented clustering algorithms on FPGAs and supported a hardware accelerated classification system on the FPX platform.  Adam’s current research interests include reconfigurable systems, artificial intelligence (clustering and classification), and applications of artificial intelligence algorithms.  Adam completed a Bachelor of Science degree in Computer Engineering from Western Michigan University in April 2003 and accepted a Distinguished Masters of Science Fellowship from Washington University.  He completed his Masters of Science degree in Computer Science and Engineering from Washington University in December 2006.  Adam continues to provide support for the NetFPGA project which includes helping users worldwide as well as arranging and presenting tutorials.
+</p>
+</li>
+		<li><p class="presentorHead"><a href="http://www.stanford.edu/~hyzeng/">James Hongyi Zeng</a></p>
+<p class="presentorDescription">
+	James Hongyi Zeng received his Bachelor of Science degree in
+	Electrical Engineering from Tsinghua University, China in 2008, with a
+	concentration in wireless communication. He is currently pursuing a
+	PhD degree in Electrical Engineering at Stanford University. His
+	research mainly focuses on data center network, high performance
+	router architecture, and software defined radio. He has been working
+	on the NetFPGA platform since 2008 and is the core designer on the
+	next generation NetFPGA 10G platform. James has previously worked in
+	Microsoft Research Asia as a Visiting Student, where he worked on
+	GPU-based soft WiFi project.                            i
+</p>
+</li>
+	</ul>
+</div>
+
+<table id="schedule">
+	<caption>Schedule</caption>
+	<tbody>
+		<tr><td class="time">9:00</td><td class="dash">-</td><td class="time">10:30</td><td class="agendaItem">tutorial session</td></tr>
+		<tr><td class="time">10:30</td><td class="dash">-</td><td class="time">11:00</td><td class="agendaItem">coffee break</td></tr>
+		<tr><td class="time">11:00</td><td class="dash">-</td><td class="time">12:30</td><td class="agendaItem">tutorial session</td></tr>
+		<tr><td class="time">12:30</td><td class="dash">-</td><td class="time">1:30</td><td class="agendaItem">lunch</td></tr>
+		<tr><td class="time">1:30</td><td class="dash">-</td><td class="time">3:00</td><td class="agendaItem">tutorial session</td></tr>
+		<tr><td class="time">3:00</td><td class="dash">-</td><td class="time">3:30</td><td class="agendaItem">coffee break</td></tr>
+		<tr><td class="time">4:00</td><td class="dash">-</td><td class="time">5:30</td><td class="agendaItem">tutorial session</td></tr>
+	</tbody>
+</table>
+
+<h2>Registration</h2>
+<p class="bottomOfDiv">
+	Cost of the tutorial is $200.  
+	<a href="http://www.certain.com/system/profile/form/index.cfm?PKformID=0x870657c903">Register here to attend</a>
+</p>
+
+	</div>
+</div>
+
+<div id="navbt"></div>
+<div id="footer">
+      &copy; 2021  NetFPGA. 
+</div>
+<div id="google_analytics">
+        <script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-3542391-1");
+        pageTracker._setDomainName(".netfpga.org");     
+        pageTracker._trackPageview();
+        </script>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<article>
+	<h3>Publications featuring NetFPGA</h3><br/><br/><br/>
+	<div ng-repeat="(key,value) in Publications">
+		<h4>{{value.year}}</h4><br/><br/>
+		<ul ng-repeat="value1 in value.publications">
+			<li>{{value1}}</li>
+		</ul>
+	</div>
+</article>
