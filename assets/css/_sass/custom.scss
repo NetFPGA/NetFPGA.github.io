@@ -78,3 +78,19 @@
     padding: 100px 100px;
   }
 }
+
+
+img.header-image {
+  opacity: 0.5;
+  width: 100%;
+  height: auto
+}
+
+// Header
+
+header#hero {
+  background-image: url("/assets/images/netfpgasumelandscape.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 42%;
+}
