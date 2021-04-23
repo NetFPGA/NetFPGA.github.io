@@ -94,3 +94,15 @@ header#hero {
   background-position: right;
   background-size: 42%;
 }
+
+.news-collapse{
+  hr{
+    border-top: 1px solid #A3C1AD;
+  }
+}
+
+.events-collapse{
+  hr{
+    border-top: 1px dotted #A3C1AD;
+  }
+}
