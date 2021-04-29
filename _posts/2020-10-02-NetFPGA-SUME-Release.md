@@ -1,6 +1,6 @@
 ---
-posttitle: NetFPGA SUME Release 1.10.0
-postdate: 2020-10-02
+title: NetFPGA SUME Release 1.10.0
+date: 2020-10-02
 category: news
 ---
 
