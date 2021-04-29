@@ -2,14 +2,17 @@
 layout: page
 ---
 
-<p>
-  <a class="btn btn-primary" data-toggle="collapse" href=".news-collapse" role="button" aria-controls="newsCollapse">News</a>
-  <a class="btn btn-primary" data-toggle="collapse" href=".events-collapse" role="button" aria-controls="eventsCollapse">Events</a>
+<p class="card btn btn-primary check-container">
+  <input id="check-news" class="stretched-link" type="checkbox" data-toggle="collapse" href=".news-collapse" role="button" aria-controls="newsCollapse" checked>
+  <label class="check-label" for="check-news">News</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-events" class="stretched-link" type="checkbox" data-toggle="collapse" href=".events-collapse" role="button" aria-controls="eventsCollapse" checked>
+  <label class="check-label" for="check-events">Events</label>
 </p>
 <div class="posts">
-  <ul>
     {% for post in site.posts %}
-      <li class="collapse {{ post.category }}-collapse">
+      <article class="collapse show {{ post.category }}-collapse">
         <div class="">
           <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
           {% if post.presenter %}
@@ -28,7 +31,6 @@ layout: page
           <p>{{ post.content }}</p>
           <hr>
         </div>
-      </li>
+      </article>
     {% endfor %}
-  </ul>
 </div>

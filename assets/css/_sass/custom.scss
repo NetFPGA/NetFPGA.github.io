@@ -25,22 +25,6 @@
   color: #FF0000
 }
 
-.posts {
-  li{
-    list-style: none;
-
-    ul{
-      li {
-        list-style: disc;
-        }
-    }
-    ol{
-      li{
-        list-style: decimal;
-      }
-    }
-  }
-}
 
 .nobullets {
   li{
@@ -61,6 +45,7 @@
 .accordian .collapsed .card-title :after {
   content:"\f104";
 }
+
 
 .downloads {
   td{
@@ -86,13 +71,22 @@ img.header-image {
   height: auto
 }
 
+// Product Pages
+
+.FAQ {
+  margin-bottom: 0px;
+}
+
 // Header
 
 header#hero {
   background-image: url("/assets/images/netfpgasumelandscape.jpg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 42%;
+  background-size: contain;
+  @media (max-width: 768px){
+    background-size: cover;
+  }
 }
 
 .news-collapse{
@@ -103,6 +97,25 @@ header#hero {
 
 .events-collapse{
   hr{
-    border-top: 1px dotted #A3C1AD;
+    border-top: 1px solid #A3C1AD;
   }
+}
+
+.card{
+  &.check-container {
+    display: inline-block;
+    background-color: #A3C1AD;
+    border: 1px solid transparent;
+    border-color: #A3C1AD
+  }
+}
+
+.check-label {
+  margin-bottom: 0;
+}
+
+// General
+
+abbr[title] {
+  text-decoration: none;
 }
