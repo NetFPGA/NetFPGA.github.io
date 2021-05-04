@@ -16,7 +16,7 @@ layout: page
         <div class="">
           <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
           {% if post.presenter %}
-            <h3>presenter: {{ post.presenter }}</h3>
+            <h3>Presenter: {{ post.presenter }}</h3>
           {% endif %}
           <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
           {% if post.location %}
