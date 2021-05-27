@@ -5,8 +5,8 @@ category: events
 location: Beijing Jiaotong University
 presenter: Kevin Xie and Walkie Que of Xilinx University Program in China and Lian Shu (Vero) Zheng of Huawei
 eventdate: 2008-04-23
-website: https://netfpga.org/site/#/events/2008_China/
-titlelink: https://netfpga.org/site/#/events/2008_China/
+website: /_pages/2008-04-23-NetFPGA-Beijing-Tutorial.html
+titlelink: /_pages/2008-04-23-NetFPGA-Beijing-Tutorial.html
 ---
 
 Goal: Hands-on, One-day tutorial

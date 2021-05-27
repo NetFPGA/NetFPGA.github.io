@@ -5,8 +5,8 @@ category: events
 location: Tokyo, Japan
 presenter:
 eventdate: 2011-12-05
-website: https://netfpga.org/site/#/events/2011_CoNext/
-titlelink: https://netfpga.org/site/#/events/2011_CoNext/
+website: /_pages/2011-12-05-Tokyo-Tutorial-2011.html
+titlelink: /_pages/2011-12-05-Tokyo-Tutorial-2011.html
 ---
 
 Goal: Half-day Introductory Tutorial

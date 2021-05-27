@@ -5,8 +5,8 @@ category: events
 location: Stanford University, CA
 presenter: IEEE Hot Interconnects (HotI)
 eventdate: 2007-08-24
-website: https://netfpga.org/site/#/events/2007_HotI/
-titlelink: https://netfpga.org/site/#/events/2007_HotI/
+website: /_pages/2007-08-24-Hot-Interconnects-Tutorial.html
+titlelink: /_pages/2007-08-24-Hot-Interconnects-Tutorial.html
 ---
 
 Goal: Hands-on, One-day tutorial
