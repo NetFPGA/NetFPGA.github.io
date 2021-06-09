@@ -6,5 +6,5 @@ location: Department of Electronic Systems Engineering, Indian
 presenter: Neelakandan Manihatty Bojan
 eventdate: 2014-07-25
 website:
-titlelink: http://www.dese.iisc.ernet.in/ese/
+titlelink: https://www.iisc.ac.in
 ---

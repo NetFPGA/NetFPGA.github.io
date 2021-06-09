@@ -6,7 +6,7 @@ category: news
 
 Greetings Everyone,
 
-We are happy to announce the next NetFPGA-10G release (5.0.4). <br> [https://github.com/NetFPGA/NetFPGA-10G-live/archive/release_5.0.4.tar.gz](https://github.com/NetFPGA/NetFPGA-10G-live/archive/release_5.0.4.tar.gz)
+We are happy to announce the next NetFPGA-10G release (5.0.4).
 
 Here are the release notes for 5.0.4:
 

@@ -10,4 +10,4 @@ During the tutorial, we will use the NetFPGA to determine the amount of memory n
 
 Attendees will utilize a Linux-based PC equipped with NetFPGA hardware. A basic understanding of Ethernet switching and network routing is expected. Past experience with Verilog is useful but not required.
 
-Details about this event and registration information are posted [on-line](http://www.netlab.uky.edu/p/netfpga/)
+Details about this event and registration information are posted on-line.

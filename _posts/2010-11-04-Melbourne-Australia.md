@@ -5,8 +5,8 @@ category: events
 location: Melbourne, Australia
 presenter:
 eventdate: 2010-11-04
-website: http://www.ee.unimelb.edu.au/index.html
-titlelink: http://www.ee.unimelb.edu.au/index.html
+website: https://electrical.eng.unimelb.edu.au
+titlelink: https://electrical.eng.unimelb.edu.au
 ---
 
 Goal: Hands-on, Two-day Tutorial

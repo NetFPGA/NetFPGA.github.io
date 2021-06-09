@@ -5,8 +5,8 @@ category: events
 location: Stanford University, CA
 presenter: John Lockwood (Stanford) and Andrew Moore (Cambridge University)
 eventdate: 2009-08-13
-website: https://netfpga.org/site/#/events/2009_WorkshopNorthAmerican/
-titlelink: https://netfpga.org/site/#/events/2009_WorkshopNorthAmerican/
+website: /_pages/2009-08-13-NetFPGA-Developers-Worshop-2009.html
+titlelink: /_pages/2009-08-13-NetFPGA-Developers-Worshop-2009.html
 ---
 
 Goal: Present and demonstrate new contributed projects

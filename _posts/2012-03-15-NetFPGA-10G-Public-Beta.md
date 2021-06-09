@@ -8,7 +8,7 @@ We are happy to announce NetFPGA 10G Public Beta. This release is public, meanin
 
 Register for access [here](10G-reg-form.html).
 
-Project webpage: [http://www.netfpga.org](http://www.netfpga.org/)
+Project webpage: [http://www.netfpga.org](index.html)
 
 The NetFPGA-10G features include:
 - Xilinx Virtex-5 XC5VTX240

@@ -6,7 +6,7 @@ category: news
 
 Greetings Everyone,
 
-We are pleased to announce the release of OSNT-SUME (available via [www.osnt.org](www.osnt.org)).
+We are pleased to announce the release of OSNT-SUME (available via [www.osnt.org](https://osnt.org)).
 
 The initial OSNT-SUME project is a port of the NetFPGA-10G based OSNTsystem. We are currently planning a native implementation of OSNT-SUME thatwill be able to exploit all the SUME platform capabilities.
 
@@ -20,7 +20,7 @@ More information can be found at: [https://github.com/NetFPGA/OSNT-Public](https
 
 NetFPGA developers are encouraged to use/contribute to OSNT-SUME repository:
 
-[https://github.com/NetFPGA/OSNT-SUME-live](https://github.com/NetFPGA/OSNT-SUME-live)
+https://github.com/NetFPGA/OSNT-SUME-live
 
 More information about the Traffic Generator can be found at:
 

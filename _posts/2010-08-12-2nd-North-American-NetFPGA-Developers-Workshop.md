@@ -5,8 +5,8 @@ category: events
 location: Stanford University, CA
 presenter: Yashar Ganjali (University of Toronto) and Andrew Moore (Cambridge University)
 eventdate: 2010-08-12
-website: https://netfpga.org/site/#/events/2010_WorkshopNorthAmerican/
-titlelink: https://netfpga.org/site/#/events/2010_WorkshopNorthAmerican/
+website: /_pages/2010-09-12-2nd-North-American-NetFPGA-Developers-Workshop.html
+titlelink: /_pages/2010-09-12-2nd-North-American-NetFPGA-Developers-Workshop.html
 ---
 
 Goal: Present and demonstrate new contributed projects

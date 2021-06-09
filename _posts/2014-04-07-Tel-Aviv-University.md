@@ -11,4 +11,4 @@ titlelink: http://www.eng.tau.ac.il/index.php?option=com_jevents&task=icalrepeat
 Goal: One hour NetFPGA Introductory
 
 Slides:
-- Day 1: [PDF](http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_tau.pdf)[PowerPoint](http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_TAU.pptx)
+- Day 1: [PDF](http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_tau.pdf) [PowerPoint](http://www.cl.cam.ac.uk/~nz247/talks/netfpga-short-talk-2014_TAU.pptx)

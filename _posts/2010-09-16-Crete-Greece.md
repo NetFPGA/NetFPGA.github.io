@@ -5,8 +5,8 @@ category: events
 location: Crete, Greece
 presenter: Manolis Katevenis and FORTH (Foundation for Research & Technology)
 eventdate: 2010-09-16
-website: http://www.ics.forth.gr/netfpga
-titlelink: http://www.ics.forth.gr/netfpga
+website: https://projects.ics.forth.gr/netfpga/
+titlelink: https://www.forth.gr
 ---
 
 Goal: Hands-on, Two-day tutorial

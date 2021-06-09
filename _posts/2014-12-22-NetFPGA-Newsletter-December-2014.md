@@ -17,7 +17,7 @@ It has been a busy year for NetFPGA in 2014 and this newsletter recaps a few exc
 
 ### 1. SUME
 
-NetFPGA SUME [1](http://www.netfpga.org/netfpga-sume), described in detail in this article [2](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6866035), is now available for order at the Digilent website [3](http://bit.ly/1v8YdF5).
+NetFPGA SUME [1](/NetFPGA-SUME.html), described in detail in this article [2](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6866035), is now available for order at the Digilent website [3](http://bit.ly/1v8YdF5).
 
 While it might not be the ideal christmas stocking item; we are excited to see our new board getting into the hands of the user community. The Digilent site has the ordering details [3](http://bit.ly/1v8YdF5).
 
@@ -29,7 +29,7 @@ Alongside the NetFPGA SUME which will server as our flagship project board, the 
 
 Together with Digilent and CML labs, a NetFPGA release for the CML board has been developed that provides access to ports of the existing (NetFPGA-10G) code base.
 
-See the NetFPGA CML web pages for full details [4](http://bit.ly/16JwhTG)
+See the NetFPGA CML web pages for full details [4](/NetFPGA-CML.html)
 
 If you want to help in some way please do get in touch.
 

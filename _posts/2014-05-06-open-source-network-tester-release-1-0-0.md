@@ -16,7 +16,7 @@ Users that have access to the NetFPGA-10G repo will also have access to OSNT.
 
 We invite everyone from the community to audit (and improve) our implementation as well as adapt it to their needs.
 
-More information can be found at [https://github.com/NetFPGA/OSNT-Public](https://github.com/NetFPGA/OSNT-Public) NetFPGA developers are encouraged to use/contribute to OSNT repository: [https://github.com/NetFPGA/OSNT](https://github.com/NetFPGA/OSNT)
+More information can be found at [https://github.com/NetFPGA/OSNT-Public](https://github.com/NetFPGA/OSNT-Public) NetFPGA developers are encouraged to use/contribute to OSNT repository.
 
 More information about the Traffic Generator can be found at [https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-Traffic-Generator](https://github.com/NetFPGA/OSNT-Public/wiki/OSNT-Traffic-Generator)
 

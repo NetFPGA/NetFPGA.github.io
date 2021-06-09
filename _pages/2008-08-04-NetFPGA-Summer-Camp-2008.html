@@ -1,0 +1,245 @@
+---
+layout: page
+---
+
+<h2>NetFPGA Summer Camp!</h2>
+
+<br>
+<br>
+
+<h3>Earn a merit badge while building Internet routers and clean-slate switches. A 5-day summer camp will be held at <a href="http://stanford.edu/">Stanford University</a></h3>
+
+<br>
+<p><b>Presented by:</b> the NetFPGA Group</p>
+<p><b>Open to:</b> Professors teaching classes with NetFPGA and researchers interested in developing new hardware-accelerated network applications</p>
+<p><b>Dates:</b> Monday, August 4 - Friday, August 8, 2008</p>
+<p><b>Time:</b> 9am - 5pm. Bonfires and other evening events will be announced here.</p>
+<p><b>Location:</b> <a href="http://stanford.edu/">The Stanford University campus</a> located between San Francisco and San Jose in the heart of the Silicon Valley.</p>
+
+<br>
+<br>
+
+<h3>Abstract</h3>
+
+<br>
+
+<p>An open platform called the <a href="{% link index.html %}">NetFPGA</a> has been developed at Stanford University. The NetFPGA platform enables researchers and instructors to build high-speed, hardware-accelerated networking systems. The platform can be used in the classroom to teach students how to build Ethernet switches and Internet Prototcol (IP) routers using hardware rather than software. The platform can be used by researchers to prototype advanced services for next-generation networks.</p>
+<p>By using Field Programmable Gate Arrays (FPGAs), the NetFPGA enables new types of packet routing circuits to be implemented and detailed measurements of network traffic to be obtained. During the tutorial, we will use the NetFPGA to determine the amount of memory needed to buffer TCP/IP data streaming through the Gigabit/second router. Hardware circuits within the NetFPGA will be implemented to measure and plot the occupancy of buffers. Circuits will be downloaded into reconfigurable hardware and tested with live, streaming Internet video traffic.</p>
+
+<br>
+<br>
+
+<h3>Background</h3>
+
+<p>Attendees will utilize a Linux-based PC equipped with NetFPGA hardware. A basic understanding of Ethernet switching and network routing is expected. Past experience with Verilog is useful but not required. This week-long summercamp extends the material presented at the <a href="{% link news-and-events.html %}">NetFPGA tutorials</a>. Participants will be able to take home their NetFPGA systems at the end of the week-long camp.</p>
+
+<br>
+<br>
+
+<img src="/assets/images/CIMG6252-NetFPGA_Summercamp_2008a.jpeg" alt="Photo from the summer camp">
+
+<br>
+<br>
+
+<img src="/assets/images/CIMG6253-NetFPGA_Summercamp_2008b.jpeg" alt="Another photo from the summer camp">
+
+<br>
+<br>
+
+<h3>Outline</h3>
+
+<br>
+
+<p>Day 1 (Monday, Aug. 4)</p>
+<ul>
+  <li>Welcome and introductions (All)</li>
+  <li>Day 1 (John, Glen, Adam)</li>
+  <ul>
+    <li>Background</li>
+    <ul>
+      <li>Basics of an IP Router</li>
+      <li>The NetFPGA hardware</li>
+      <li>How people use the NetFPGA</li>
+      <li>Why people use the NetFPGA</li>
+    </ul>
+    <li>The Stanford Base Reference Router</li>
+    <ul>
+      <li>Inside the NetFPGA hardware</li>
+      <li>Introduction to FPGAs and Verilog</li>
+    </ul>
+    <li>The Enhanced Reference Router</li>
+    <ul>
+      <li>Buffer sizing requirements in a router</li>
+      <li>Observering and controlling the queue size</li>
+    </ul>
+    <li>Life of a packet through the NetFPGA</li>
+    <ul>
+      <li>Data and control planes</li>
+      <li>Interface to software: Exceptions and Host I/O</li>
+    </ul>
+    <li>Address Lookup</li>
+    <li>PW-OSPF</li>
+    <li>Java-based Graphical User Interface (GUI)</li>
+    <li>Demonstration of High Definition (HD) video streaming</li>
+  </ul>
+  <li>Pizza dinner: AT&T Patio of the Gates Building</li>
+</ul>
+<p>Day 2 (Tuesday, Aug. 5)</p>
+<ul>
+  <li>Module Development and Testing</li>
+  <ul>
+    <li>Running ModelSim with the NetFPGA TestBench (Glen)</li>
+    <ul>
+      <li>Compile, simulate, view waveforms</li>
+      <li>Example: Simply Encryption on a packet payload</li>
+      <li>Scrambling the payload with XOR using a key from a register</li>
+    </ul>
+    <li>Regression testing to verify hardware functionality (Adam)</li>
+    <ul>
+      <li>Synthesize and run the hardware</li>
+      <li>Verify value: 0xFFFFFFFF (would invert every bit of every byte of payload)</li>
+      <li>Verify value: 0xFF00FF00 (would invert every other byte of payload)</li>
+      <li>Verify value: 0x55555555 (would invert every other bit of payload)</li>
+    </ul>
+  </ul>
+  <li>Introduction to OpenFlow (Jad)</li>
+  <ul>
+    <li>Show how to use and test OpenFlow</li>
+    <li>Describe implementation of OpenFlow</li>
+    <li>Show use OpenFlow LiveCD</li>
+    <li>Give example of LiveCD on nf-test machines</li>
+  </ul>
+  <li>Group Dinner at MacArthur Park</li>
+</ul>
+<p>Day 3 (Wednesday, Aug. 6)</p>
+<ul>
+  <li>Group Discussion</li>
+  <ul>
+    <li>Projects ideas</li>
+    <li>Scope of work that can be accomplished in 2-3 days</li>
+  </ul>
+  <li>Team up for Projects</li>
+  <ul>
+    <li>Project leaders will describe projects</li>
+    <li>Group will provide feedback on the scope</li>
+    <li>Be sure to have one hardware designer per team</li>
+  </ul>
+  <li>Precise Time Protocol (PTP) (Sara)</li>
+  <ul>
+    <li>Background and review of block diagrams</li>
+    <li>Show PTP running on nf-test machines</li>
+    <li>Show synchronization of pairs of machines</li>
+    <li>Discuss relevent Verilog Code</li>
+  </ul>
+</ul>
+<p>Day 4 (Thursday, Aug. 7)</p>
+<ul>
+  <li>Work on Projects</li>
+  <ul>
+    <li>802.1q VLANs</li>
+    <ul>
+      <li>Steve Padgett, Bilal Anwer, David Miller, Ke Xiang, Carson Stuart, Michael Blodgett</li>
+      <li>Top-Project Award</li>
+    </ul>
+    <li>Hardware-Accelerated Mathematics Library for NetFPGA</li>
+    <ul>
+      <li>Dan Bedard, Will Tetteh, Yufeng Xin</li>
+      <li>Top-Project Award</li>
+    </ul>
+    <li>MACinMAC</li>
+    <ul>
+      <li>Jim Chen, Tatsuya Yabe, Hao Chen</li>
+    </ul>
+    <li>Heavy Hitter Identification using Multistage filters</li>
+    <ul>
+      <li>Faisal Khan, Guan Yo, and Atif</li>
+    </ul>
+    <li>Layer 2 Load Balancing</li>
+    <ul>
+      <li>Danai Chasaki, Fernando Hammerli, Paul Germano</li>
+    </ul>
+    <li>TCP Traffic Analysis for Passive End-to-End Bandwidth Measurement</li>
+    <ul>
+      <li>Martin Zadnik, Yaping Zhu</li>
+    </ul>
+    <li>Assessment of Prototyping an AFDX Policy Switch Leveraging NetFPGA, Ethane, and OpenFlow Switch</li>
+    <ul>
+      <li>Tom Gaska</li>
+    </ul>
+    <li>ntop on NetFPGA</li>
+    <ul>
+      <li>Songkrant Muneenaem</li>
+    </ul>
+    <li>Universal Hash Function</li>
+    <ul>
+      <li>Thomas Zink and Dominik Schmucki</li>
+    </ul>
+  </ul>
+  <li>NetFPGA group available for Questions and Answers</li>
+</ul>
+<p>Day 5 (Friday, Aug. 8)</p>
+<ul>
+  <li>Complete Projects</li>
+  <ul>
+    <li>On the SummerCamp_2008_Projects page, verify your project description and team members</li>
+    <ul>
+      <li>Update the link to your presentation page</li>
+      <li>Update the link to your contribute file page</li>
+    </ul>
+    <li>10-minute project presentations</li>
+    <li>Live demonstrations</li>
+  </ul>
+  <li>Award prizes to winning projects</li>
+  <li>Group Dinner at California Cafe</li>
+</ul>
+<p>Saturday, Aug. 9</p>
+<ul>
+  <li>Checkout of Stanford Guest House</li>
+</ul>
+
+<br>
+<br>
+
+<h3>Background Reading</h3>
+
+<br>
+
+<ul>
+  <li><a href="{% link index.html %}">NetFPGA Website</a></li>
+  <li>The Verilog Golden Reference Guide, by Doulos</li>
+</ul>
+
+<br>
+<br>
+
+<h3>To Attend this Event</h3>
+<ul>
+  <li>Mark your calendar with the dates of the event</li>
+  <ul>
+    <li>Please plan to arrive Sunday night, August 3</li>
+    <li>Please plan to stay through Saturday morning, August 9</li>
+    <li>Registration fee covers shared meals (all breakfasts, lunches, and most dinners)</li>
+    <ul>
+      <li>Registration Fee: $400</li>
+      <li>Summer Camp is Full!! No more registrations can be accepted!</li>
+    </ul>
+    <li>A limited number of scholarships are available for students or instructors from schools unable to cover registration and hotel expenses.</li>
+    <ul>
+      <li>Award of the scholarships will be based on both merit and need:</li>
+      <li>Please provide one paragraph about that describes your relevant technical background in networking and/or hardware design.</li>
+      <li>Please provide another paragraph that explains why you or your host institution needs financial help.</li>
+      <li>Summer Camp is Full!! No more registrations can be accepted!</li>
+    </ul>
+  </ul>
+  <li>Travel Information</li>
+  <ul>
+    <li>Direct flights are available to most parts of the country through SFO or SJC</li>
+    <li><a href="http://www.caltrain.com/caltrain_map.html">CalTrain</a> offers fast transportation between the airports and Palo Alto</li>
+    <li>The <a href="http://transportation.stanford.edu/marguerite/MargueriteShuttle.shtml">Marguerite Shuttle</a> offers rides between the train station, hotel, and campus. No car rental is needed.</li>
+  </ul>
+  <li>Book accomondations at the Stanford Guest House.</li>
+  <ul>
+    <li>Single rooms are $89/night</li>
+    <li>Shuttle service available to campus</li>
+  </ul>
+</ul>

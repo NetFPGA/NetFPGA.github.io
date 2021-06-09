@@ -8,7 +8,7 @@ The registration site for the 2011 NetFPGA Summer Camp at Stanford University is
 
 Register before June 15th for only $250. After June 15th the price will be $350.
 
-As noted at the end of the event [homepage](https://netfpga.org/site/#/events/2011_SummerCamp/), it is now possible to register for the event or apply for a scholarship.
+As noted at the end of the event [homepage](/_pages/2011-08-01-NetFPGA-Summer-Camp-2011.html), it is now possible to register for the event or apply for a scholarship.
 
 The link to register on-line is [here](http://www.certain.com/system/profile/form/index.cfm?PKformID=0x1089556e8bd).
 
