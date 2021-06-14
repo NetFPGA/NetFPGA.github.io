@@ -34,18 +34,25 @@
   }
 }
 
-.accordian .card-title :after {
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 900;
-  content: "\f107";
-  float: right;
+.accordian {
+  .card-title :after {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    content: "\f107";
+    float: right;
+  }
+  .collapsed .card-title :after {
+    content:"\f104";
+  }
+  > div > a {
+    cursor: pointer;
+    color: $black;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
-
-.accordian .collapsed .card-title :after {
-  content:"\f104";
-}
-
 
 .downloads {
   td{
@@ -91,22 +98,22 @@ header#hero {
 
 .news-collapse{
   hr{
-    border-top: 1px solid #A3C1AD;
+    border-top: 1px solid $primary;
   }
 }
 
 .events-collapse{
   hr{
-    border-top: 1px solid #A3C1AD;
+    border-top: 1px solid $primary;
   }
 }
 
 .card{
   &.check-container {
     display: inline-block;
-    background-color: #A3C1AD;
+    background-color: $primary;
     border: 1px solid transparent;
-    border-color: #A3C1AD
+    border-color: $primary
   }
 }
 
@@ -124,4 +131,13 @@ abbr[title] {
   position: absolute;
   bottom: 0;
   padding-bottom: 80px;
+}
+
+// Anchor colours
+
+a {
+  color: #1A5B7A;
+  &:hover {
+    color:$blue;
+  }
 }
