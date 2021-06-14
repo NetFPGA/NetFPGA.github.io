@@ -1,19 +1,21 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/">NetFPGA</a>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/" tabindex="0">NetFPGA</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" tabindex="0">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        {% for item in site.data.menu %}
-        <li class="nav-item{% if item.link == page.url %} active {% endif %}">
-          <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{
-            item.title
-          }}</a>
+        <li class="nav-item{% if index.html == page.url %} active {% endif %}">
+          <a class="nav-link" href="{% link index.html %}" tabindex="0">Home</a>
         </li>
-        {% endfor %}
+        <li class="nav-item{% if About.html == page.url %} active {% endif %}">
+          <a class="nav-link" href="{% link About.html %}" tabindex="0">About</a>
+        </li>
+        <li class="nav-item{% if news-and-events.html == page.url %} active {% endif %}">
+          <a class="nav-link" href="{% link news-and-events.html %}" tabindex="0">News and Events</a>
+        </li>
       </ul>
     </div>
   </div>
