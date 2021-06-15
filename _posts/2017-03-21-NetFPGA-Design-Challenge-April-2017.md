@@ -10,7 +10,7 @@ We keenly encourage your participation in the [NetFPGA Design Challenge April 20
 
 **Prize updates:**
 
-With thanks to [IMC](http://www.imc.nl/), we have a cash prize of £1,000
+With thanks to IMC we have a cash prize of £1,000
 
 The winning projects and runner ups will be invited to present their work at the NetFPGA Developers Summit 2017. All challenge participants are keenly encouraged to attend the NetFPGA Developers Summit and are entitled to a reduced registration rate.
 
