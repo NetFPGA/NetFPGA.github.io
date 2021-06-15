@@ -8,10 +8,31 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item{% if index.html == page.url %} active {% endif %}">
-          <a class="nav-link" href="{% link index.html %}" tabindex="0">Home</a>
+          <div class="btn-group">
+            <a class="nav-link btn" href="{% link index.html %}" tabindex="0">Home</a>
+            <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="{% link NetFPGA-PLUS.html %}">NetFPGA PLUS</a>
+              <a class="dropdown-item" href="{% link NetFPGA-SUME.html %}">NetFPGA SUME</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{% link NetFPGA-CML.html %}">NetFPGA CML</a>
+              <a class="dropdown-item" href="{% link NetFPGA-10G.html %}">NetFPGA 10G</a>
+              <a class="dropdown-item" href="{% link NetFPGA-1G.html %}">NetFPGA 1G</a>
+            </div>
+          </div>
         </li>
         <li class="nav-item{% if About.html == page.url %} active {% endif %}">
-          <a class="nav-link" href="{% link About.html %}" tabindex="0">About</a>
+          <div class="btn-group">
+            <a class="nav-link" href="{% link About.html %}" tabindex="0">About</a>
+            <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="{% link ecosystem.html %}">Ecosystem</a>
+              <a class="dropdown-item" href="{% link Publications.html %}">Publications</a>
+              <a class="dropdown-item" href="{% link why-NetFPGA.html %}">Why NetFPGA</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://github.com/NetFPGA/NetFPGA-public">Public GitHub Repository</a>
+            </div>
+          </div>
         </li>
         <li class="nav-item{% if news-and-events.html == page.url %} active {% endif %}">
           <a class="nav-link" href="{% link news-and-events.html %}" tabindex="0">News and Events</a>
