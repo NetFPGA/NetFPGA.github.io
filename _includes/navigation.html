@@ -26,16 +26,19 @@
             <a class="nav-link" href="{% link About.html %}" tabindex="0">About</a>
             <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
             <div class="dropdown-menu">
+              <a class="dropdown-item" href="{% link why-NetFPGA.html %}">Why NetFPGA</a>
               <a class="dropdown-item" href="{% link ecosystem.html %}">Ecosystem</a>
               <a class="dropdown-item" href="{% link Publications.html %}">Publications</a>
-              <a class="dropdown-item" href="{% link why-NetFPGA.html %}">Why NetFPGA</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="https://github.com/NetFPGA/NetFPGA-public">Public GitHub Repository</a>
             </div>
           </div>
         </li>
-        <li class="nav-item{% if news-and-events.html == page.url %} active {% endif %}">
+        <li class="nav-item {% if news-and-events.html == page.url %} active {% endif %}">
           <a class="nav-link" href="{% link news-and-events.html %}" tabindex="0">News and Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:enquiries@netfpga.org" tabindex="0">Contact Us</a>
         </li>
       </ul>
     </div>
