@@ -9,9 +9,9 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item{% if index.html == page.url %} active {% endif %}">
           <div class="btn-group">
-            <a class="nav-link btn" href="{% link index.html %}" >Home</a>
+            <a class="nav-link btn text-left" href="{% link index.html %}" >Home</a>
             <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu text-left">
               <a class="dropdown-item" href="{% link NetFPGA-PLUS.html %}">NetFPGA PLUS</a>
               <a class="dropdown-item" href="{% link NetFPGA-SUME.html %}">NetFPGA SUME</a>
               <div class="dropdown-divider"></div>
@@ -23,22 +23,22 @@
         </li>
         <li class="nav-item{% if About.html == page.url %} active {% endif %}">
           <div class="btn-group">
-            <a class="nav-link btn" href="{% link About.html %}" >About</a>
+            <a class="nav-link btn text-left" href="{% link About.html %}" >About</a>
             <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="{% link why-NetFPGA.html %}">Why NetFPGA</a>
               <a class="dropdown-item" href="{% link ecosystem.html %}">Ecosystem</a>
               <a class="dropdown-item" href="{% link Publications.html %}">Publications</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://github.com/NetFPGA/NetFPGA-public">Public GitHub Repository</a>
+              <a class="dropdown-item" href="https://github.com/NetFPGA/NetFPGA-public">GitHub Repository</a>
             </div>
           </div>
         </li>
         <li class="nav-item {% if news-and-events.html == page.url %} active {% endif %}">
-          <a class="nav-link btn" href="{% link news-and-events.html %}" >News and Events</a>
+          <a class="nav-link btn text-left" href="{% link news-and-events.html %}" >News and Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn" href="mailto:enquiries@netfpga.org" >Contact Us</a>
+          <a class="nav-link btn text-left" href="mailto:enquiries@netfpga.org" >Contact Us</a>
         </li>
       </ul>
     </div>
