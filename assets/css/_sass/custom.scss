@@ -177,7 +177,7 @@ a {
       }
       .dropdown-item{
         padding-left: 10px;
-        &:hover {
+        &:hover, &:focus {
           background-color: #a8a9aa;
         }
       }
