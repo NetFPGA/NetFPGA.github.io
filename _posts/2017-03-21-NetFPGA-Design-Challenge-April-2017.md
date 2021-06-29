@@ -1,6 +1,7 @@
 ---
 title: NetFPGA Design Challenge April 2017
 date: 2017-03-21
+eventdate: 2017-03-21
 category: news
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: NetFPGA Summer Camp
 date: 2010-07-02
+eventdate: 2010-07-02
 category: news
 ---
 

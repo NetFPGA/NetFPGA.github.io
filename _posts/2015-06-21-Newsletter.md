@@ -1,6 +1,7 @@
 ---
 title: NetFPGA Newsletter June 2015
 date: 2015-06-15
+eventdate: 2015-06-15
 category: news
 ---
 

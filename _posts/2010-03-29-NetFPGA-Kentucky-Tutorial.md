@@ -1,6 +1,7 @@
 ---
 title: NetFPGA Kentucky Tutorial
 date: 2010-03-29
+eventdate: 2010-03-29
 category: news
 ---
 

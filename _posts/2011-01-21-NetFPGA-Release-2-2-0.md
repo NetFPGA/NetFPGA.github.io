@@ -1,6 +1,7 @@
 ---
 title: NetFPGA 2.2.0 Released
 date: 2011-01-21
+eventdate: 2011-01-21
 category: news
 ---
 

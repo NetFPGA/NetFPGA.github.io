@@ -1,6 +1,7 @@
 ---
 title: NetFPGA SUME Release 1.2.0
 date: 2016-01-29
+eventdate: 2016-01-29
 category: news
 ---
 
@@ -19,4 +20,4 @@ Patch:
 Bug fixes:
 - Fixing a typo error in the Makefile of the acceptance_test project
 
-{% include Update-close.md %} 
+{% include Update-close.md %}

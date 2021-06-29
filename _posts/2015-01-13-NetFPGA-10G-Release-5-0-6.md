@@ -1,6 +1,7 @@
 ---
 title: NetFPGA 10G Release 5.0.6
 date: 2015-01-13
+eventdate: 2015-01-13
 category: news
 ---
 
