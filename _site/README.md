@@ -103,7 +103,7 @@ to Publications.html
 
 ### How to edit the news and events page
 
-To edit the functionality of the checkboxes edit the news-and-events.html file.
+To edit the functionality of the checkboxes edit the [news-and-events.html](/news-and-events.html) file.
 
 To change the information about a specific event/piece of news look for the file you're looking for in the _posts folder and all files that show up on the website have file names looking like \<YYYY\>-\<MM\>-\<DD\>-<title>.md
 
@@ -112,6 +112,14 @@ To add a new piece of news check [example-news-post.md](/_posts/example-news-pos
 to add a new event check [example-events-post.md](/_posts/example-events-post.md) for all that's required.
 
 For events that have their information hosted on the NetFPGA website to edit those files these pages can be found in the _pages folder with the same naming format as the the events.
+
+If you want to add a new metadata field to the posts first add it to the example posts for the relevant categories and it what it is used for. Then add it to the rest of the affected posts. Then in the news and events file add
+
+*{% if post.\<metadata tag\> %}*
+
+*\<appropriate tag\>{{ post.\<metadata tag\> }}\<\/appropriate tag\>*
+
+*{% endif %}*
 
 
 <hr>
