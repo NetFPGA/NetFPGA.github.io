@@ -2,6 +2,7 @@
 title: Announcing NetFPGA SUME
 date: 2014-10-15
 eventdate: 2014-10-15
+eoldate: 2016-10-15
 category: news
 ---
 

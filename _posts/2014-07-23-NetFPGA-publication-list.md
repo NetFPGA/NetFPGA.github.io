@@ -2,6 +2,7 @@
 title: NetFPGA publications list
 date: 2014-07-23
 eventdate: 2014-07-23
+eoldate: 2016-07-23
 category: news
 ---
 

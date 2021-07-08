@@ -2,6 +2,7 @@
 title: NetFPGA Newsletter December 2014
 date: 2014-12-22
 eventdate: 2014-12-22
+eoldate: 2016-12-22
 category: news
 ---
 

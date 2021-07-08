@@ -2,6 +2,7 @@
 title: Meet NetFPGA
 date: 2017-03-22
 eventdate: 2017-03-22
+eoldate: 2019-03-22
 category: news
 ---
 

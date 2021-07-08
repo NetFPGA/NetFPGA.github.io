@@ -2,6 +2,7 @@
 title: OSNT (Open-Source Network Tester) on SUME now available
 date: 2017-03-22
 eventdate: 2017-03-22
+eoldate: 2019-03-22
 category: news
 ---
 

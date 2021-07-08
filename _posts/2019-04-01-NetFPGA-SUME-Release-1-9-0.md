@@ -2,6 +2,7 @@
 title: NetFPGA SUME Release 1.9.0
 date: 2019-04-01
 eventdate: 2019-04-01
+eoldate: 2021-04-01
 category: news
 ---
 

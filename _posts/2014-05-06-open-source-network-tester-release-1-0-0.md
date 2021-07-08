@@ -2,6 +2,7 @@
 title: Open Source Network Tester Release 1.0.0
 date: 2014-05-06
 eventdate: 2014-05-06
+eoldate: 2014-05-06
 category: news
 ---
 

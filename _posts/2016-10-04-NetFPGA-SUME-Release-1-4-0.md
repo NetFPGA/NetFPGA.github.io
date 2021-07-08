@@ -2,6 +2,7 @@
 title: NetFPGA SUME Release 1.4.0
 date: 2016-10-04
 eventdate: 2016-10-04
+eoldate: 2016-10-14
 category: news
 ---
 

@@ -2,6 +2,7 @@
 title: NetFPGA Summer Camp 2011 Registration Online
 date: 2011-05-02
 eventdate: 2011-05-02
+eoldate: 2013-05-02
 category: news
 ---
 

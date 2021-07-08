@@ -1,6 +1,8 @@
 ---
 title: NetFPGA 10G Public Beta
 date: 2012-03-15
+eventdate: 2012-03-15
+eoldate: 2014-03-15
 category: news
 ---
 

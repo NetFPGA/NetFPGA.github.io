@@ -1,0 +1,14 @@
+{% for post in site.categories.news %}
+  {% assign today = site.time | date: '%s' %}
+  {% assign posteol = post.eoldate | date: '%s' %}
+  {% if  posteol >= today %}
+  <article>
+    <div class="">
+      <h1>{{ post.title }}</h1>
+      <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
+      <p>{{ post.content }}</p>
+    </div>
+  </article>
+  <hr>
+  {% endif %}
+{% endfor %}

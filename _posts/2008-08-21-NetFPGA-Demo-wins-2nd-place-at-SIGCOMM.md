@@ -2,6 +2,7 @@
 title: NetFPGA Demo wins 2nd place at SIGCOMM
 date: 2008-08-21
 eventdate: 2008-08-21
+eoldate: 2010-08-21
 category: news
 ---
 

@@ -2,6 +2,7 @@
 title: NetFPGA Design Contest 2010
 date: 2010-03-29
 eventdate: 2010-03-29
+eoldate: 2012-03-29
 category: news
 ---
 

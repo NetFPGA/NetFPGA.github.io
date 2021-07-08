@@ -2,6 +2,7 @@
 title: NetFPGA 10G Release 5.0.4
 date: 2014-07-30
 eventdate: 2014-07-30
+eoldate: 2016-07-30
 category: news
 ---
 

@@ -2,6 +2,7 @@
 title: NetFPGA project wins SOSR System Award
 date: 2019-04-02
 eventdate: 2019-04-02
+eoldate: 2021-04-02
 category: news
 ---
 

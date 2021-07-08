@@ -2,6 +2,7 @@
 title: NetFPGA Newsletter February 2016
 date: 2016-02-01
 eventdate: 2016-02-01
+eoldate: 2018-02-01
 category: news
 ---
 
