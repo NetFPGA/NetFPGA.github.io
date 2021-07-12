@@ -5,6 +5,7 @@ category: events
 location: Marston 132, University of Massachusetts Amherst
 presenter: Andrew Moore
 eventdate: 2013-04-08
+eoldate: 2014-04-08
 website:
 titlelink: https://www.umass.edu
 ---

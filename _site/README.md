@@ -52,6 +52,8 @@ To edit the specific of a particular page create a new html file in the _layouts
 
 To edit the Home page edit the index.html file.
 
+The recent news section can be edited by editing the most-recent-news-posts.html found in the _includes folder
+
 ### How to edit the pages for each system
 
 #### How to edit the NetFPGA PLUS page
@@ -121,6 +123,9 @@ If you want to add a new metadata field to the posts first add it to the example
 
 *{% endif %}*
 
+### How to edit the why NetFPGA page
+
+Edit the why-NetFPGA.html
 
 <hr>
 <br>

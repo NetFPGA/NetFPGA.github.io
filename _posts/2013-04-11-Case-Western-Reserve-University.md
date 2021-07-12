@@ -5,6 +5,7 @@ category: events
 location: Case Western Reserve University
 presenter: Adam Covington
 eventdate: 2013-04-11
+eoldate: 2014-04-11
 website: http://engineering.case.edu/eecs/node/415
 titlelink: http://engineering.case.edu/eecs/node/415
 ---

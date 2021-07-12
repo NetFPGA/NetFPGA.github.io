@@ -5,6 +5,7 @@ category: events
 location: Indian Institute of Science (IISc)
 presenter: Veena Kumar of Xilinx University Program of India
 eventdate: 2008-05-15
+eoldate: 2009-05-15
 website: /_pages/2008-05-15-NetFPGA-Bangalore-Tutorial.html
 titlelink: /_pages/2008-05-15-NetFPGA-Bangalore-Tutorial.html
 ---

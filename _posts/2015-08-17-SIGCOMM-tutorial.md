@@ -1,10 +1,11 @@
 ---
-title: SIGCOMM
+title: SIGCOMM Tutorial
 date: 2015-08-17
 category: events
 location: London, Imperial College
 presenter:
 eventdate: 2015-08-17
+eoldate: 2016-08-17
 website: http://conferences.sigcomm.org/sigcomm/2015/tutorial-ohwn.php
 titlelink: http://conferences.sigcomm.org/sigcomm/2015/
 ---

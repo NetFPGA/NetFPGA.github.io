@@ -5,6 +5,7 @@ category: events
 location: Indiana University, Bloomington
 presenter: Adam Covington
 eventdate: 2012-06-18
+eoldate: 2013-06-18
 website:
 titlelink: http://www.iub.edu/
 ---

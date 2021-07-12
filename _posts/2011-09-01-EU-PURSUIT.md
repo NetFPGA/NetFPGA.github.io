@@ -5,6 +5,7 @@ category: events
 location: Cambridge, UK
 presenter: Andrew Moore
 eventdate: 2011-09-01
+eoldate: 2012-09-01
 website: http://www.fp7-pursuit.eu/
 titlelink: http://www.fp7-pursuit.eu/
 ---

@@ -5,6 +5,7 @@ category: events
 location: University of Kentucky
 presenter:
 eventdate: 2010-04-14
+eoldate: 2011-04-14
 website: http://www.netlab.uky.edu/
 titlelink: http://www.netlab.uky.edu/
 ---

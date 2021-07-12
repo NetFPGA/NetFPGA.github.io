@@ -5,6 +5,7 @@ category: events
 location: University of Cambridge, UK
 presenter:
 eventdate: 2017-07-25
+eoldate: 2018-07-25
 website: https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/
 titlelink: https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/workshop/summer-school-2017/
 ---

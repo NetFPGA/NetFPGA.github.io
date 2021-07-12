@@ -5,6 +5,7 @@ category: events
 location: Brno University
 presenter: Jan Korenek, Martin Zadnik, Jiri Novotny
 eventdate: 2008-09-05
+eoldate: 2009-09-05
 website: http://www.liberouter.org/
 titlelink: http://www.liberouter.org/
 ---

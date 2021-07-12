@@ -1,14 +1,20 @@
-{% for post in site.categories.news %}
+<ul>
+{% for post in site.posts limit:3 %}
   {% assign today = site.time | date: '%s' %}
   {% assign posteol = post.eoldate | date: '%s' %}
   {% if  posteol >= today %}
-  <article>
-    <div class="">
-      <h1>{{ post.title }}</h1>
-      <h3><i>{{ post.date | date: "%-d %B %Y" }}</i></h3>
-      <p>{{ post.content }}</p>
-    </div>
-  </article>
+  <li>
+    <article>
+      <div class="newsTicker">
+        <p><b><a href="{% link news-and-events.html %}#{{ post.title }}">{{ post.title }}</a></b></p>
+        {% if post.category == "events" %}
+          <p>Presented by {{ post.presenter }}</p>
+        {% endif %}
+        <p><i>{{ post.date | date: "%-d %B %Y" }}</i></p>
+      </div>
+    </article>
+  </li>
   <hr>
   {% endif %}
 {% endfor %}
+</ul>

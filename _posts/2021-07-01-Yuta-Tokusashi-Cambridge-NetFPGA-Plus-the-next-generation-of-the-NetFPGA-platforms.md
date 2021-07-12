@@ -5,6 +5,7 @@ category: events
 location:
 presenter: Yuta Tokusashi
 eventdate: 2021-07-01
+eoldate: 2022-07-01
 website: https://coseners.net/coseners-2021/
 titlelink: https://coseners.net/coseners-2021/
 ---

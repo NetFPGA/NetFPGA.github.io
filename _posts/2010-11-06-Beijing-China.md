@@ -5,6 +5,7 @@ category: events
 location: Tsinghua University, Beijing, China
 presenter:
 eventdate: 2010-11-06
+eoldate: 2011-11-06
 website: http://netarchlab.tsinghua.edu.cn/
 titlelink: http://netarchlab.tsinghua.edu.cn/
 ---

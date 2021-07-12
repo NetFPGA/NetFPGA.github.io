@@ -5,6 +5,7 @@ category: events
 location: Tsinghua University
 presenter:
 eventdate: 2010-05-15
+eoldate: 2011-05-15
 website: http://netarchlab.tsinghua.edu.cn/
 titlelink: http://netarchlab.tsinghua.edu.cn/
 ---

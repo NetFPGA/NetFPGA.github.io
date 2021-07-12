@@ -5,6 +5,7 @@ category: events
 location: Stanford University, CA
 presenter: IEEE Hot Interconnects (HotI)
 eventdate: 2007-08-24
+eoldate: 2008-08-24
 website: /_pages/2007-08-24-Hot-Interconnects-Tutorial.html
 titlelink: /_pages/2007-08-24-Hot-Interconnects-Tutorial.html
 ---

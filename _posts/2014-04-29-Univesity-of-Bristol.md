@@ -5,6 +5,7 @@ category: events
 location: Merchant Venturers' Building, Woodland Road, Clifton, BS8 1UB, Bristol UK
 presenter: Georgina Kalogeridou
 eventdate: 2014-04-29
+eoldate: 2015-04-29
 website:
 titlelink: http://www.bris.ac.uk/
 ---

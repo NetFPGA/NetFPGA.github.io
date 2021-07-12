@@ -5,6 +5,7 @@ category: events
 location: University of Cambridge
 presenter: Andrew Moore and the Cambridge NetFPGA Group
 eventdate: 2008-09-16
+eoldate: 2009-09-16
 website: http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/index.html
 titlelink: http://www.cl.cam.ac.uk/research/srg/netos/netfpga/workshop/cambridge-september-2008/index.html
 ---

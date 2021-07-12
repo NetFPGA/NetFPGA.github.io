@@ -5,6 +5,7 @@ category: events
 location: University of Delaware
 presenter:
 eventdate: 2010-06-02
+eoldate: 2011-06-02
 website: http://www.cis.udel.edu/
 titlelink: http://www.cis.udel.edu/
 ---

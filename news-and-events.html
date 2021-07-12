@@ -12,7 +12,7 @@ layout: page
 </p>
 <div class="posts">
     {% for post in site.posts %}
-      <article class="collapse show {{ post.category }}-collapse">
+      <article id="{{ post.title }}" class="collapse show {{ post.category }}-collapse">
         <div class="">
           <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
           {% if post.presenter %}

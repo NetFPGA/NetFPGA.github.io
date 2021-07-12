@@ -5,6 +5,7 @@ category: events
 location: Melbourne, Australia
 presenter:
 eventdate: 2010-11-04
+eoldate: 2011-11-04
 website: https://electrical.eng.unimelb.edu.au
 titlelink: https://electrical.eng.unimelb.edu.au
 ---

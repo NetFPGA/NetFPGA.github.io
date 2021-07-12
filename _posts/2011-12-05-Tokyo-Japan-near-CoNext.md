@@ -5,6 +5,7 @@ category: events
 location: Tokyo, Japan
 presenter:
 eventdate: 2011-12-05
+eoldate: 2012-12-05
 website: /_pages/2011-12-05-Tokyo-Tutorial-2011.html
 titlelink: /_pages/2011-12-05-Tokyo-Tutorial-2011.html
 ---

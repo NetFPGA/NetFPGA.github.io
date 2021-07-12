@@ -5,6 +5,7 @@ category: events
 location: Robert Mehrabian Collaborative Innovation Center, 4720 Forbes Avenue, Pittsburgh, PA
 presenter: Adam Covington
 eventdate: 2013-04-12
+eoldate: 2014-04-12
 website: http://www.pdl.cmu.edu/SDI/2013/041213.html
 titlelink: http://www.pdl.cmu.edu/SDI/2013/041213.html
 ---

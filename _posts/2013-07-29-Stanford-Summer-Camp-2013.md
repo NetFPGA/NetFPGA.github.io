@@ -5,6 +5,7 @@ category: events
 location: Stanford University, CA
 presenter: Stanford NetFPGA Group
 eventdate: 2013-07-29
+eoldate: 2014-07-29
 website: /_pages/2013-07-29-NetFPGA-Summer-Camp-2013-Stanford.html
 titlelink: /_pages/2013-07-29-NetFPGA-Summer-Camp-2013-Stanford.html
 ---

@@ -5,6 +5,7 @@ category: events
 location:
 presenter:
 eventdate: 2010-02-09
+eoldate: 2011-02-09
 website:
 titlelink:
 ---

@@ -5,6 +5,7 @@ category: events
 location: University of New South Wales
 presenter:
 eventdate: 2008-02-06
+eoldate: 2009-02-06
 website: /_pages/2008-02-06-NetFPGA-Sydney-Tutorial.html
 titlelink: /_pages/2008-02-06-NetFPGA-Sydney-Tutorial.html
 ---
