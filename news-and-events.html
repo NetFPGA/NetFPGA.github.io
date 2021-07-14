@@ -12,30 +12,32 @@ layout: page
 </p>
 <div class="posts">
     {% for post in site.posts %}
-      <article id="{{ post.title }}" class="collapse show {{ post.category }}-collapse">
-        <div class="">
-          <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
-          {% if post.presenter %}
-            <h3>Presenter: {{ post.presenter }}</h3>
-          {% endif %}
-          {% if post.category == "news" %}
-            <h3>Posted: <i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
-          {% endif %}
-          {% if post.category == "events" %}
-            <h3><i>{{ post.eventdate | date: "%-d %B %Y"}}</i></h3>
-          {% endif %}
-          {% if post.location %}
-            <h4>Location: {{ post.location }}</h4>
-          {% endif %}
-          {% if post.target %}
-            <h4>Target Platform: {{ post.target }}</h4>
-          {% endif %}
-          {% if post.website %}
-            <h4><a href="{{ post.website }}">Website</a></h4>
-          {% endif %}
-          <p>{{ post.content }}</p>
-          <hr>
-        </div>
-      </article>
+      {% if post.posttype == "news-and-events" %}
+        <article id="{{ post.title }}" class="collapse show {{ post.category }}-collapse">
+          <div class="">
+            <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
+            {% if post.presenter %}
+              <h3>Presenter: {{ post.presenter }}</h3>
+            {% endif %}
+            {% if post.category == "news" %}
+              <h3>Posted: <i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
+            {% endif %}
+            {% if post.category == "events" %}
+              <h3><i>{{ post.eventdate | date: "%-d %B %Y"}}</i></h3>
+            {% endif %}
+            {% if post.location %}
+              <h4>Location: {{ post.location }}</h4>
+            {% endif %}
+            {% if post.target %}
+              <h4>Target Platform: {{ post.target }}</h4>
+            {% endif %}
+            {% if post.website %}
+              <h4><a href="{{ post.website }}">Website</a></h4>
+            {% endif %}
+            <p>{{ post.content }}</p>
+            <hr>
+          </div>
+        </article>
+      {% endif %}
     {% endfor %}
 </div>
