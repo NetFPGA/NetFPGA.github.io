@@ -84,11 +84,15 @@ All logos can be found sorted into to hosts and supporters in the Logos folders 
 
 ### How to edit the ecosystem page
 
-Edit the ecosystem.html file with standard HTML
+To edit the text at the top of the ecosystem edit the ecosystem.html page.
+
+To edit information on one of the cards check the ecosystem subfolder of the _posts folder. Look for the file with the name of the ecosystem part after the date.
+
+To add a new card check [example-ecosystem.md](/_posts/ecosystem/example-ecosystem.md) for the metadata tags that are needed as well as the purpose of each one. The ecosystem file should be named with the date it was added to the site in the format \<YYYY\>-\<MM\>-\<DD\>-\<Name of Ecosystem part\>.
 
 ### How to edit the Publications to page
 
-Each years publications are in the _includes folder with the naming system of <YYYY>-Publications.html
+Each years publications are in the _includes folder with the naming system of \<YYYY\>-Publications.html
 To add publications to a particular year edit the corresponding file for the year.
 
 To add a new years publications follow the same format as the most recent years one. But where it uses a year use the current year. Then add the class "collapsed" to the div with the button in and remove the "show" class from the div with the list of publications in.
@@ -107,11 +111,11 @@ to Publications.html
 
 To edit the functionality of the checkboxes edit the [news-and-events.html](/news-and-events.html) file.
 
-To change the information about a specific event/piece of news look for the file you're looking for in the _posts folder and all files that show up on the website have file names looking like \<YYYY\>-\<MM\>-\<DD\>-<title>.md
+To change the information about a specific event/piece of news look for the file you're looking for in the news-and-events subfolder of the _posts folder and all files that show up on the website have file names looking like \<YYYY\>-\<MM\>-\<DD\>-<title>.md
 
-To add a new piece of news check [example-news-post.md](/_posts/example-news-post.md) for all that's required.
+To add a new piece of news check [example-news-post.md](/_posts/news-and-events/example-news-post.md) for all that's required.
 
-to add a new event check [example-events-post.md](/_posts/example-events-post.md) for all that's required.
+to add a new event check [example-events-post.md](/_posts/news-and-events/example-events-post.md) for all that's required.
 
 For events that have their information hosted on the NetFPGA website to edit those files these pages can be found in the _pages folder with the same naming format as the the events.
 
