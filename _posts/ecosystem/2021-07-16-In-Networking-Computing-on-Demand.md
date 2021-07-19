@@ -7,6 +7,7 @@ category:
 description:
 organisation:
 organisation-logo:
+organisation-type:
 product-repo:
 product-site: https://github.com/cucl-srg/INC-ondemand
 primary-contact-name:
