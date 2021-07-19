@@ -3,39 +3,8 @@ layout: page
 ---
 
 <h1>The NetFPGA Ecosystem</h1>
-<p>These are some of the open-source projects based on NetFPGA. If you have a  project that uses NetFPGA and would like to be featured as part of the NetFPGA ecosystem, please let us know <a href="">here</a></p>
+<p>These are some of the open-source projects based on NetFPGA. If you have a  project that uses NetFPGA and would like to be featured as part of the NetFPGA ecosystem, please let us know <a href="https://forms.gle/rqA4BNEuguDETdtJ6">here</a></p>
 
-
-<br>
-<br>
-
-<h2><a href="https://github.com/NetFPGA/OSNT-SUME-live">OSNT</a></h2> <!-- throws a 404 error -->
-
-<br>
-<br>
-
-<h2><a href="https://github.com/cucl-srg/P4DNS">P4DNS</a></h2>
-
-<br>
-<br>
-
-<h2><a href="https://github.com/cucl-srg/INC-ondemand">In network computing on demand</a></h2>
-
-<br>
-<br>
-
-<h2><a href="https://github.com/ox-computing/IIsy">IIsy</a></h2>
-
-<br>
-<br>
-
-<h2><a href="https://github.com/mtpsa/">MTPSA</a></h2>
-
-<br>
-<br>
-
-<h2><a href="https://github.com/pta-project-repo/pta-artifacts">PTA</a></h2>
-<br>
 {% for post in site.posts %}
   {% if post.posttype == "ecosystem" %}
     <div class="row">
@@ -45,7 +14,9 @@ layout: page
             <div class="row">
               <h2 class="card-title col-6">{{post.title}}</h2>
               <div class="col-6">
-                <img src="{{post.organisation-logo}}" alt="The logo of {{post.organisation}}" class="organisation-img float-right">
+                {% if post.organisation-logo %}
+                  <img src="{{post.organisation-logo}}" alt="The logo of {{post.organisation}}" class="organisation-img float-right">
+                {% endif %}
               </div>
             </div>
             <br>
@@ -56,8 +27,8 @@ layout: page
             <p>{{post.description}}</p>
             <br>
             <p>Contact {{post.organisation}} here: <a href="mailto:{{post.primary-contact-email}}">{{post.primary-contact-email}}</a></p>
-            <hr>
             {% if post.seller %}
+            <hr>
             <div>
               <p>{{post.title}} is sold by {{post.seller}}.
                 <br>
@@ -81,9 +52,13 @@ layout: page
           </div>
           <div class="card-footer">
             <p class="mb-0">
-              <a href="{{post.product-repo}}">Repository</a>
-              &nbsp
-              <a href="{{post.product-site}}">Website</a>
+              {% if post.product-repo %}
+                <a href="{{post.product-repo}}">Repository</a>
+                &nbsp
+              {% endif %}
+              {% if post.product-site %}
+                <a href="{{post.product-site}}">Website</a>
+              {% endif %}
             </p>
           </div>
         </div>
