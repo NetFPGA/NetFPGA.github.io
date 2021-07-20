@@ -7,9 +7,9 @@ layout: ecosystem-layout
 
 {% for post in site.posts %}
   {% if post.posttype == "ecosystem" %}
-    <div class="row">
+    <div class="row {% include ecosystem-filter-classes.html %}">
       <div class="col-12 col-md-12 col-lg-12 mb-5">
-        <div class="card border-1 h-100 collapse show {{ post.organisation }}-collapse {{ post.type }}-collapse {{ post.organisation-type }}-collapse">
+        <div class="card border-1 h-100">
           <div class="card-body">
             <div class="row">
               <h2 class="card-title col-6">{{post.title}}</h2>
