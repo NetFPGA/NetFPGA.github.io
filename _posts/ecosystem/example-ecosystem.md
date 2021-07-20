@@ -19,6 +19,7 @@ seller:
 seller-url:
 seller-email:
 seller-phone:
+target-platform1-5: PLUS
 ---
 
 title: The name for the product/Project/service
@@ -41,3 +42,8 @@ seller: The name of the seller of the product
 seller-url: The link to the seller's website, if provided
 seller-email: The email of the seller, if provided
 seller-phone: The phone number of the seller, if provided
+target-platform1: the main NetFPGA platform the product is designed for/uses
+target-platform2: The secondary NetFPGA platform the product is designed for/uses
+target-platform3: The tertiary NetFPGA platform the product is designed for/uses
+target-platform4: The quarternary NetFPGA platform the product is designed for/uses
+target-platform5: The quinary NetFPGA platform the product is designed for/uses
