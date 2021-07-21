@@ -40,7 +40,7 @@ In the _layouts folder you can find default.html and page.html. Editing either o
 
 To edit the layout with precision edit default.html because page.html uses default.html as its layout
 
-Editing either of these will edit the layout of every page.
+Editing either of these will edit the layout of every page, however changing page.html won't change the layout on the ecosystem page. To change that edit the ecosystem-layout.html.
 
 ### Editing the layout of a specific page
 
@@ -80,7 +80,7 @@ Edit the NetFPGA-1G.html file.
 
 Edit the About.html file.
 
-All logos can be found sorted into to hosts and supporters in the Logos folders in the images folder in the assets folder.
+All logos can be found sorted into hosts and supporters in the Logos folders in the images folder in the assets folder.
 
 ### How to edit the ecosystem page
 
@@ -88,7 +88,7 @@ To edit the text at the top of the ecosystem edit the ecosystem.html page.
 
 To edit information on one of the cards check the ecosystem subfolder of the _posts folder. Look for the file with the name of the ecosystem part after the date.
 
-To add a new card check [example-ecosystem.md](/_posts/ecosystem/example-ecosystem.md) for the metadata tags that are needed as well as the purpose of each one. The ecosystem file should be named with the date it was added to the site in the format \<YYYY\>-\<MM\>-\<DD\>-\<Name of Ecosystem part\>.
+To add a new card check [example-ecosystem.md](/_posts/ecosystem/example-ecosystem.md) for the metadata tags that are needed as well as the purpose of each one. The ecosystem file should be named with the date it was added to the site in the format \<YYYY\>-\<MM\>-\<DD\>-\<Name of Ecosystem part\>. The date used in the name of the file should be the date the file was added to the website.
 
 ### How to edit the Publications to page
 
