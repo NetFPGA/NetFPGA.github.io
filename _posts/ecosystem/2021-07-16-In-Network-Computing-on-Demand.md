@@ -1,5 +1,5 @@
 ---
-title: In Networking Computing on Demand
+title: In Network Computing on Demand
 date: 2021-07-16
 posttype: ecosystem
 type: other
