@@ -23,22 +23,6 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-function showCard(name) {
-  let i;
-  let posts;
-  posts = document.getElementsByClassName('post');
-  let numberOfPosts = posts.length;
-  for (i = 0; i < numberOfPosts; i++) {
-    let postClasses = posts[i].className.split(" ");
-    postClasses[postClasses.length - 1] = postClasses[postClasses.length - 1].substring(0, postClasses[postClasses.length - 1] - 2);
-    for (let k = 0; k < postClasses.length; k++) {
-      if (postClasses[k] == name) {
-        w3AddClass(posts[i], 'show');
-      }
-    }
-  }
-}
-
 function noButton() {
   const netfpgaCB = document.getElementById('check-organisation-NetFPGA');
   const osntCB = document.getElementById('check-organisation-OSNT');
@@ -70,53 +54,155 @@ function noButton() {
                           if (netfpga10GCB.checked == false) {
                             if (netfpga1GCB.checked == false) {
                               return true;
-                            }
-                            else return false;
-                          }
-                          else return false;
-                        }
-                        else return false;
-                      }
-                      else return false;
-                    }
-                    else return false;
-                  }
-                  else return false;
-                }
-                else return false;
-              }
-              else return false;
-            }
-            else return false;
-          }
-          else return false;
-        }
-        else return false;
-      }
-      else return false;
-    }
-    else return false;
+                            } else return false;
+                          } else return false;
+                        } else return false;
+                      } else return false;
+                    } else return false;
+                  } else return false;
+                } else return false;
+              } else return false;
+            } else return false;
+          } else return false;
+        } else return false;
+      } else return false;
+    } else return false;
+  } else return false
+}
+
+function hasClass(post, classNeeded) {
+  if (post.includes(classNeeded)) {
+    return true;
+  } else {
+    return false;
   }
-  else return false
+}
+
+function evaluateCard(cardIndex) {
+  let cardScore = [];
+  let cardsClasses;
+  let cards = document.getElementsByClassName('post');
+  cardsClasses = lineBreakRemove(cards[cardIndex]);
+  if (hasClass(cardsClasses, "NetFPGA-collapse")) {
+    cardScore[0] = 1;
+  } else {
+    cardScore[0] = 0;
+  }
+  if (hasClass(cardsClasses, "OSNT-collapse")) {
+    cardScore[1] = 1;
+  } else {
+    cardScore[1] = 0;
+  }
+  if (hasClass(cardsClasses, "academic-collapse")) {
+    cardScore[2] = 1;
+  } else {
+    cardScore[2] = 0;
+  }
+  if (hasClass(cardsClasses, "non-profit-collapse")) {
+    cardScore[3] = 1;
+  } else {
+    cardScore[3] = 0;
+  }
+  if (hasClass(cardsClasses, "vendor-collapse")) {
+    cardScore[4] = 1;
+  } else {
+    cardScore[4] = 0;
+  }
+  if (hasClass(cardsClasses, "product-collapse")) {
+    cardScore[5] = 1;
+  } else {
+    cardScore[5] = 0;
+  }
+  if (hasClass(cardsClasses, "project-collapse")) {
+    cardScore[6] = 1;
+  } else {
+    cardScore[6] = 0;
+  }
+  if (hasClass(cardsClasses, "software-collapse")) {
+    cardScore[7] = 1;
+  } else {
+    cardScore[7] = 0;
+  }
+  if (hasClass(cardsClasses, "other-collapse")) {
+    cardScore[8] = 1;
+  } else {
+    cardScore[8] = 0;
+  }
+  if (hasClass(cardsClasses, "NetFPGA-PLUS-collapse")) {
+    cardScore[9] = 1;
+  } else {
+    cardScore[9] = 0;
+  }
+  if (hasClass(cardsClasses, "NetFPGA-SUME-collapse")) {
+    cardScore[10] = 1;
+  } else {
+    cardScore[10] = 0;
+  }
+  if (hasClass(cardsClasses, "NetFPGA-CML-collapse")) {
+    cardScore[11] = 1;
+  } else {
+    cardScore[11] = 0;
+  }
+  if (hasClass(cardsClasses, "NetFPGA-10G-collapse")) {
+    cardScore[12] = 1;
+  } else {
+    cardScore[12] = 0;
+  }
+  if (hasClass(cardsClasses, "NetFPGA-1G-collapse")) {
+    cardScore[13] = 1;
+  } else {
+    cardScore[13] = 0;
+  }
+  return cardScore;
+}
+
+function evaluateButtons() {
+  let check = document.getElementsByClassName('check-container');
+  let numberOfButtons = check.length;
+  let score = [];
+  for (let i = 0; i < numberOfButtons; i++) {
+    if (check[i].children[0].checked) {
+      score[i] = 1;
+    } else {
+      score[i] = 0;
+    }
+  }
+  return score;
+}
+
+function evaluation(buttons, post) {
+  let returnValue = false;
+  for (let i = 0; i < buttons.length; i++) {
+    if ((buttons[i] == 1) && (post[i] == 1)) {
+      returnValue = true;
+    }
+  }
+  if (buttons.reduce((partial_sum, a) => partial_sum + a, 0) == 0) {
+    returnValue = true;
+  }
+  return returnValue;
+}
+
+function lineBreakRemove(cardClass) {
+  let classList;
+  classList = cardClass.className.split(' ');
+  if (classList.includes('show')) {
+
+  } else {
+    classList[classList.length - 1] = classList[classList.length - 1].slice(0, -1);
+  }
+  return classList;
 }
 
 function buttonClicked() {
-  const netfpgaCB = document.getElementById('check-organisation-NetFPGA');
-  const osntCB = document.getElementById('check-organisation-OSNT');
-  const academicCB = document.getElementById('check-organisation-type-Academic');
-  const nonProfitCB = document.getElementById('check-organisation-type-Non-Profit');
-  const vendorCB = document.getElementById('check-organisation-type-Vendor');
-  const productCB = document.getElementById('check-product-type-Product');
-  const projectCB = document.getElementById('check-product-type-Project');
-  const softwareCB = document.getElementById('check-product-type-Software');
-  const otherCB = document.getElementById('check-product-type-Other');
-  const plusCB = document.getElementById('check-target-PLUS');
-  const sumeCB = document.getElementById('check-target-SUME');
-  const cmlCB = document.getElementById('check-target-CML');
-  const netfpga10GCB = document.getElementById('check-target-10G');
-  const netfpga1GCB = document.getElementById('check-target-1G');
   let i;
   let posts;
+  let buttonScore;
+  let postScore;
+  let organisationShow;
+  let organisationTypeShow;
+  let productTypeShow;
+  let targetPlatformShow;
   posts = document.getElementsByClassName('post');
   let numberOfPosts = posts.length;
   for (i = 0; i < numberOfPosts; i++) {
@@ -127,311 +213,15 @@ function buttonClicked() {
       w3AddClass(posts[i], 'show');
     }
   }
-  if (netfpgaCB.checked == true) {
-    showCard('NetFPGA-collapse');
-    organisationCheck();
-  }
-  if (osntCB.checked == true) {
-    showCard('OSNT-collapse');
-    organisationCheck();
-  }
-  if (academicCB.checked == true) {
-    showCard('academic-collapse');
-    organisationTypeCheck();
-  }
-  if (nonProfitCB.checked == true) {
-    showCard('non-profit-collapse');
-    organisationTypeCheck();
-  }
-  if (vendorCB.checked == true) {
-    showCard('vendor-collapse');
-    organisationTypeCheck();
-  }
-  if (productCB.checked == true) {
-    showCard('product-collapse');
-    productTypeCheck();
-  }
-  if (projectCB.checked == true) {
-    showCard('project-collapse');
-    productTypeCheck();
-  }
-  if (softwareCB.checked == true) {
-    showCard('software-collapse');
-    productTypeCheck();
-  }
-  if (otherCB.checked == true) {
-    showCard('other-collapse');
-    productTypeCheck();
-  }
-  if (plusCB.checked == true) {
-    showCard('NetFPGA-PLUS-collapse');
-  }
-  if (sumeCB.checked == true) {
-    showCard('NetFPGA-SUME-collapse');
-  }
-  if (cmlCB.checked == true) {
-    showCard('NetFPGA-CML-collapse');
-  }
-  if (netfpga10GCB.checked == true) {
-    showCard('NetFPGA-10G-collapse');
-  }
-  if (netfpga1GCB.checked == true) {
-    showCard('NetFPGA-1G-collapse');
-  }
-/*  if (noButton() == false) {
-    platformCheck();
-  } */
-}
-
-function organisationCheck() {
-  const netfpgaCB = document.getElementById('check-organisation-NetFPGA');
-  const osntCB = document.getElementById('check-organisation-OSNT');
-  let posts = document.getElementsByClassName('post');
-  var l;
-  console.log(netfpgaCB.checked);
-  if (netfpgaCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[3] == 'NetFPGA-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-  if (osntCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[3] == 'OSNT-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-}
-
-function organisationTypeCheck() {
-  const academicCB = document.getElementById('check-organisation-type-Academic');
-  const nonProfitCB = document.getElementById('check-organisation-type-Non-Profit');
-  const vendorCB = document.getElementById('check-organisation-type-Vendor');
-  let posts = document.getElementsByClassName('post');
-  if (academicCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[4] == 'academic-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-  if (nonProfitCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[4] == 'non-profit-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-  if (vendorCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[4] == 'vendor-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-}
-
-function productTypeCheck() {
-  const productCB = document.getElementById('check-product-type-Product');
-  const projectCB = document.getElementById('check-product-type-Project');
-  const softwareCB = document.getElementById('check-product-type-Software');
-  const otherCB = document.getElementById('check-product-type-Other');
-  let posts = document.getElementsByClassName('post');
-  if (productCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[5] == 'product-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-  if (projectCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[5] == 'project-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-  if (softwareCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[5] == 'software-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-  if (otherCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      switch (classNames[5] == 'other-collapse') {
-        case true:
-            l = true;
-          break;
-        default:
-          l = false
-      }
-      if (l) {
-        for (let j = 0; j < classNames.length; j++) {
-          if (classNames[j] == 'show') {
-            w3RemoveClass(posts[i], 'show');
-          }
-        }
-      }
-    }
-  }
-}
-
-function platformCheck() {
-  const plusCB = document.getElementById('check-target-PLUS');
-  const sumeCB = document.getElementById('check-target-SUME');
-  const cmlCB = document.getElementById('check-target-CML');
-  const netfpga10GCB = document.getElementById('check-target-10G');
-  const netfpga1GCB = document.getElementById('check-target-1G');
-  let posts = document.getElementsByClassName('post');
-  if (plusCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      for (let j = 0; j < classNames.length; j++) {
-        if (classNames[j] == 'show') {
-          w3RemoveClass(posts[i], 'show');
-        }
-      }
-    }
-  }
-  if (sumeCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      for (let j = 0; j < classNames.length; j++) {
-        if (classNames[j] == 'show') {
-          w3RemoveClass(posts[i], 'show');
-        }
-      }
-    }
-  }
-  if (cmlCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      for (let j = 0; j < classNames.length; j++) {
-        if (classNames[j] == 'show') {
-          w3RemoveClass(posts[i], 'show');
-        }
-      }
-    }
-  }
-  if (netfpga10GCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      for (let j = 0; j < classNames.length; j++) {
-        if (classNames[j] == 'show') {
-          w3RemoveClass(posts[i], 'show');
-        }
-      }
-    }
-  }
-  if (netfpga1GCB.checked == false) {
-    for (let i = 0; i < posts.length; i++) {
-      let classNames = posts[i].className.split(" ")
-      for (let j = 0; j < classNames.length; j++) {
-        if (classNames[j] == 'show') {
-          w3RemoveClass(posts[i], 'show');
-        }
-      }
+  buttonScore = evaluateButtons();
+  for (i = 0; i < numberOfPosts; i++) {
+    postScore = evaluateCard(i);
+    organisationShow = evaluation(buttonScore.slice(0, 2), postScore.slice(0, 2));
+    organisationTypeShow = evaluation(buttonScore.slice(2, 5), postScore.slice(2, 5));
+    productTypeShow = evaluation(buttonScore.slice(5, 9), postScore.slice(5, 9));
+    targetPlatformShow = evaluation(buttonScore.slice(9, 14), postScore.slice(9, 14));
+    if (organisationShow && organisationTypeShow && productTypeShow && targetPlatformShow) {
+      w3AddClass(posts[i], 'show')
     }
   }
 }
