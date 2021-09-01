@@ -23,53 +23,6 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-function noButton() {
-  const netfpgaCB = document.getElementById('check-organisation-NetFPGA');
-  const osntCB = document.getElementById('check-organisation-OSNT');
-  const academicCB = document.getElementById('check-organisation-type-Academic');
-  const nonProfitCB = document.getElementById('check-organisation-type-Non-Profit');
-  const vendorCB = document.getElementById('check-organisation-type-Vendor');
-  const productCB = document.getElementById('check-product-type-Product');
-  const projectCB = document.getElementById('check-product-type-Project');
-  const softwareCB = document.getElementById('check-product-type-Software');
-  const otherCB = document.getElementById('check-product-type-Other');
-  const plusCB = document.getElementById('check-target-PLUS');
-  const sumeCB = document.getElementById('check-target-SUME');
-  const cmlCB = document.getElementById('check-target-CML');
-  const netfpga10GCB = document.getElementById('check-target-10G');
-  const netfpga1GCB = document.getElementById('check-target-1G');
-
-  if (netfpgaCB.checked == false) {
-    if (osntCB.checked == false) {
-      if (academicCB.checked == false) {
-        if (nonProfitCB.checked == false) {
-          if (vendorCB.checked == false) {
-            if (productCB.checked == false) {
-              if (projectCB.checked == false) {
-                if (softwareCB.checked == false) {
-                  if (otherCB.checked == false) {
-                    if (plusCB.checked == false) {
-                      if (sumeCB.checked == false) {
-                        if (cmlCB.checked == false) {
-                          if (netfpga10GCB.checked == false) {
-                            if (netfpga1GCB.checked == false) {
-                              return true;
-                            } else return false;
-                          } else return false;
-                        } else return false;
-                      } else return false;
-                    } else return false;
-                  } else return false;
-                } else return false;
-              } else return false;
-            } else return false;
-          } else return false;
-        } else return false;
-      } else return false;
-    } else return false;
-  } else return false
-}
-
 function hasClass(post, classNeeded) {
   if (post.includes(classNeeded)) {
     return true;
@@ -83,6 +36,7 @@ function evaluateCard(cardIndex) {
   let cardsClasses;
   let cards = document.getElementsByClassName('post');
   cardsClasses = lineBreakRemove(cards[cardIndex]);
+  // Organisations
   if (hasClass(cardsClasses, "NetFPGA-collapse")) {
     cardScore[0] = 1;
   } else {
@@ -93,6 +47,7 @@ function evaluateCard(cardIndex) {
   } else {
     cardScore[1] = 0;
   }
+  // Organisation Types
   if (hasClass(cardsClasses, "academic-collapse")) {
     cardScore[2] = 1;
   } else {
@@ -108,6 +63,7 @@ function evaluateCard(cardIndex) {
   } else {
     cardScore[4] = 0;
   }
+  //Product Types
   if (hasClass(cardsClasses, "product-collapse")) {
     cardScore[5] = 1;
   } else {
@@ -128,6 +84,7 @@ function evaluateCard(cardIndex) {
   } else {
     cardScore[8] = 0;
   }
+  //Target Platforms
   if (hasClass(cardsClasses, "NetFPGA-PLUS-collapse")) {
     cardScore[9] = 1;
   } else {
@@ -207,11 +164,6 @@ function buttonClicked() {
   let numberOfPosts = posts.length;
   for (i = 0; i < numberOfPosts; i++) {
     w3RemoveClass(posts[i], 'show');
-  }
-  if (noButton()) {
-    for (i = 0; i < numberOfPosts; i++) {
-      w3AddClass(posts[i], 'show');
-    }
   }
   buttonScore = evaluateButtons();
   for (i = 0; i < numberOfPosts; i++) {
