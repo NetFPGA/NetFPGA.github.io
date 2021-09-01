@@ -90,6 +90,10 @@ To edit information on one of the cards check the ecosystem subfolder of the _po
 
 To add a new card check [example-ecosystem.md](/_posts/ecosystem/example-ecosystem.md) for the metadata tags that are needed as well as the purpose of each one. The ecosystem file should be named with the date it was added to the site in the format \<YYYY\>-\<MM\>-\<DD\>-\<Name of Ecosystem part\>. The date used in the name of the file should be the date the file was added to the website.
 
+To add a new button to the ecosystem page copy and paste one of the buttons that is already in [ecosystem-buttons](/_includes/ecosystem-buttons.html) and then replace the specifics with the relevant information. And make sure that the button is in the correct section on the page.
+
+***If adding new organisations, organisation types, product types, target platforms please make sure to check (adding-to-javascript.md)[/_posts/ecosystem/adding-to-javascript.md]***
+
 ### How to edit the Publications to page
 
 Each years publications are in the _includes folder with the naming system of \<YYYY\>-Publications.html

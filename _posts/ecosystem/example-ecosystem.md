@@ -47,3 +47,5 @@ target-platform2: The secondary NetFPGA platform the product is designed for/use
 target-platform3: The tertiary NetFPGA platform the product is designed for/uses
 target-platform4: The quarternary NetFPGA platform the product is designed for/uses
 target-platform5: The quinary NetFPGA platform the product is designed for/uses
+
+***If adding new organisations, organisation types, product types, target platforms please make sure to check (adding-to-javascript.md)[/_posts/ecosystem/adding-to-javascript.md]***
