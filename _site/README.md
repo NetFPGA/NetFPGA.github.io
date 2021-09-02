@@ -92,7 +92,7 @@ To add a new card check [example-ecosystem.md](/_posts/ecosystem/example-ecosyst
 
 To add a new button to the ecosystem page copy and paste one of the buttons that is already in [ecosystem-buttons](/_includes/ecosystem-buttons.html) and then replace the specifics with the relevant information. And make sure that the button is in the correct section on the page.
 
-***If adding new organisations, organisation types, product types, target platforms please make sure to check (adding-to-javascript.md)[/_posts/ecosystem/adding-to-javascript.md]***
+***If adding new organisations, organisation types, product types, target platforms please make sure to check [adding-to-javascript.md](/_posts/ecosystem/adding-to-javascript.md)***
 
 ### How to edit the Publications to page
 
