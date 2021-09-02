@@ -1,22 +1,32 @@
-<ul>
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:1 %}
   {% if post.posttype == "news-and-events" %}
     {% assign today = site.time | date: '%s' %}
     {% assign posteol = post.eoldate | date: '%s' %}
     {% if  posteol >= today %}
-    <li>
-      <article>
-        <div class="newsTicker">
-          <p><b><a href="{% link news-and-events.html %}#{{ post.title }}">{{ post.title }}</a></b></p>
-          {% if post.category == "events" %}
-            <p>Presented by {{ post.presenter }}</p>
-          {% endif %}
-          <p><i>{{ post.date | date: "%-d %B %Y" }}</i></p>
-        </div>
-      </article>
-    </li>
-    <hr>
+    <h1 class="text-center">Recent News</h1>
+    <hr width=20%>
     {% endif %}
   {% endif %}
 {% endfor %}
+<ul>
+  {% for post in site.posts limit:3 %}
+    {% if post.posttype == "news-and-events" %}
+      {% assign today = site.time | date: '%s' %}
+      {% assign posteol = post.eoldate | date: '%s' %}
+      {% if  posteol >= today %}
+      <li>
+        <article>
+          <div class="newsTicker">
+            <p><b><a href="{% link news-and-events.html %}#{{ post.title }}">{{ post.title }}</a></b></p>
+            {% if post.category == "events" %}
+              <p>Presented by {{ post.presenter }}</p>
+            {% endif %}
+            <p><i>{{ post.date | date: "%-d %B %Y" }}</i></p>
+          </div>
+        </article>
+      </li>
+      <hr>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </ul>
