@@ -9,9 +9,49 @@ layout: page
     <button class="card-title" ><h2>Details &nbsp</h2></button>
   </div>
   <div id="collapse-PLUS1" class="collapse show" data-parent="#accordion-PLUS1">
-    <p>NetFPGA Plus provides a platform for rapid prototying of networking projects. It provides a combination of open-source code, community, and contributions over a number of the Xilinx <a href="https://www.xilinx.com/products/boards-and-kits/alveo.html" >Alveo</a> FPGA cards. To make users' development experience quick and easy, PLUS offers the NetFPGA reference projecs, test/measurement environment, and expereince using different Xilinx UltraScale+ FPGA. The NetFPGA project makes extensive use of the Vivado development environment and draws features from the <a href="https://github.com/Xilinx/open-nic-shell" ><i>OpenNic Shell</i></a>, including PCIe-DMA interfaces and the CMAC/100GbE physical Ethernet interfaces.</p>
-    <p>Current targets (as at May 2021) are the Alveo U200, Alveo U250, Alveo U280 and the older Xilinx VCU1525 Acceleration Development Kit. Common features of these target boards is the use of the UltraScale+ FPGA along with dual 100GbE ports, x16 gen3 PCIe HBA (host bus adapter) interface. Communitty ports to new targets are also keenly encouraged</p>
-    <p>NetFPGA Plus can be used as a smart NIC (network interface card), layer2 switch, IP router, test/measurement environment, firewall, network functions prototyping environment, and more. A number of reference projects are included as standard</p>
+    <p>The NetFPGA PLUS is a code base built for the Xilinx Alveo Data Center Accelerator Card based upon Xilinx Virtex Ultrascale+ FPGAs. The code base currently operates on the U200, U250 and U280 as well as the discontinued <a href="https://www.xilinx.com/products/boards-and-kits/vcu1525-a.html">VCU1525 Acceleration Development Kit.</a></p>
+    <br>
+    <p>A typical Alveo board is an FPGA-based PCI Express board with I/O capabilities for 10 and 100 Gbps operation, an x16 gen3 PCIe adapter card. It can be used as NIC, multiport switch, firewall, test/mesaurement environment, and more.</p>
+    <p>Full feature lists are available at the <a href="https://www.xilinx.com/products/boards-and-kits/alveo.html">Xilinx Alveo website</a>.</p>
+    <p>Example feaures (e.g., U250)</p>
+    <ul>
+      <li>Field Programmable Gate Array</li>
+      <ul>
+        <li>Xilinx Ultrascale+ VCU250</li>
+        <li>1,728K logic cells</li>
+        <li>57MB block RAM</li>
+        <li>Fully programmable by the user</li>
+      </ul>
+      <li>100-Gigabit Ethernet networking ports</li>
+      <ul>
+        <li>Connector bloack on left of PCB interfaces to 2 QSFP+ ports</li>
+        <li>Directly connected to the FPGA.</li>
+        <li>Wire-speed processing on all ports at all time using FPGA logic.</li>
+      </ul>
+      <li>Double-Data Rate Random Access Memory (DDR4 DRAM)</li>
+      <ul>
+        <li>4x 16GB 72b DIMM DDR4</li>
+        <li>933MHz clock (2400MT/s)</li>
+        <li>77 GB/s peak memory throughput</li>
+      </ul>
+      <li>PCI Express Gen. 3</li>
+      <ul>
+        <li>Third generation PCI Express interface, 8Gbps/lane</li>
+        <li>16 lanes (x16)</li>
+        <li>Hard IP</li>
+        <li>Provides CPU access to memory-mapped registers and memory on the NetFPGA hardware</li>
+      </ul>
+      <li>Storage</li>
+      <ul>
+        <li>FLASH devices</li>
+      </ul>
+      <li>Standard PCIe Form Factor</li>
+      <ul>
+        <li>Standard PCIe card</li>
+        <li>3/4 or Full length, full height</li>
+      </ul>
+      <li>Flexible, Open-source code</li>
+    </ul>
   </div>
 </div>
 <hr>
