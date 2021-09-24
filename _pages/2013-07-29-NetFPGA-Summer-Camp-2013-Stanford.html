@@ -1,0 +1,234 @@
+---
+layout: page
+---
+
+<h2>NetFPGA Summer Camp 2013</h2>
+
+<br>
+<br>
+
+<h3>Build an internet router and learn about clean-slate switches at a 5-day summer camp held at <a href="http://stanford.edu/">Stanford University</a></h3>
+
+<br>
+
+<p><b>Open to:</b> Academics teaching classes with the NetFPGA, and researchers (postdoc or graduate-student) interested in developing new hardware-accelerated network application</p>
+<p><b>Location:</b> Gates Building, Room 415, 353 Serra Mall, Stanford, CA 94305</p>
+<p><b>Dates:</b> Monday, July 29th - Friday, August 2 2012</p>
+<p><b>Time:</b> 9am - 5pm</p>
+<p><b>Presented by:</b> the Stanford NetFPGA Group.</p>
+
+<br>
+<br>
+
+<h3>Abstract</h3>
+
+<br>
+
+<p>An open platform called the <a href="{% link index.html %}">NetFPGA</a> has been developed at Stanford University. The NetFPGA platform enables researchers and instructors to build high-speed, hardware-accelerated networking systems. The platform can be used in the classroom to teach students how to build Ethernet switches and Internet Prototcol (IP) routers using hardware rather than software. The platform can be used by researchers to prototype advanced services for next-generation networks.</p>
+<p>By using Field Programmable Gate Arrays (FPGAs), the NetFPGA enables new types of packet routing circuits to be implemented and detailed measurements of network traffic to be obtained. During the tutorial, we will use the NetFPGA to determine the amount of memory needed to buffer TCP/IP data streaming through the Gigabit/second router. Hardware circuits within the NetFPGA will be implemented to measure and plot the occupancy of buffers. Circuits will be downloaded into reconfigurable hardware and tested with live, streaming Internet video traffic.</p>
+
+<br>
+<br>
+
+<h3>Background</h3>
+
+<br>
+
+<p>Attendees will utilize a Linux-based PC equipped with NetFPGA hardware. A basic understanding of Ethernet switching and network routing is expected. Past experience with Verilog is useful but not required. This week-long summercamp extends the material presented at the shorter workshop <a href="{% link news-and-events.html %}">events</a>.</p>
+
+<br>
+<br>
+
+<img src="{% link /assets/images/netfpga-summer-camp-2013-1.jpeg %}" alt="A photo from the camp">
+
+<br>
+<br>
+
+<img src="{% link /assets/images/netfpga-summer-camp-2013-2.jpeg %}" alt="Another photo from the camp">
+
+<br>
+<br>
+
+<h3><b>Slides</b></h3>
+
+<br>
+
+<p>Day 1: <a href="https://docs.google.com/file/d/0B4EuVzA5UdPRN1dZY25OM253SVk/edit?usp=sharing">ppt</a></p>
+
+<br>
+<br>
+
+<h3>Outline</h3>
+
+<br>
+
+<p>Day 1 (Monday, July 29)</p>
+<ul>
+  <li>Welcome and Introductions</li>
+  <li>NetFPGA</li>
+  <ul>
+    <li>Infrastructure</li>
+    <ul>
+      <li>Tree</li>
+      <li>Build System</li>
+      <li>Scripts</li>
+    </ul>
+    <li>Life of a packet through the NetFPGA</li>
+    <ul>
+      <li>Data and control planes</li>
+      <li>Interface to software: Exceptions and Host I/O</li>
+    </ul>
+    <li>Implementation</li>
+    <ul>
+      <li>Module Template</li>
+      <li>User Data Path</li>
+      <li>Write crypto NIC using a static Key</li>
+    </ul>
+    <li>Simulation and Debug</li>
+    <ul>
+      <li>Simulation functions</li>
+      <li>Write and Run Simulations for crypto NIC</li>
+    </ul>
+  </ul>
+</ul>
+
+<br>
+
+<p>Day 2 (Tuesday, July 30)</p>
+<ul>
+  <li>NetFPGA (cont.)</li>
+  <ul>
+    <li>Registers</li>
+    <ul>
+      <li>Explain Register System</li>
+      <li>Add XML to define crypto NIC encryption key</li>
+      <li>Use Generic Register Module to implement register</li>
+      <li>Update Simulations</li>
+    </ul>
+    <li>Build and Test Hardware</li>
+    <ul>
+      <li>Build</li>
+      <li>Explanation of Hardware Tests</li>
+      <li>Write and run Hardware Tests</li>
+      <ul>
+        <li>Verify value: 0xFFFFFFFF</li>
+        <li>Verify value: 0xFF00FF00</li>
+        <li>Verify value: 0x55555555</li>
+      </ul>
+    </ul>
+    <li>Writing Software and Integration</li>
+    <ul>
+      <li>Write setkey.c/getkey.c to write/read registers</li>
+      <li>Test between adjacent computers</li>
+    </ul>
+  </ul>
+  <li>Group Discussion</li>
+  <ul>
+    <li>Projects ideas</li>
+    <li>Scope of work that can be accomplished in 2-3 days</li>
+  </ul>
+  <li>Team up for Projects</li>
+  <ul>
+    <li>Project leaders will describe projects</li>
+    <li>Group will provide feedback on the scope</li>
+    <li>Be sure to have one hardware designer per team</li>
+  </ul>
+  <li>Example Hardware Design</li>
+  <ul>
+    <li>Background and review of block diagrams</li>
+    <li>Show design running on nf-test machines</li>
+    <li>Discuss relevant Verilog Code</li>
+  </ul>
+</ul>
+
+<br>
+
+<p>Day 3 (Wednesday, July 31)</p>
+<ul>
+  <li>Work on Projects, examples from Summer Camp 2008 & 2010</li>
+  <ul>
+    <li>802.1q VLANs</li>
+    <li>Hardware-Accelerated Mathematics Library for NetFPGA</li>
+    <li>MACinMAC</li>
+    <li>Heavy Hitter Identification using Multistage</li>
+    <li>Layer 2 Load Balancing</li>
+    <li>Pattern Matching/Mini-IDS</li>
+    <li>TCP Traffic Analysis for Passive End-to-End Bandwidth Measurement</li>
+    <li>Assessment of Prototyping an AFDX Policy Switch Leveraging NetFPGA, Ethane, and OpenFlow Switch</li>
+    <li>ntop on NetFPGA</li>
+    <li>Universal Hash Function</li>
+  </ul>
+  <li>NetFPGA group available for Questions and Answers</li>
+  <li>Dinner: TBD</li>
+</ul>
+
+<br>
+
+<p>Day 4 (Thursday, Aug. 1)</p>
+<ul>
+  <li>Complete Projects</li>
+</ul>
+
+<br>
+
+<p>Day 5 (Friday, Aug. 2)</p>
+<ul>
+  <li>Complete Projects</li>
+  <li>10-minute project presentations</li>
+  <li>Live demonstrations</li>
+  <li>Award prizes to winning projects</li>
+  <li>Dinner: TBD</li>
+</ul>
+
+<br>
+<br>
+
+<h3>Background Reading</h3>
+
+<br>
+
+<ul>
+  <ul>
+    <li><a href="{% link index.html %}">NetFPGA Website</a></li>
+    <li><a href="https://github.com/NetFPGA/NetFPGA-public/wiki/EDK-Tutorials">EDK Tutorials</a></li>
+    <li><a href="https://github.com/NetFPGA/NetFPGA-public/wiki/Projects">NetFPGA Projects</a></li>
+    <li>The Verilog Golden Reference Guide, by Doulos</li>
+  </ul>
+</ul>
+
+<br>
+<br>
+
+<p>To Attend this Event</p>
+
+<ul>
+  <li>Mark your calendar with the dates of the event</li>
+  <ul>
+    <li>Please plan to arrive Sunday night July 28</li>
+    <li>Please plan to stay through Saturday morning, August 3</li>
+    <li>Registration fee covers shared meals (all breakfasts, lunches, and most dinners)</li>
+    <ul>
+      <li>Registration Fee:</li>
+      <ul>
+        <li>Early (before June 15th): $250</li>
+        <li>Late (after June 15th): $350</li>
+      </ul>
+      <li>Register: <a href="http://www.certain.com/system/profile/form/index.cfm?PKformID=0x1449454eb4c">Registration Site</a></li>
+      <li>Registration Deadline: July 6th</li>
+    </ul>
+    <li>A limited number of scholarships are available for students or instructors unable to cover registration and hotel expenses. Scholarship applicants do not need to register through the registration website.</li>
+    <ul>
+      <li>Award of the scholarships will be based on both merit and need:</li>
+      <li>Please provide one paragraph about that describes your relevant technical background in networking and/or hardware design.</li>
+      <li>Please provide another paragraph that explains why you or your host institution needs financial help.</li>
+      <li>Scholarship Application:</li>
+    </ul>
+  </ul>
+  <li>Travel Information</li>
+  <ul>
+    <li>Direct flights are available to most parts of the country through SFO and SJC</li>
+    <li><a href="http://www.caltrain.com/caltrain_map.html">CalTrain</a> offers fast transportation between the airports and Palo Alto</li>
+    <li>The <a href="http://transportation.stanford.edu/marguerite/MargueriteShuttle.shtml">Marguerite Shuttle</a> offers rides between the train station, hotel, and campus. No car rental is needed.</li>
+  </ul>
+  <li>Hotel information coming soon</li>
+</ul>

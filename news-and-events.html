@@ -1,0 +1,43 @@
+---
+layout: page
+---
+
+<p class="card btn btn-primary check-container">
+  <input id="check-news" class="stretched-link" type="checkbox" data-toggle="collapse" href=".news-collapse" role="button" aria-controls="newsCollapse" checked>
+  <label class="check-label" for="check-news">News</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-events" class="stretched-link" type="checkbox" data-toggle="collapse" href=".events-collapse" role="button" aria-controls="eventsCollapse" checked>
+  <label class="check-label" for="check-events">Events</label>
+</p>
+<div class="posts">
+    {% for post in site.posts %}
+      {% if post.posttype == "news-and-events" %}
+        <article id="{{ post.title }}" class="collapse show {{ post.category }}-collapse">
+          <div class="">
+            <h1>{% if post.titlelink %}<a href="{{ post.titlelink }}">{% endif %}{{ post.title }}</a></h1>
+            {% if post.presenter %}
+              <h3>Presenter: {{ post.presenter }}</h3>
+            {% endif %}
+            {% if post.category == "news" %}
+              <h3>Posted: <i>{{ post.eventdate | date: "%-d %B %Y" }}</i></h3>
+            {% endif %}
+            {% if post.category == "events" %}
+              <h3><i>{{ post.eventdate | date: "%-d %B %Y"}}</i></h3>
+            {% endif %}
+            {% if post.location %}
+              <h4>Location: {{ post.location }}</h4>
+            {% endif %}
+            {% if post.target %}
+              <h4>Target Platform: {{ post.target }}</h4>
+            {% endif %}
+            {% if post.website %}
+              <h4><a href="{{ post.website }}">Website</a></h4>
+            {% endif %}
+            <p>{{ post.content }}</p>
+            <hr>
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+</div>

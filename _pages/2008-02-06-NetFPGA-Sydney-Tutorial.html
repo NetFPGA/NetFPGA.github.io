@@ -1,0 +1,216 @@
+---
+layout: page
+---
+
+<h2>NetFPGA Sydney Tutorial</h2>
+
+<br>
+<br>
+
+<h3>Hands-on with the NetFPGA to build a Gigabit-rate Router at <a href="http://nicta.com.au/">NICTA</a></h3>
+
+<br>
+
+<p><b>Presented by:</b> John W. Lockwood, Glen Gibb, and Jad Naous of the: <a href="http://yuba.stanford.edu/">High Performance Network Group at Stanford University</a></p>
+
+<p><b>Hosted by:</b> Lavy Libman and Philip Allen <a href="http://nicta.com.au/">NICTA (National ICT Australia)</a> and <a href="http://www.eet.unsw.edu.au/">School of Electrical Engineering and Telecommunications</a> <a href="http://www.unsw.edu.au/">The University of New South Wales (UNSW)</a></p>
+
+<p><b>Date:</b> Wednesday, February 6, 2008</p>
+
+<p><b>Time:</b> 9am - 5pm</p>
+
+<p><b>Location:</b> Lab343A at the <a href="http://www.unsw.edu.au/">University of New South Wales</a> <a href="http://www.eet.unsw.edu.au/home/contact.htm#findWay">School of Electrical Engineering and Telecommunications building (G17)</a> Kensington campus, Sydney, Australia</p>
+
+<br>
+
+<p>To Register to attend, send email here with a subject line of "I plan to attend the NetFPGA tutorial" and a message that includes your name, title, organisation, and contact information.</p>
+
+<br>
+<br>
+
+<h3>Abstract</h3>
+
+<br>
+
+<p>An open platform called the <a href="{% link index.html %}">NetFPGA</a> has been developed at Stanford University. The NetFPGA platform enables researchers and instructors to build high-speed, hardware-accelerated networking systems. The platform can be used in the classroom to teach students how to build Ethernet switches and Internet Prototcol (IP) routers using hardware rather than software. The platform can be used by researchers to prototype advanced services for next-generation networks.</p>
+<br>
+<p>By using Field Programmable Gate Arrays (FPGAs), the NetFPGA enables new types of packet routing circuits to be implemented and detailed measurements of network traffic to be obtained. During the tutorial, we will use the NetFPGA to determine the amount of memory needed to buffer TCP/IP data streaming through the Gigabit/second router. Hardware circuits within the NetFPGA will be implemented to measure and plot the occupancy of buffers. Circuits will be downloaded into reconfigurable hardware and tested with live, streaming Internet video traffic.</p>
+<br>
+<p>This full-day hands-on tutorial will be held in Sydney on Wednesday, February 6.</p>
+
+<br>
+<br>
+
+<h3>Background</h3>
+
+<br>
+
+<p>Attendees will utilize a Linux-based PC equipped with NetFPGA hardware. A basic understanding of Ethernet switching and network routing is expected. Past experience with Verilog is useful but not required. This full-day tutorial extends the material presented at the Hot Interconnects tutorial and the SIGMETRICS tutorials in 2007.</p>
+
+<br>
+<br>
+
+<img src="/assets/images/netfpga_tutorial.jpeg" alt="A photo of a NetFPGA tutorial">
+
+<br>
+<br>
+
+<h3>Outline</h3>
+
+<br>
+
+<ul>
+  <li>Introduction to the operation of an Internet Router</li>
+  <ul>
+    <li>Control Plane</li>
+    <ul>
+      <li>Routing protocols</li>
+      <li>Routing table</li>
+      <li>Management interfaces</li>
+    </ul>
+    <li>Datapath</li>
+    <ul>
+      <li>Longest Prefix Match (LPM)</li>
+      <li>Classless Interdomain Routing (CIDR)</li>
+      <li>Header processing</li>
+      <li>Packet buffering</li>
+    </ul>
+  </ul>
+  <li>The NetFPGA Router</li>
+  <ul>
+    <li>Hardware</li>
+    <ul>
+      <li>Gigabit Ethernet interfaces</li>
+      <li>Field Programmable Gate Array (FPGA) Logic</li>
+      <li>Random Access Memory (RAM)</li>
+    </ul>
+    <li>Software</li>
+    <ul>
+      <li>Kernel-space driver</li>
+      <li>User-space applications</li>
+      <li>PCI interface</li>
+    </ul>
+  </ul>
+  <li>Demonstration Topology</li>
+  <ul>
+    <ul>
+      <li>Hardware</li>
+      <ul>
+        <li>Network of ten routers</li>
+        <li>Ethernet switch</li>
+        <li>Video server</li>
+        <li>High Definition (HD) video client</li>
+      </ul>
+      <li>Software</li>
+      <ul>
+        <li>PW-OSPF</li>
+        <li>Routing tables</li>
+        <li>Dynamic re-routing</li>
+      </ul>
+    </ul>
+  </ul>
+  <li>Integrated Circuit Design</li>
+  <ul>
+    <li>Technologies</li>
+    <ul>
+      <li>Look-Up Tables (LUTs)</li>
+      <li>Configurable Logic Blocks (CLBs)</li>
+      <li>Field Programmable Gate Arrays (FPGAs)</li>
+    </ul>
+    <li>Verilog Hardware Description Language (HDL)</li>
+    <ul>
+      <li>Registers, integers, arrays</li>
+      <li>Multiplexers</li>
+      <li>Synchronous storage elements</li>
+      <li>Finite State Machines (FSMs)</li>
+    </ul>
+    <li>Hardware Debug</li>
+    <ul>
+      <li>Waveform monitor</li>
+      <li>In-circuit logic emulation</li>
+    </ul>
+  </ul>
+  <li>NetFPGA System Components</li>
+  <ul>
+    <li>Synthesis of tutorial router</li>
+    <li>Java-based Graphical User Interface (GUI)</li>
+    <ul>
+      <li>Configuration</li>
+      <li>Statistics</li>
+    </ul>
+    <li>Router Architecture</li>
+    <ul>
+      <li>Pipeline</li>
+      <li>Queues</li>
+    </ul>
+  </ul>
+  <li>Buffer Size Experiment</li>
+  <ul>
+    <li>Experiment with TCP/IP flows</li>
+    <ul>
+      <li>Rule-of-thumb for the buffer size</li>
+      <li>Round-trip propation delay</li>
+      <li>Capacity of bottlneck link</li>
+      <li>Number of active flows</li>
+    </ul>
+    <li>Lower delay with smaller queues</li>
+  </ul>
+  <li>Enhanced Router</li>
+  <ul>
+    <li>Additional hardware</li>
+    <ul>
+      <li>Event capture module</li>
+      <li>Rate limiter</li>
+      <li>Delay module</li>
+    </ul>
+    <li>Experiments</li>
+    <ul>
+      <li>Netperf</li>
+      <li>HD video transport</li>
+    </ul>
+    <li>Life of packet through the system</li>
+    <ul>
+      <li>Description of blocks</li>
+      <li>Waveforms</li>
+    </ul>
+  </ul>
+</ul>
+
+<br>
+<br>
+
+<h3>About the presentors</h3>
+
+<br>
+
+<ul>
+  <li>John W. Lockwood<br> John W. Lockwood is a Consulting Associate Professor at Stanford University. At Stanford, he leads the NetFPGA Alpha and Beta release programs and organizes the worldwide tutorial program. Lockwood was granted tenure in the Department of Computer Science and Engineering at Washington University in Saint Louis in 2006. At Washington University in St. Louis, Lockwood led the Reconfigurable Network Group (RNG) to develop the Field programmable Port Extender (FPX) to enable rapid prototype of extensible network modules in Field Programmable Gate Array (FPGA) technology. Lockwood's research interests include reconfigurable hardware, Internet security, and content processing technologies. Dr. Lockwood earned his Ph.D from the Department of Electrical and Computer Engineering at the University of Illinois. <br><br> John Lockwood has served as the principal investigator on grants from the National Science Foundation, Xilinx, Altera, Nortel Networks, Rockwell Collins, and Boeing. He has worked in industry for AT&T Bell Laboratories, IBM, Science Applications International Corporation (SAIC), and the National Center for Supercomputing Applications (NCSA). He served as a co-founder of Global Velocity, a networking startup company focused on high-speed data security. He is a member of IEEE, ACM, Tau Beta Pi, and Eta Kappa Nu.</li>
+  <br>
+  <li>Glen Gibb <br> Glen is a PhD candidate in Electrical Engineering at Stanford University. He received his Master of Science in Electrical Engineering from Stanford University and a Bachelor of Science and a Bachelor of Engineering from The University of Melbourne in Australia. He has been working on the NetFPGA platform since 2004 and was the lead designer for the current hardware version.</li>
+  <br>
+  <li>Jad Naous <br> Jad Naous received his B.Eng. degree in Computer Engineering from McGill University in 2005, and his M.S.E.E. degree from Stanford University in 2007. He is currently pursuing a doctorate in Electrical Engineering at Stanford University. He has previously worked as a Graduate Intern for Sun Microsystems Labs in 2006, where he worked on the next generation switch project. In 2007, he joined Agilent Technologies Labs as a Graduate Intern where he helped implement special devices for the IEEE1588 Precision Time Protocol using NetFPGA.</li>
+  <br>
+  <li>Lavy Libman <br>Lavy Libman received his B.Sc. degrees in Electrical Engineering and in Computer Engineering, and his M.Sc. and Ph.D. degrees in Electrical Engineering, from the Technion - Israel Institute of Technology, Haifa, Israel, in 1992, 1997, and 2003, respectively. He is currently a researcher at the Networked Systems research group at NICTA (formerly National ICT Australia), Sydney, which he joined in September 2003. He previously held several visiting and consulting positions, including with Bell Laboratories in summer 2002, where he participated in a research team on path restoration in optical networks, and with Millimetrix Broadband Networks in summer 2000, where he took part in the specification of the Unity. system. Between 1993 and 1999, he served as a computer engineer in the Israel Defence Forces. <br><br>Dr. Libman is a member of the IEEE Communications Society. He currently co-chairs the Track on Protocols and Algorithms for Wireless Networks in ICCCN 2008. He was the chair of the Cross-Layer Design and Optimization track of ICCCN 2007 and a co-chair of the Workshop on Networking in Public Transport (WNEPT 2006). In addition, he serves as a technical program committee member for several international conferences, including IEEE Infocom, IEEE LCN, IEEE VTC, QShine, and WiOpt. <br><br>Dr. Libman is a member and a local representative of the Australian Communications Research Network (ACoRN).</li>
+  <br>
+  <li>Philip Allen <br>Philip Allen works in the area of networking and photonics within the School of Electrical Engineering and Telecommunications at the University of New South Wales where he manages the networking laboratories. Philip earned his B.E. from UNSW and is working on a Masters of Business and Technology. Philip has worked has worked at Thorn-EMI Limited U.K. and Geoterrex (now Fugro Airborne Surveys).</li>
+</ul>
+
+<br>
+<br>
+
+<h3>Photos From the Event</h3>
+
+<br>
+
+<ul>
+  <li><a href="https://plus.google.com/photos/110918079399442170385/albums/5729892545764077873?authkey=COCnyJilzrP7fQ">All Photos</a></li>
+</ul>
+
+<br>
+<br>
+
+<h3>To Attend this Event</h3>
+
+<br>
+
+<p>To Register to attend, send email here with a subject line of "I plan to attend the NetFPGA tutorial" and a message that includes your name, title, organisation, and contact information. For accomodations, rooms can be booked at <a href="http://www.housing.unsw.edu.au/">hotels near UNSW</a></p>

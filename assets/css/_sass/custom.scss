@@ -1,0 +1,205 @@
+/* Add your custom styles here */
+// .btn-primary{
+//     background-color: #1d4367;
+//     border-color: #1d4367;
+//     color: #ffc00f;
+//     &:hover{
+//         background-color: #ffc00f;
+//         border-color: #ffc00f;
+//         color: #1d4367;
+//     }
+// }
+// .bg-primary{
+//     background-color: #1d4367 !important
+// }
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");}
+
+.deprecated {
+  color: #FF0000
+}
+
+
+.nobullets {
+  li{
+    list-style: none;
+    font-size: 11px;
+      text-align: center;
+  }
+}
+
+.accordion {
+  .card-title :after {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    content: "\f107";
+    float: right;
+  }
+  .collapsed .card-title :after {
+    content:"\f104";
+  }
+  > div > a {
+    cursor: pointer;
+    color: $black;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  button {
+    border: 0px;
+    background-color: inherit;
+  }
+}
+
+.downloads {
+  td{
+    padding-top: 5px;
+    padding-right: 20px;
+  }
+}
+
+.registerForm {
+    padding-right: 20px;
+}
+
+.card .border-0 {
+  img {
+    padding: 100px 100px;
+  }
+}
+
+
+img.header-image {
+  opacity: 0.5;
+  width: 100%;
+  height: auto
+}
+
+// Product Pages
+
+.FAQ {
+  margin-bottom: 0px;
+}
+
+// Header
+
+header#hero {
+  background-image: url("/assets/images/netfpgasumelandscape.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  @media (max-width: 768px){
+    background-size: cover;
+  }
+}
+
+.news-collapse{
+  hr{
+    border-top: 1px solid $primary;
+  }
+}
+
+.events-collapse{
+  hr{
+    border-top: 1px solid $primary;
+  }
+}
+
+.card{
+  &.check-container {
+    display: inline-block;
+    background-color: $primary;
+    border: 1px solid transparent;
+    border-color: $primary
+  }
+}
+
+.check-label {
+  margin-bottom: 0;
+}
+
+// General
+
+abbr[title] {
+  text-decoration: none;
+}
+
+.front-page-card {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 80px;
+}
+
+// Anchor colours
+
+a {
+  color: #1A5B7A;
+  &:hover {
+    color:$blue;
+  }
+}
+
+// Btn group
+
+.btn-group {
+  @media (max-width: 991.99px){
+    width: 60px;
+    text-align: left;
+    position: relative;
+    .dropdown-toggle-split {
+      padding-right: $btn-padding-x * .75;
+      padding-left: $btn-padding-x * .75;
+
+      &::after,
+      .dropup &::after,
+      .dropright &::after {
+        margin-left: 0;
+      }
+
+      .dropleft &::before {
+        margin-right: 0;
+      }
+    }
+    .dropdown-menu {
+      width:auto;
+      background-color: inherit;
+      position:relative;
+      border: 0px;
+      a {
+        color: $white;
+      }
+      .dropdown-item{
+        padding-left: 10px;
+        &:hover, &:focus {
+          background-color: #a8a9aa;
+        }
+      }
+    }
+    button.nav-link.btn.dropdown-toggle.dropdown-toggle-split {
+      height: 42px;
+    }
+  }
+}
+
+.newsTicker {
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.organisation-img {
+  height: 50px;
+  width: auto;
+}
+
+.product-img {
+  height: 200px;
+  width: auto;
+}

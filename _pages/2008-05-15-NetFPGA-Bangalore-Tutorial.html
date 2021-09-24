@@ -1,0 +1,184 @@
+---
+layout: page
+---
+
+<h2>NetFPGA Bangalore Tutorial</h2>
+
+<br>
+<br>
+
+<h3>Hands-on with the NetFPGA to build a Gigabit-rate Router at <a href="http://www.iisc.ernet.in/">Indian Institute of Science (IISc)</a></h3>
+
+<br>
+
+<p><b>Presented by: </b>John W. Lockwood and Jad Naous of the: <a href="http://yuba.stanford.edu/">High Performance Network Group at Stanford University</a> and Kuruvilla Varghese of IISc.</p>
+<p><b>Co-Hosted by:</b> Veena Kumar, <a href="http://www.xilinx.com/">Xilinx University Program</a>, India</p>
+<p><b>Date: </b> May 15-16, 2008</p>
+<p><b>Time: </b> 9am-5pm</p>
+<p><b>Location: </b> SDMP/Micro-electronics Lab, Room No: 207, Centre For Electronics Design and Technology, Indian Institute of Science, Bangalore, India</p>
+
+<br>
+<br>
+
+<h3>Abstract</h3>
+
+<br>
+
+<p>An open platform called the <a href="{% link index.html %}">NetFPGA</a> has been developed at Stanford University. The NetFPGA platform enables researchers and instructors to build high-speed, hardware-accelerated networking systems. The platform can be used in the classroom to teach students how to build Ethernet switches and Internet Prototcol (IP) routers using hardware rather than software. The platform can be used by researchers to prototype advanced services for next-generation networks.</p>
+<p>By using Field Programmable Gate Arrays (FPGAs), the NetFPGA enables new types of packet routing circuits to be implemented and detailed measurements of network traffic to be obtained. During the tutorial, we will use the NetFPGA to determine the amount of memory needed to buffer TCP/IP data streaming through the Gigabit/second router. Hardware circuits within the NetFPGA will be implemented to measure and plot the occupancy of buffers. Circuits will be downloaded into reconfigurable hardware and tested with live, streaming Internet video traffic.</p>
+
+<br>
+<br>
+
+<h3>Background</h3>
+
+<br>
+
+<p>Attendees will utilize a Linux-based PC equipped with NetFPGA hardware. A basic understanding of Ethernet switching and network routing is expected. Past experience with Verilog is useful but not required. This full-day tutorial extends the material presented at the Hot Interconnects tutorial and the SIGMETRICS tutorials in 2007.</p>
+<br>
+<br>
+
+<h3>Outline</h3>
+
+<br>
+
+<ul>
+  <li>Introduction to the operation of an Internet Router</li>
+  <ul>
+    <li>Control Plane</li>
+    <ul>
+      <li>Routing protocols</li>
+      <li>Routing table</li>
+      <li>Management interfaces</li>
+    </ul>
+    <li>Datapath</li>
+    <ul>
+      <li>Longest Prefix Match (LPM)</li>
+      <li>Classless Interdomain Routing (CIDR)</li>
+      <li>Header processing</li>
+      <li>Packet buffering</li>
+    </ul>
+  </ul>
+  <li>The NetFPGA Router</li>
+  <ul>
+    <li>Hardware</li>
+    <ul>
+      <li>Gigabit Ethernet interfaces</li>
+      <li>Field Programmable Gate Array (FPGA) Logic</li>
+      <li>Random Access Memory (RAM)</li>
+    </ul>
+    <li>Software</li>
+    <ul>
+      <li>Kernel-space driver</li>
+      <li>User-space applications</li>
+      <li>PCI interface</li>
+    </ul>
+  </ul>
+  <li>Demonstration Topology</li>
+  <ul>
+    <ul>
+      <li>Hardware</li>
+      <ul>
+        <li>Network of ten routers</li>
+        <li>Ethernet switch</li>
+        <li>Video server</li>
+        <li>High Definition (HD) video client</li>
+      </ul>
+      <li>Software</li>
+      <ul>
+        <li>PW-OSPF</li>
+        <li>Routing tables</li>
+        <li>Dynamic re-routing</li>
+      </ul>
+    </ul>
+  </ul>
+  <li>Integrated Circuit Design</li>
+  <ul>
+    <li>Technologies</li>
+    <ul>
+      <li>Look-Up Tables (LUTs)</li>
+      <li>Configurable Logic Blocks (CLBs)</li>
+      <li>Field Programmable Gate Arrays (FPGAs)</li>
+    </ul>
+    <li>Verilog Hardware Description Language (HDL)</li>
+    <ul>
+      <li>Registers, integers, arrays</li>
+      <li>Multiplexers</li>
+      <li>Synchronous storage elements</li>
+      <li>Finite State Machines (FSMs)</li>
+    </ul>
+    <li>Hardware Debug</li>
+    <ul>
+      <li>Waveform monitor</li>
+      <li>In-circuit logic emulation</li>
+    </ul>
+  </ul>
+  <li>NetFPGA System Components</li>
+  <ul>
+    <li>Synthesis of tutorial router</li>
+    <li>Java-based Graphical User Interface (GUI)</li>
+    <ul>
+      <li>Configuration</li>
+      <li>Statistics</li>
+    </ul>
+    <li>Router Architecture</li>
+    <ul>
+      <li>Pipeline</li>
+      <li>Queues</li>
+    </ul>
+  </ul>
+  <li>Buffer Size Experiment</li>
+  <ul>
+    <li>Experiment with TCP/IP flows</li>
+    <ul>
+      <li>Rule-of-thumb for the buffer size</li>
+      <li>Round-trip propation delay</li>
+      <li>Capacity of bottlneck link</li>
+      <li>Number of active flows</li>
+    </ul>
+    <li>Lower delay with smaller queues</li>
+  </ul>
+  <li>Enhanced Router</li>
+  <ul>
+    <li>Additional hardware</li>
+    <ul>
+      <li>Event capture module</li>
+      <li>Rate limiter</li>
+      <li>Delay module</li>
+    </ul>
+    <li>Experiments</li>
+    <ul>
+      <li>Netperf</li>
+      <li>HD video transport</li>
+    </ul>
+    <li>Life of packet through the system</li>
+    <ul>
+      <li>Description of blocks</li>
+      <li>Waveforms</li>
+    </ul>
+  </ul>
+</ul>
+
+<br>
+<br>
+
+<h3>About the presentors</h3>
+
+<br>
+
+<ul>
+  <li>John W. Lockwood<br> John W. Lockwood is a Consulting Associate Professor at Stanford University. At Stanford, he leads the NetFPGA Alpha and Beta release programs and organizes the worldwide tutorial program. Lockwood was granted tenure in the Department of Computer Science and Engineering at Washington University in Saint Louis in 2006. At Washington University in St. Louis, Lockwood led the Reconfigurable Network Group (RNG) to develop the Field programmable Port Extender (FPX) to enable rapid prototype of extensible network modules in Field Programmable Gate Array (FPGA) technology. Lockwood's research interests include reconfigurable hardware, Internet security, and content processing technologies. Dr. Lockwood earned his Ph.D from the Department of Electrical and Computer Engineering at the University of Illinois. <br><br> John Lockwood has served as the principal investigator on grants from the National Science Foundation, Xilinx, Altera, Nortel Networks, Rockwell Collins, and Boeing. He has worked in industry for AT&T Bell Laboratories, IBM, Science Applications International Corporation (SAIC), and the National Center for Supercomputing Applications (NCSA). He served as a co-founder of Global Velocity, a networking startup company focused on high-speed data security. He is a member of IEEE, ACM, Tau Beta Pi, and Eta Kappa Nu.</li>
+  <br>
+  <li>Kuruvilla Varghese <br> Kuruvilla Varghese is a Principal Research Scientist at Centre for Electronics Design and Technology (CEDT), Indian Institute of Scinece, Bangalore. He is working in communications network group of CEDT. His main reserach interests are in Embedded systems, Communication networks and Digital VLSI systems. Presently he is working on High performance netwoking functions using Field Programmable Gate Arrays (FPGA).</li>
+  <br>
+  <li>Jad Naous<br>Jad Naous received his B.Eng. degree in Computer Engineering from McGill University in 2005, and his M.S.E.E. degree from Stanford University in 2007. He is currently pursuing a doctorate in Electrical Engineering at Stanford University. He has previously worked as a Graduate Intern for Sun Microsystems Labs in 2006, where he worked on the next generation switch project. In 2007, he joined Agilent Technologies Labs as a Graduate Intern where he helped implement special devices for the IEEE1588 Precision Time Protocol using NetFPGA.</li>
+</ul>
+
+<br>
+<br>
+
+<h3>To Attend this Event</h3>
+
+<br>
+
+<p>To Register to attend, <a href="http://www.xilinx.com/univ/uwkshp1.htm">Submit a registration form</a> on-line <br> Accomodations: Hoysala Guest House, IISc</p>

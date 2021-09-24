@@ -1,0 +1,76 @@
+---
+layout: ecosystem-layout
+---
+
+{% for post in site.posts %}
+  {% if post.posttype == "ecosystem" %}
+    <div class="post row {% include ecosystem-filter-classes.html %}">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">{{post.title}}</h2>
+              <div class="col-6">
+                {% if post.organisation-logo %}
+                  <img src="{{post.organisation-logo}}" alt="The logo of {{post.organisation}}" class="organisation-img float-right">
+                {% endif %}
+              </div>
+            </div>
+            <br>
+            <h3><i>{{post.organisation}}</i></h3>
+            {% if post.category %}
+            <p><b>Category:</b> {{post.category}}</p>
+            {% endif %}
+            <div class="col-3">
+
+            </div>
+            {% if post.product-image %}
+              <img src="{{ post.product-image }}" alt="An image of the product" class="product-img col-6">
+            {% endif %}
+            <div class="col-3">
+
+            </div>
+            <p>{{post.description}}</p>
+            <br>
+            <p>Contact {{post.organisation}} here: <a href="mailto:{{post.primary-contact-email}}">{{post.primary-contact-email}}</a></p>
+            {% if post.seller %}
+            <hr>
+            <div>
+              <p>{{post.title}} is sold by {{post.seller}}.
+                <br>
+                {% if post.seller-url %}
+                  You can purchase {{post.title}} <a href="{{post.seller-url}}">here</a>.
+                {% endif %}
+                <br>
+                {% if post.seller-email or post.seller-phone %}
+                  You can contact {{post.seller}} by:
+                  <br>
+                  {% if post.seller-email %}
+                    &nbsp Email: <a href="mailto:{{post.seller-email}}">{{post.seller-email}}</a>.
+                  {% endif %}
+                  <br>
+                  {% if post.seller-phone %}
+                    &nbsp Phone: {{post.seller-phone}}
+                  {% endif %}
+                {% endif %}</p>
+            </div>
+            {% endif %}
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              {% if post.product-repo %}
+                <a target="_blank" href="{{post.product-repo}}">Repository</a>
+                &nbsp
+              {% endif %}
+              {% if post.product-site %}
+                <a target="_blank" href="{{post.product-site}}">Website</a>
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor%}
+
+<script src="./assets/js/filter-script.js"></script>
