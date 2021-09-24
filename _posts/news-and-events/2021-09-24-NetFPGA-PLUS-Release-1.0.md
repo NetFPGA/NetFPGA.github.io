@@ -9,9 +9,9 @@ posttype: news-and-events
 
 It is with great excitement we announce the release of NetFPGA PLUS.
 
-NetFPGA PLUS 1.0
+NetFPGA PLUS 1.0.0
 
-NetFPGA PLUS 1.0 has arrived, available in a public repository to all, links on the netfpga.org website. I’ve reprinted the outline, included as part of the original announcement, at the bottom of this newsletter. The overly optimistic timetable fell to the brutal realities of the last 9 months.
+NetFPGA PLUS 1.0.0 has arrived, available in a public repository to all, links on the netfpga.org website. I’ve reprinted the outline, included as part of the original announcement, at the bottom of this newsletter. The overly optimistic timetable fell to the brutal realities of the last 9 months.
 
 NetFPGA PLUS has been  is a momentous effort that largely has fallen to the broad shoulders of the increasingly slim NetFPGA team at Cambridge; one person in particular deserves much credit for this huge effort and for us achieving this first release.
 
