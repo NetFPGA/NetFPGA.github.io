@@ -1,0 +1,49 @@
+<p>NetFPGA 2.2.0 is released.</p>
+
+<p>Below is a brief description of improvements. Visit the release page to see the entire change log and bug fixes.</p>
+
+<p>Improvements:</p>
+<ul>
+  <li>Gigabit MAC/Tri-mode Ethernet MAC:
+    <ul>
+      <li>allow TEMAC to be substituted for Gigabit MAC</li>
+      <li>Switch all reference projects to Gigabit MAC</li>
+    </ul>
+  </li>
+  <li>Xen:
+    <ul>
+      <li>Driver and tools will now work in a Xen virtualization environment. (See the website for documentation.)</li>
+    </ul>
+  </li>
+  <li>crypto_nic:
+    <ul>
+      <li>tests updated to reflect library location updates</li>
+    </ul>
+  </li>
+  <li>Wireshark:
+    <ul>
+      <li>Include plugins for:
+        <ul>
+          <li>PWOSPF</li>
+          <li>event_capture</li>
+        </ul>
+      </li>
+      <li>Note: These currently do not compile without work from the user</li>
+    </ul>
+  </li>
+  <li>Driver:
+    <ul>
+      <li>add support for /sys/class/net under Linux 2.6+</li>
+    </ul>
+  </li>
+  <li>fetch_mem_models:
+    <ul>
+      <li>included a script for fetching the memory models for simulation</li>
+    </ul>
+  </li>
+  <li>build system:
+    <ul>
+      <li>UCF files provided by modules will be merged.</li>
+    </ul>
+  </li>
+</ul>

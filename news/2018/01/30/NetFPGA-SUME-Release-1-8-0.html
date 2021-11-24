@@ -1,0 +1,41 @@
+<p>Greetings NetFPGA community,</p>
+
+<p>We are pleased to announce today the next patch release (<strong>1.8.0</strong>) of the NetFPGA-SUME code base.</p>
+
+<p>This release includes:</p>
+
+<p><strong>Fix for manual test via uart not working:</strong></p>
+<ul>
+  <li>Using UART to run manual test did not work previously for reference_switch and reference_switch_lite. This has been fixed</li>
+</ul>
+
+<p><br />
+<strong>Fix for acceptance test crash in headless mode:</strong></p>
+<ul>
+  <li>NfSumeTest.py is run during acceptance test. This script assumed the presence of a display which caused a crash. The fix now allows the script to be run without a display.</li>
+</ul>
+
+<p><br />
+<strong>New contribution - script to generate the regs_gen.py file:</strong></p>
+<ul>
+  <li>The new file csv_gen.py can be used instead of running the excel macro inside module_generation.xlsm.</li>
+</ul>
+
+<p><br />
+If you have not registered to the NetFPGA-SUME beta program, you will need to do so to access the repository: <a href="SUME-reg-form.html">Registration Form</a></p>
+
+<p>You can find more information about NetFPGA-SUME code base in the <a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki">NetFPGA-SUME wiki</a></p>
+
+<p>More information about the release: <a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Release-Notes">Release-Notes</a></p>
+
+<p>We invite everyone from the community to use and improve our repository, and hope to see a lot of projects contributed to the repository.</p>
+
+<p>Kind Regards,</p>
+
+<p>The NetFPGA team</p>
+
+<ul>
+  <li>Follow us on <a href="https://www.facebook.com/netfpga/" target="_blank">Facebook</a></li>
+  <li>Follow us on <a href="https://twitter.com/netfpga" target="_blank">Twitter</a></li>
+</ul>
+

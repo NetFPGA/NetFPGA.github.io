@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header." />
+  <meta name="author" content="" />
+
+  <title>NetFPGA</title>
+  <link rel="shortcut icon" type="image/png" href=/assets/images/thumbnail.png />
+
+  <!-- Bootstrap core CSS -->
+  <link href="/assets/css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.css" />
+
+</head>
+
+
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger nav-link btn" href="/" >NetFPGA</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <div class="btn-group">
+            <a class="nav-link btn text-left" href="/" >Home</a>
+            <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+            <div class="dropdown-menu text-left">
+              <a class="dropdown-item" href="/NetFPGA-PLUS.html">NetFPGA PLUS</a>
+              <a class="dropdown-item" href="/NetFPGA-SUME.html">NetFPGA SUME</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/NetFPGA-CML.html">NetFPGA CML</a>
+              <a class="dropdown-item" href="/NetFPGA-10G.html">NetFPGA 10G</a>
+              <a class="dropdown-item" href="/NetFPGA-1G.html">NetFPGA 1G</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <a class="nav-link btn text-left" href="/About.html" >About</a>
+            <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/why-NetFPGA.html">Why NetFPGA</a>
+            <!--  <a class="dropdown-item" href="/ecosystem.html">Ecosystem</a> -->
+              <a class="dropdown-item" href="/Publications.html">Publications</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://github.com/NetFPGA/NetFPGA-public">GitHub Repository</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link btn text-left" href="/news-and-events.html" >News and Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn text-left" href="mailto:enquiries@netfpga.org" >Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <!-- Header -->
+<header id="hero" class="bg-primary py-5 mb-5">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-12">
+        <h1 class="display-4 text-white mt-5 mb-2">NetFPGA</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    <div class="row">
+  <div class="offset-2">
+    <h1>The NetFPGA Ecosystem</h1>
+    <p>These are some of the open-source projects based on NetFPGA. If you have a  project that uses NetFPGA and would like to be featured as part of the NetFPGA ecosystem, please let us know <a href="https://forms.gle/rqA4BNEuguDETdtJ6">here</a></p>
+  </div>
+  <div class="column col-md-2 col-lg-2">
+    <div class="mt-5">
+      <p><i>Organisation</i></p>
+<p class="card btn btn-primary check-container">
+  <input id="check-organisation-NetFPGA" class="stretched-link" type="checkbox" href=".NetFPGA-collapse" role="button" aria-controls="NetFPGACollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-organisation-NetFPGA">NetFPGA</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-organisation-OSNT" class="stretched-link" type="checkbox" href=".OSNT-collapse" role="button" aria-controls="OSNTCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-organisation-OSNT">OSNT</label>
+</p>
+<p><i>Organisation Type</i></p>
+<p class="card btn btn-primary check-container">
+  <input id="check-organisation-type-Academic" class="stretched-link" type="checkbox" href=".academic-collapse" role="button" aria-controls="AcademicCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-organisation-type-Academic">Academic</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-organisation-type-Non-Profit" class="stretched-link" type="checkbox" href=".non-profit-collapse" role="button" aria-controls="Non-ProfitCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-organisation-type-Non-Profit">Non-Profit</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-organisation-type-Vendor" class="stretched-link" type="checkbox" href=".vendor-collapse" role="button" aria-controls="VendorCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-organisation-type-Vendor">Vendor</label>
+</p>
+<p><i>Product Type</i></p>
+<p class="card btn btn-primary check-container">
+  <input id="check-product-type-Product" class="stretched-link" type="checkbox" href=".product-collapse" role="button" aria-controls="ProductCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-product-type-Product">Product</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-product-type-Project" class="stretched-link" type="checkbox" href=".project-collapse" role="button" aria-controls="ProjectCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-product-type-Project">Project</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-product-type-Software" class="stretched-link" type="checkbox" href=".software-collapse" role="button" aria-controls="SoftwareCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-product-type-Software">Software</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-product-type-Other" class="stretched-link" type="checkbox" href=".other-collapse" role="button" aria-controls="OtherCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-product-type-Other">Other</label>
+</p>
+<p><i>Target Platform</i></p>
+<p class="card btn btn-primary check-container">
+  <input id="check-target-PLUS" class="stretched-link" type="checkbox" href=".NetFPGA-PLUS-collapse" role="button" aria-controls="PLUSCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-target-PLUS">PLUS</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-target-SUME" class="stretched-link" type="checkbox" href=".NetFPGA-SUME-collapse" role="button" aria-controls="SUMECollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-target-SUME">SUME</label>
+</p>
+<p class="card btn btn-primary check-container mr-5">
+  <input id="check-target-CML" class="stretched-link" type="checkbox" href=".NetFPGA-CML-collapse" role="button" aria-controls="CMLCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-target-CML">CML</label>
+</p>
+<p class="card btn btn-primary check-container mr-5">
+  <input id="check-target-10G" class="stretched-link" type="checkbox" href=".NetFPGA-10G-collapse" role="button" aria-controls="10GCollapse" onclick="buttonClicked()">
+  <label class="check-label" for="check-target-10G">10G</label>
+</p>
+<p class="card btn btn-primary check-container">
+  <input id="check-target-1G" class="stretched-link" type="checkbox" href=".NetFPGA-1G-collapse" role="button" aria-controls="1GCollapse" onclick="buttonClicked()" >
+  <label class="check-label" for="check-target-1G">1G</label>
+</p>
+
+    </div>
+  </div>
+  <div class="col-md-8 col-lg-8 mb-5">
+    
+  
+
+  
+    <div class="post row collapse show -collapse -collapse other-collapse     
+">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">PTA</h2>
+              <div class="col-6">
+                
+              </div>
+            </div>
+            <br>
+            <h3><i></i></h3>
+            
+            <div class="col-3">
+
+            </div>
+            
+            <div class="col-3">
+
+            </div>
+            <p></p>
+            <br>
+            <p>Contact  here: <a href="mailto:"></a></p>
+            
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              
+                <a target="_blank" href="https://github.com/pta-project-repo/pta-artifacts">Repository</a>
+                &nbsp
+              
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+    <div class="post row collapse show -collapse -collapse other-collapse     
+">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">P4DNS</h2>
+              <div class="col-6">
+                
+              </div>
+            </div>
+            <br>
+            <h3><i></i></h3>
+            
+            <div class="col-3">
+
+            </div>
+            
+            <div class="col-3">
+
+            </div>
+            <p></p>
+            <br>
+            <p>Contact  here: <a href="mailto:"></a></p>
+            
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              
+                <a target="_blank" href="https://github.com/cucl-srg/P4DNS">Repository</a>
+                &nbsp
+              
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+    <div class="post row collapse show OSNT-collapse academic-collapse other-collapse NetFPGA-SUME-collapse NetFPGA-10G-collapse   
+">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">OSNT</h2>
+              <div class="col-6">
+                
+              </div>
+            </div>
+            <br>
+            <h3><i>OSNT</i></h3>
+            
+            <div class="col-3">
+
+            </div>
+            
+            <div class="col-3">
+
+            </div>
+            <p></p>
+            <br>
+            <p>Contact OSNT here: <a href="mailto:"></a></p>
+            
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              
+                <a target="_blank" href="https://github.com/NetFPGA/OSNT-SUME-live">Repository</a>
+                &nbsp
+              
+              
+                <a target="_blank" href="https://osnt.org/">Website</a>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+    <div class="post row collapse show -collapse -collapse other-collapse     
+">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">MTPSA</h2>
+              <div class="col-6">
+                
+              </div>
+            </div>
+            <br>
+            <h3><i></i></h3>
+            
+            <div class="col-3">
+
+            </div>
+            
+            <div class="col-3">
+
+            </div>
+            <p></p>
+            <br>
+            <p>Contact  here: <a href="mailto:"></a></p>
+            
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              
+                <a target="_blank" href="https://github.com/mtpsa/">Repository</a>
+                &nbsp
+              
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+    <div class="post row collapse show -collapse -collapse other-collapse     
+">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">In Network Computing on Demand</h2>
+              <div class="col-6">
+                
+              </div>
+            </div>
+            <br>
+            <h3><i></i></h3>
+            
+            <div class="col-3">
+
+            </div>
+            
+            <div class="col-3">
+
+            </div>
+            <p></p>
+            <br>
+            <p>Contact  here: <a href="mailto:"></a></p>
+            
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              
+                <a target="_blank" href="https://github.com/cucl-srg/INC-ondemand">Repository</a>
+                &nbsp
+              
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+    <div class="post row collapse show -collapse -collapse other-collapse     
+">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">IIsy</h2>
+              <div class="col-6">
+                
+              </div>
+            </div>
+            <br>
+            <h3><i></i></h3>
+            
+            <div class="col-3">
+
+            </div>
+            
+            <div class="col-3">
+
+            </div>
+            <p></p>
+            <br>
+            <p>Contact  here: <a href="mailto:"></a></p>
+            
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              
+                <a target="_blank" href="https://github.com/ox-computing/IIsy">Repository</a>
+                &nbsp
+              
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+    <div class="post row collapse show NetFPGA-collapse academic-collapse product-collapse NetFPGA-1G-collapse NetFPGA-10G-collapse NetFPGA-CML-collapse NetFPGA-SUME-collapse NetFPGA-PLUS-collapse
+">
+      <div class="col-12 col-md-12 col-lg-12 mb-5">
+        <div class="card border-1 h-100">
+          <div class="card-body">
+            <div class="row">
+              <h2 class="card-title col-6">NetFPGA</h2>
+              <div class="col-6">
+                
+                  <img src="./assets/images/thumbnail.png" alt="The logo of NetFPGA" class="organisation-img float-right">
+                
+              </div>
+            </div>
+            <br>
+            <h3><i>NetFPGA</i></h3>
+            
+            <div class="col-3">
+
+            </div>
+            
+              <img src="./assets/images/Boards/NetFPGA-SUME.jpg" alt="An image of the product" class="product-img col-6">
+            
+            <div class="col-3">
+
+            </div>
+            <p>A line-rate, flexible, and open platform for research</p>
+            <br>
+            <p>Contact NetFPGA here: <a href="mailto:enquiries@netfpga.org">enquiries@netfpga.org</a></p>
+            
+          </div>
+          <div class="card-footer">
+            <p class="mb-0">
+              
+                <a target="_blank" href="https://github.com/NetFPGA/NetFPGA-public">Repository</a>
+                &nbsp
+              
+              
+                <a target="_blank" href="./index.html">Website</a>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<script src="./assets/js/filter-script.js"></script>
+
+  </div>
+</div>
+
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <div class="mb-5 text-center text-white">
+  <address>
+    <strong>NetFPGA</strong>
+    <br>c/- Andrew W. Moore
+    <br>William Gates Building <br>JJ Thomson Avenue <br> Cambridge. <br> CB3 0FD
+    <br>
+  </address>
+  <address>
+    <abbr title="Phone">P:</abbr>
+    +44 1223 763500
+    <br />
+    <abbr title="Email">E:</abbr>
+    <a class="text-white" href="mailto:enquiries@netfpga.org">enquiries@netfpga.org</a>
+  </address>
+</div>
+
+    <p class="m-0 text-center text-white">Copyright &copy; NetFPGA 2021</p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
